@@ -1,0 +1,75 @@
+# Multiple Choice Quiz Questions on Tax Deductions and Credits
+
+## Question 1 (00:19:37 - 00:22:39)
+How are business meal deductions treated under the tax code?
+
+A) Business meals are fully deductible in all situations
+B) Business meals are 50% deductible unless the taxpayer is away from home on business
+C) Business meals are never deductible
+D) Business meals require no substantiation as long as they're with business associates
+
+Explanation:
+A: This is incorrect. Business meals are not fully deductible in all situations. They are generally limited to 50% deductibility.
+B: This is correct. Business meals are typically 50% deductible. Only in specific situations, such as when a taxpayer is away from home on business, might full deductibility apply.
+C: This is incorrect. Business meals can be deductible, but are subject to limitations and substantiation requirements.
+D: This is incorrect. All business meal deductions require proper substantiation, including documentation of who was present, the business purpose, and what was discussed.
+
+## Question 2 (00:05:35 - 00:08:04)
+What is the key difference between deductions for adjusted gross income (AGI) and itemized deductions?
+
+A) Itemized deductions are always more valuable than deductions for AGI
+B) Deductions for AGI can be taken along with the standard deduction, while itemized deductions cannot be taken if the standard deduction is used
+C) Deductions for AGI are only available to self-employed taxpayers
+D) Itemized deductions reduce tax liability directly while deductions for AGI only reduce taxable income
+
+Explanation:
+A: This is incorrect. The value of deductions depends on the taxpayer's tax bracket and specific situation.
+B: This is correct. Deductions for AGI (like IRA contributions and SEP plans) can be taken regardless of whether you take the standard deduction. Itemized deductions (like charitable contributions) are only beneficial if they exceed the standard deduction amount.
+C: This is incorrect. Deductions for AGI are available to both self-employed and employed taxpayers.
+D: This is incorrect. Both types of deductions reduce taxable income; they don't directly reduce tax liability. Credits reduce tax liability directly.
+
+## Question 3 (00:14:36 - 00:16:58)
+What is the key criterion for determining whether an expense is deductible for business purposes?
+
+A) The expense must be incurred regardless of whether the taxpayer was seeking a profit
+B) The expense must have been explicitly approved by an accountant
+C) The expense must be primarily for business purposes with a proper business relationship
+D) The expense must be unusual or extraordinary in nature
+
+Explanation:
+A: This is incorrect. Expenses incurred regardless of profit motive are generally not deductible.
+B: This is incorrect. Accountant approval is not a criterion for deductibility under the tax code.
+C: This is correct. The expense must have a proper business relationship and be primarily for business purposes. If an expense has both personal and business elements, only the business portion is deductible.
+D: This is incorrect. Ordinary and necessary expenses are deductible; unusual or extraordinary expenses might actually be scrutinized more closely.
+
+## Question 4 (00:27:00 - 00:28:40)
+What is the definition of "ordinary" in the context of business expense deductions?
+
+A) Expenses that are habitual or normal in the sense that the taxpayer makes them often
+B) Expenses that are required by law to operate the business
+C) Expenses that are customarily made given the circumstances, even if not made frequently
+D) Expenses that are large in amount and infrequent in occurrence
+
+Explanation:
+A: This is incorrect. "Ordinary" doesn't mean the taxpayer makes them often.
+B: This is incorrect. "Ordinary" doesn't require that expenses be legally mandated.
+C: This is correct. As established in the Welch v. Helvering case, Justice Cardozo stated that "ordinary" means expenses that are customarily made in the given circumstances, not necessarily ones made frequently.
+D: This is incorrect. Expenses that are large and infrequent may actually be capital expenditures, not ordinary expenses.
+
+## Question 5 (00:02:44 - 00:06:30)
+How do credits differ from deductions in the federal income tax formula?
+
+A) Credits are worth more to high-income taxpayers than deductions
+B) Credits directly reduce tax liability dollar-for-dollar, while deductions reduce taxable income
+C) Credits are never refundable while deductions always are
+D) Credits are claimed before calculating taxable income, while deductions are claimed after
+
+Explanation:
+A: This is incorrect. Credits are generally worth the same to all taxpayers regardless of income level, which is one of their advantages.
+B: This is correct. Credits provide a dollar-for-dollar reduction in tax liability after tax rates are applied to taxable income. Deductions only reduce the amount of income subject to tax.
+C: This is incorrect. Some credits are refundable (can result in a refund even if no tax is owed), while others are not. Deductions cannot generate refunds by themselves.
+D: This is incorrect. Credits are applied after calculating the tax on taxable income, not before.
+
+# Key Concepts Summary
+
+This section covered fundamental concepts about tax deductions and credits. Deductions reduce taxable income and their value depends on the taxpayer's tax bracket, while credits reduce tax liability dollar-for-dollar. The tax code distinguishes between deductions for adjusted gross income (which can be taken alongside the standard deduction) and itemized deductions (which must exceed the standard deduction to be beneficial). Expenses must be ordinary, necessary, and reasonable to qualify as deductible business expenses.

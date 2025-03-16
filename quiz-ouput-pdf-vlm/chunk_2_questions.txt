@@ -1,0 +1,62 @@
+Questions for pages 32 to 59:
+
+# Multiple-Choice Questions on Tax Deductions and Credits
+
+## Question 1 (Page 34)
+Which of the following statements regarding charitable contribution deductions for property donations is correct?
+A) All property donations are treated the same for tax deduction purposes
+B) Capital gain property and ordinary income property are subject to the same deduction limitations
+C) Capital gain property is property on which a long-term capital gain would be recognized if sold on the date of contribution
+D) The 30% limitation for capital gain property applies regardless of the taxpayer's election to reduce fair market value
+
+**Correct Answer: C**
+
+**Explanation:** Capital gain property is specifically defined in tax law as property that would generate a long-term capital gain if sold on the date of contribution, rather than donated. This classification is critical for determining the applicable deduction limitations. When a taxpayer donates capital gain property to a qualified 50% limit organization, a special 30% limitation applies only if the donor elects not to reduce the fair market value of the donated property by the amount of potential long-term capital gain. If the donor elects to reduce the value, then only the standard 50% (or 60% for cash contributions) limitation applies. This distinction between capital gain property and ordinary income property (which would generate ordinary income or short-term capital gain if sold) fundamentally affects how charitable contributions are treated for tax purposes.
+
+## Question 2 (Pages 40-41)
+In 2024, what is the maximum annual tax credit available for eligible energy efficient home improvements excluding heat pump water heaters and biomass systems?
+A) $600
+B) $1,200
+C) $2,000
+D) $3,200
+
+**Correct Answer: B**
+
+**Explanation:** The Energy Efficient Home Improvement Credit has specific annual limitations that vary by improvement type. The general maximum credit limit is $1,200 annually. This includes sub-limits of $600 for any single item of qualified energy property or exterior windows, $500 for all exterior doors ($250 maximum per door), and $150 for energy audits. Importantly, the tax code provides an additional $2,000 credit specifically for electric or natural gas heat pump water heaters and biomass stoves/boilers, which is separate from the $1,200 cap. Therefore, the maximum general credit excluding these specialized systems is $1,200. This nonrefundable credit is applied against regular and AMT tax liabilities but cannot be carried forward to future tax years, making proper planning essential for taxpayers undertaking energy efficiency improvements.
+
+## Question 3 (Pages 47-48)
+Which of the following best describes the eligibility criteria for the New Clean Vehicle Credit?
+A) It applies to all electric vehicles regardless of price or taxpayer's income
+B) The credit has a maximum of $3,750 based solely on domestic content requirements
+C) A taxpayer's MAGI must be below certain thresholds, and vehicle price cannot exceed specified limits
+D) The credit applies exclusively to vehicles manufactured after 2023
+
+**Correct Answer: C**
+
+**Explanation:** The New Clean Vehicle Credit (commonly known as the EV credit) has specific eligibility requirements related to both the taxpayer's financial situation and the vehicle itself. To qualify, a taxpayer's modified adjusted gross income (MAGI) must not exceed $300,000 for married filing jointly, $225,000 per head of household, or $150,000 for single or married filing separately. Additionally, the vehicle's manufacturer's suggested retail price (MSRP) cannot exceed $80,000 for vans, SUVs, or pickup trucks, or $55,000 for other vehicles. The maximum credit of $7,500 consists of two components: $3,750 if the vehicle satisfies a domestic test for critical minerals in the battery, and another $3,750 if it meets a domestic content test for battery components. These requirements reflect the policy goals of promoting both domestic manufacturing and clean energy adoption.
+
+## Question 4 (Pages 35-39)
+Which charitable contribution limitation would apply to a taxpayer who donates capital gain property to a non-50% limit charity?
+A) 60% of AGI
+B) 50% of AGI
+C) 30% of AGI 
+D) 20% of AGI or 30% of AGI minus capital gain contributions to public charities, whichever is less
+
+**Correct Answer: D**
+
+**Explanation:** When a taxpayer donates capital gain property to a non-50% limit organization (such as a private foundation that is not a public charity), a more restrictive limitation applies. Such donations are subject to a 20% of AGI limitation, or alternatively, 30% of AGI minus any capital gain property contributions already made to public charities (50% limit organizations), whichever produces the lower amount. This complex calculation prioritizes donations to public charities in the charitable deduction hierarchy. The tax code establishes a multilayered system of limitations for charitable contributions, with the 50% (or 60% for cash) general limitation being reduced to 30% for capital gain property donated to 50% limit organizations, and further reduced to 20% for capital gain property donated to non-50% limit organizations. This structured approach reflects policy preferences for certain types of charitable giving.
+
+## Question 5 (Pages 42-45)
+What key difference exists between the Energy Efficient Home Improvement Credit and the Residential Clean Energy Credit?
+A) Only one can be claimed in a given tax year
+B) The Energy Efficient Home Improvement Credit expires in 2033, while the Residential Clean Energy Credit extends to 2035
+C) The Residential Clean Energy Credit applies only to new construction
+D) Unused Residential Clean Energy Credit can be carried forward, while unused Energy Efficient Home Improvement Credit is lost
+
+**Correct Answer: D**
+
+**Explanation:** A fundamental difference between these two energy-related tax credits is their treatment of unused credit amounts. The Energy Efficient Home Improvement Credit is use-it-or-lose-it; any unused portion in a given tax year is lost and cannot be carried forward to future years. In contrast, the Residential Clean Energy Credit allows taxpayers to carry forward any unused credit amount to subsequent tax years. This distinction significantly impacts tax planning strategies for homeowners making energy improvements. Additionally, the Residential Clean Energy Credit applies to both existing homes and new construction, covers labor costs for installation (unlike the Energy Efficient Home Improvement Credit), and has a longer availability period (through 2034, with reduced rates in later years). These differences reflect the broader policy goal of encouraging long-term investment in renewable energy technologies.
+
+# Key Concepts Summary
+
+This section of the course covers various individual tax deductions and credits available to taxpayers, including IRA contributions, medical and dental expenses, charitable donations, and energy-related tax incentives. The material explains the specific qualification requirements, limitations, and calculations for each deduction and credit, highlighting the technical distinctions between similar provisions (such as the Energy Efficient Home Improvement Credit versus the Residential Clean Energy Credit). It also details the complex hierarchical structure of charitable contribution limitations based on the type of property donated and the receiving organization.

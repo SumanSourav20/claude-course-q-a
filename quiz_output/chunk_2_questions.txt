@@ -1,0 +1,84 @@
+## Quiz Questions on Tax Deductions and Expenses
+
+### Question 1 (00:27:13-00:28:10)
+What did Justice Cardoza state about the test for determining ordinary business expenses?
+
+A: The test is whether expenses are habitual and made often by the taxpayer
+B: The test is whether the payment is customarily made in the given circumstance
+C: The test is whether the expense is necessary for generating revenue
+D: The test is whether other businesses in the same industry make similar expenses
+
+**Answer: B**
+
+**Explanation:**
+A: Incorrect. Justice Cardoza specifically stated that the test was "not whether expenses were habitual or normal in the sense that the taxpayer will make them often."
+B: Correct. Justice Cardoza stated that the test is "whether the payment is customarily made in the given circumstance," emphasizing the context of the expense rather than its frequency.
+C: Incorrect. While necessity is part of business expense requirements, this wasn't part of Justice Cardoza's specific statement about what constitutes "ordinary" expenses.
+D: Incorrect. While industry norms may be relevant, Justice Cardoza's statement focused on customary payments in given circumstances, not specifically about comparison to other businesses.
+
+### Question 2 (00:30:45-00:31:30)
+What is the primary purpose of the "reasonable" criterion for business expenses?
+
+A: To prevent businesses from claiming excessive travel and entertainment expenses
+B: To regulate expenses between related parties
+C: To ensure businesses only claim expenses that are absolutely necessary
+D: To prevent taxpayers from claiming personal expenses as business deductions
+
+**Answer: B**
+
+**Explanation:**
+A: Incorrect. While reasonableness applies to all expenses, the content specifically mentions that this criterion primarily regulates related-party transactions.
+B: Correct. The content states that "when you take all of these together, the criterion gets...set up to regulate expenses between related parties," making this the primary purpose.
+C: Incorrect. "Necessary" is a separate criterion that implies expenses must be "appropriate and helpful" but not necessarily indispensable.
+D: Incorrect. While preventing personal expenses from being claimed as business is important, the content specifically identifies related-party transactions as the primary focus of the "reasonable" criterion.
+
+### Question 3 (00:32:00-00:33:10)
+What happens with transactions between related parties from a tax perspective?
+
+A: They are always allowed as deductions if properly documented
+B: The expense is generally not deductible by the payer, but the recipient must include it as income
+C: They are subject to special reporting requirements but fully deductible
+D: They are automatically disallowed by the IRS during audits
+
+**Answer: B**
+
+**Explanation:**
+A: Incorrect. Related-party transactions are not automatically allowed as deductions even with documentation.
+B: Correct. The content explains that "any time you have a transaction between related parties, the transaction usually is not deductible by the party that pays the expense" but "the party receiving the item has income."
+C: Incorrect. While they may require special reporting, the content states they are generally not deductible by the payer.
+D: Incorrect. They aren't automatically disallowed during audits; rather, there are specific rules about their deductibility for the payer while still creating taxable income for the recipient.
+
+### Question 4 (00:35:55-00:37:20)
+What is the maximum annual contribution limit for SEP plans for self-employed individuals in 2024?
+
+A: $25,000 or 25% of self-employment earnings, whichever is less
+B: $69,000 or 25% of self-employment earnings, whichever is less
+C: $69,000 regardless of self-employment earnings
+D: 25% of self-employment earnings with no dollar limit
+
+**Answer: B**
+
+**Explanation:**
+A: Incorrect. The maximum contribution is higher than $25,000.
+B: Correct. The content states that "the maximum annual contribution is the lesser of 25% of self-employment earnings or $69,000 in 2024."
+C: Incorrect. The $69,000 is not an absolute limit; it must be the lesser of that amount or 25% of self-employment earnings.
+D: Incorrect. There is a dollar limit of $69,000 in addition to the percentage limitation.
+
+### Question 5 (00:46:50-00:47:30)
+What are the income limits for the student loan interest deduction of $2,500 for married filing jointly taxpayers in 2024?
+
+A: Begins to phase out at $145,000 and completely phases out at $175,000
+B: Begins to phase out at $170,000 and completely phases out at $200,000
+C: Begins to phase out at $85,000 and completely phases out at $100,000
+D: No phase-out for married filing jointly taxpayers
+
+**Answer: B**
+
+**Explanation:**
+A: Incorrect. These are not the correct phase-out thresholds for married filing jointly taxpayers.
+B: Correct. The content states that for married filing jointly couples, the AGI phase-out begins at $170,000 and the deduction is eliminated completely when AGI exceeds $200,000.
+C: Incorrect. These are the phase-out thresholds for single taxpayers, not married filing jointly.
+D: Incorrect. There is definitely a phase-out for married filing jointly taxpayers.
+
+## Key Concepts Summary
+This section covered important concepts related to tax deductions, including the Justice Cardoza test for ordinary business expenses, regulations surrounding related-party transactions, educator expense deductions, health savings accounts, and self-employment deductions. The section also explained important details about IRAs, student loan interest deductions, and the distinction between itemized and standard deductions, with specific emphasis on qualified residence interest limitations.

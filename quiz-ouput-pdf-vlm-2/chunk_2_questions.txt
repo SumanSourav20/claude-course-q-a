@@ -1,0 +1,77 @@
+Questions for pages 23 to 41:
+
+# Multiple-Choice Questions on Tax Deductions and Expenses
+
+## Question 1: Landmark Court Cases
+In the Geodel case, the court denied a deduction for insurance premiums paid on the life of the President. Which principle from tax law best explains this ruling?
+
+A) The expense was not considered "appropriate and helpful" to the business
+B) The expense failed the "ordinary and necessary" test because it was too unusual in the taxpayer's line of business
+C) All life insurance premiums are categorically non-deductible
+D) The expense was considered a disguised dividend payment
+
+Explanation:
+A: This is incorrect. While "appropriate and helpful" is the standard for determining if an expense is "necessary," the court's reasoning focused on the uniqueness of the expense rather than its appropriateness.
+B: This is correct. The court specifically stated that "the expenditure is so unusual as never to have been made, so far as the record reveals, by the other persons in the same business when confronted with similar conditions." This emphasizes that the expense failed the "ordinary" test because it was unprecedented in the taxpayer's industry.
+C: This is incorrect. The tax code does not categorically disallow all life insurance premium deductions; in fact, certain business-related insurance premiums can be deductible when they meet the ordinary and necessary criteria.
+D: This is incorrect. The court did not characterize the payment as a disguised dividend, which is typically an issue when payments flow from a corporation to shareholders rather than relating to presidential life insurance.
+
+## Question 2: Self-Employed Retirement Plans
+When calculating the maximum contribution to a SEP plan for a self-employed individual, which of the following statements is correct?
+
+A) The maximum contribution is always 25% of gross income before any deductions
+B) The maximum contribution for 2024 is capped at $69,000 with no percentage limitation
+C) The calculation creates a circular computation because contributions reduce the self-employment earnings on which the contribution limit is based
+D) Self-employed individuals can contribute the same percentage as their employees without any adjustments
+
+Explanation:
+A: This is incorrect. The maximum contribution is based on net earnings from self-employment, not gross income, and those earnings are reduced by the deductible portion of self-employment taxes.
+B: This is incorrect. While $69,000 is the dollar cap for 2024, contributions are also limited to 25% of self-employment earnings, so there is a percentage limitation.
+C: This is correct. As noted in the material, contributions to the plan are subtracted from net earnings to calculate self-employed earnings, which creates a circular computation. This is why, for convenience, a standard rate of 20% (rather than 25%) is often used to calculate the allowed deduction.
+D: This is incorrect. Self-employed individuals cannot contribute the same percentage as employees without adjustments because of the requirement to reduce self-employment earnings by the deductible portion of self-employment taxes and by the contribution itself.
+
+## Question 3: Health Savings Account Deductions
+A married couple, both aged 57, has family coverage under a High Deductible Health Plan. What is their maximum HSA contribution limit for 2024?
+
+A) $7,750
+B) $8,850
+C) $9,950
+D) $11,050
+
+Explanation:
+A: This is incorrect. This is the base contribution limit for family coverage in 2024 without considering the age-related catch-up amounts.
+B: This is incorrect. This amount would represent the family coverage limit plus one catch-up contribution.
+C: This is correct. For family coverage, the taxpayer or employer can contribute up to $7,750, plus $2,200 ($1,100 per person) since both spouses have reached age 55, resulting in a total maximum contribution of $9,950.
+D: This is incorrect. This exceeds the allowable maximum, even with both catch-up contributions factored in.
+
+## Question 4: Alimony Tax Treatment
+Which statement correctly describes the current tax treatment of alimony payments?
+
+A) Alimony is always taxable to the recipient and deductible by the payor
+B) Alimony is never taxable to the recipient or deductible by the payor
+C) The tax treatment depends on when the divorce was executed, with a significant change occurring after 2018
+D) Alimony is considered a tax-free transfer between former spouses regardless of when the divorce occurred
+
+Explanation:
+A: This is incorrect. This was the treatment for divorces executed before 2019, but not for later divorces.
+B: This is incorrect. For divorces executed before 2019, alimony is taxable to the recipient and deductible by the payor.
+C: This is correct. The tax treatment of alimony payments depends entirely on when the divorce was executed. For divorces executed before 2019, alimony is gross income to the recipient and deductible by the payor. For divorces executed or modified after 2018, alimony is nondeductible to the payor and not included in the gross income of the recipient.
+D: This is incorrect. Alimony is not universally considered a tax-free transfer; its treatment depends on when the divorce was executed.
+
+## Question 5: Investment Interest Expense
+A taxpayer has $15,000 in investment interest expense and $10,000 in investment income for the tax year. What happens to the excess investment interest expense?
+
+A) It is lost permanently
+B) It can be carried forward indefinitely to future tax years
+C) It can be deducted as a miscellaneous itemized deduction subject to the 2% AGI floor
+D) It can offset passive activity income in the current year
+
+Explanation:
+A: This is incorrect. Excess investment interest is not lost permanently.
+B: This is correct. As stated in the material, disallowed investment interest (the amount that exceeds investment income) is carried forward indefinitely and may be deducted in subsequent tax years to the extent the taxpayer has net investment income in those years.
+C: This is incorrect. Investment interest expense is an itemized deduction, but it is not subject to the 2% AGI floor that applied to miscellaneous itemized deductions before they were suspended by the Tax Cuts and Jobs Act.
+D: This is incorrect. Investment interest cannot offset passive activity income unless the taxpayer makes an election to treat qualified dividends and capital gains as investment income, which would make them taxable at ordinary rates.
+
+## Key Concepts Summary
+
+This section covers various tax deductions and their limitations, including landmark court cases that established the "ordinary and necessary" test for business expenses, specialized deductions for educators and self-employed individuals, retirement account contributions, and the treatment of various types of interest expenses. The material emphasizes the importance of understanding when and how expenses can be deducted, particularly highlighting changes in tax treatment based on timing (as with alimony) and the specific limitations that apply to different categories of deductions.

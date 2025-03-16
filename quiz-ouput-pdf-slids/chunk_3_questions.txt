@@ -1,0 +1,75 @@
+# Tax Deductions and Credits Multiple Choice Questions
+
+## Question 1 (Page 39-40)
+Which of the following statements about investment interest expense is correct?
+
+A) Investment interest expense can be deducted without limitation as long as it relates to property held for investment
+B) Investment interest expense is deductible only to the extent of net investment income
+C) Investment interest that exceeds the limitation in a given year is permanently lost
+D) Qualified residence interest is considered a type of investment interest expense
+
+**Explanation:**
+A: Incorrect. Investment interest expense is not deductible without limitation. There are specific limitations on the deductibility of investment interest.
+B: Correct. The IRC allows investment interest to be deducted only to the extent of net investment income, which is the excess of investment income over investment expenses.
+C: Incorrect. Disallowed investment interest is not permanently lost; it can be carried forward indefinitely and deducted in subsequent tax years to the extent of investment income in those years.
+D: Incorrect. Investment interest specifically does not include qualified residence interest or passive activity interest. These are treated as separate categories of interest expense.
+
+## Question 2 (Page 44-47)
+A taxpayer donates long-term capital gain property with a fair market value of $10,000 to a public charity. If the taxpayer does not elect to reduce the value of the donation by the amount that would have been long-term capital gain, what is the applicable AGI limitation for this contribution?
+
+A) 20% of AGI
+B) 30% of AGI
+C) 50% of AGI
+D) 60% of AGI
+
+**Explanation:**
+A: Incorrect. The 20% limitation applies to capital gain property donated to non-50% limit organizations (not public charities).
+B: Correct. A special 30% limitation applies to gifts of capital gain property given to 50% limit organizations (which include public charities) when the donor does not elect to reduce the fair market value by the amount that would have been long-term capital gain.
+C: Incorrect. The 50% limitation would apply if the donation were cash or if the taxpayer elected to reduce the fair market value by the amount that would have been long-term capital gain.
+D: Incorrect. The 60% limitation applies specifically to cash contributions to public charities, not capital gain property.
+
+## Question 3 (Page 48-50)
+Which of the following statements about casualty and theft losses is correct for current tax law?
+
+A) Personal casualty and theft losses are fully deductible as itemized deductions
+B) Only losses exceeding $100 per casualty or theft and 10% of AGI in aggregate are deductible
+C) Disaster losses can only be claimed in the year the disaster occurred
+D) Casualty losses from income-producing property are deductible as miscellaneous itemized deductions subject to the 2% AGI floor
+
+**Explanation:**
+A: Incorrect. Personal casualty and theft losses are limited and only allowed if attributed to federally declared disasters or to offset casualty gains.
+B: Correct. The deduction for casualty and theft losses is limited to the amount of loss over $100 per event, and only the aggregate amount of all losses exceeding 10% of AGI is deductible.
+C: Incorrect. For disaster losses, taxpayers have the option to deduct the loss either in the year the loss occurred or on the preceding year's return by filing an amended return.
+D: Incorrect. Casualty losses from income-producing property are deductible as other itemized deductions, not as miscellaneous itemized deductions subject to the 2% floor.
+
+## Question 4 (Page 53-54)
+For the Energy Efficient Home Improvement Credit, what is the annual maximum credit amount a taxpayer can claim for qualified energy property, excluding heat pumps?
+
+A) $600 per item with an overall limit of $1,200
+B) $1,200 per item with no overall limit
+C) $2,000 per item with an overall limit of $3,200
+D) $500 per item with an overall limit of $1,500
+
+**Explanation:**
+A: Correct. The annual credit is generally limited to a maximum total credit of $1,200, with specific items like qualified energy property limited to $600 per item. Heat pumps have a separate $2,000 limit that can be claimed in addition to the $1,200 maximum.
+B: Incorrect. While there is a $1,200 overall annual limit, individual items of qualified energy property are limited to $600 each, not $1,200.
+C: Incorrect. The $2,000 limit applies specifically to electric or natural gas heat pump water heaters and biomass stoves and boilers, not to other qualified energy property.
+D: Incorrect. The $500 limit applies to all exterior doors collectively (with individual doors limited to $250), not to all qualified energy property.
+
+## Question 5 (Page 55-57)
+Which of the following statements about the New Clean Vehicle Credit (EV credit) is correct?
+
+A) The maximum credit is $7,500 regardless of where vehicle components are manufactured
+B) The credit has two $3,750 components based on domestic content of critical minerals and battery components
+C) The credit is available for all vehicles regardless of their manufacturer's suggested retail price
+D) The credit is fully refundable for all taxpayers regardless of income
+
+**Explanation:**
+A: Incorrect. The credit is not automatically $7,500; it depends on meeting domestic content requirements for critical minerals and battery components.
+B: Correct. The New Clean Vehicle Credit has two components: $3,750 if the vehicle satisfies a domestic test for critical minerals in the battery, and another $3,750 if it satisfies a domestic content test for battery components, for a maximum possible credit of $7,500.
+C: Incorrect. The credit is not available if the vehicle's MSRP exceeds $80,000 for vans, SUVs, or pickup trucks, or $55,000 for other vehicles.
+D: Incorrect. The credit is not available to taxpayers whose modified AGI exceeds certain thresholds ($300,000 for married filing jointly, $225,000 for head of household, or $150,000 for single filers).
+
+## Key Concepts Summary
+
+This section covered important tax deductions and credits, including investment interest limitations, charitable contribution rules and AGI limitations based on property type and organization type, casualty and theft loss requirements, and tax credits for energy efficiency and clean vehicles. It emphasized the specific limitations, carryover provisions, and qualification requirements that taxpayers must understand to properly claim these deductions and credits.

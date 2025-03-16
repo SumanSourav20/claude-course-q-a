@@ -1,0 +1,74 @@
+# Multiple-Choice Questions on Tax Deductions and Credits
+
+## Question 1 (00:57:20-00:59:50)
+Which of the following statements about charitable contributions is correct?
+
+A) Charitable contributions are limited to a maximum of $40,000 per year
+B) For clothing donations, items can be in any condition as long as they have some value
+C) All rights and interests in the donation must be transferred to the qualified organization
+D) Cash donations do not require documentation if they are under $500
+
+Explanation:
+A: Incorrect. There is no fixed dollar maximum for charitable contributions; rather, they are subject to percentage limitations based on adjusted gross income.
+B: Incorrect. Clothing and household items must be in "good or better condition" to qualify for a deduction, unless they are valued by a qualified appraisal at $500 or more.
+C: Correct. As stated in the content, all rights and interests in a donation must be transferred to the qualified organization. You cannot retain partial rights or expect to get any portion back.
+D: Incorrect. All cash donations, regardless of amount, require documentation such as a bank record, canceled check, or written record from the charity.
+
+## Question 2 (01:00:50-01:04:25)
+What is the overall limitation on charitable contribution deductions for most taxpayers?
+
+A) 20% of adjusted gross income
+B) 30% of adjusted gross income
+C) 50% of adjusted gross income
+D) 60% of adjusted gross income
+
+Explanation:
+A: Incorrect. While there is a 20% limitation for certain types of contributions, this is not the overall limitation.
+B: Incorrect. The 30% limitation applies to specific types of contributions such as capital gain property given to public charities, not the overall limitation.
+C: Correct. The overall limitation on charitable deductions is 50% of adjusted gross income, though certain types of contributions are further limited to 30% or 20%.
+D: Incorrect. While temporarily increased to 60% for cash contributions to certain organizations through the Tax Cuts and Jobs Act, 50% remains the standard overall limitation as defined in the tax code.
+
+## Question 3 (01:09:05-01:13:35)
+What distinguishes a hobby from a business according to IRS rules?
+
+A) The amount of profit generated annually
+B) Whether profit is a primary motive
+C) The number of hours spent on the activity
+D) Whether the activity involves personal collections
+
+Explanation:
+A: Incorrect. While profitability is considered, there's no specific amount that automatically qualifies an activity as a business.
+B: Correct. The IRS defines a hobby as "an activity for which profit is not a primary motive." An activity must be engaged in with a profit motive to be considered a business.
+C: Incorrect. While time and effort expended are factors considered, they alone don't determine whether an activity is a hobby or business.
+D: Incorrect. The nature of the activity doesn't automatically classify it as a hobby; many collections can be legitimate businesses if profit is a primary motive.
+
+## Question 4 (01:13:15-01:18:00)
+What is the key difference between refundable and non-refundable tax credits?
+
+A) Non-refundable credits can be carried forward to future tax years, while refundable credits cannot
+B) Refundable credits are payable as a refund if they exceed tax liability, while non-refundable credits cannot exceed tax liability
+C) Non-refundable credits directly reduce adjusted gross income, while refundable credits reduce tax liability
+D) Refundable credits are only available to low-income taxpayers, while non-refundable credits are available to all taxpayers
+
+Explanation:
+A: Incorrect. The ability to carry forward credits depends on the specific credit, not whether it's refundable or non-refundable.
+B: Correct. Non-refundable credits can only reduce tax liability to zero, while refundable credits can generate a refund if they exceed the tax liability.
+C: Incorrect. Both types of credits reduce tax liability dollar for dollar, not adjusted gross income.
+D: Incorrect. Eligibility for either type of credit depends on the specific credit requirements, not whether it's refundable or non-refundable.
+
+## Question 5 (01:20:50-01:24:10)
+What is the maximum potential credit amount available for qualified new clean vehicles (EV credit) placed in service after 2022?
+
+A) $3,750
+B) $4,500
+C) $7,500
+D) $10,000
+
+Explanation:
+A: Incorrect. This is only one component of the potential credit.
+B: Incorrect. This is not one of the credit amounts specified.
+C: Correct. The EV credit has two components of $3,750 each: one for satisfying the domestic test for critical minerals in the battery and another for satisfying domestic content for battery components, for a maximum potential credit of $7,500.
+D: Incorrect. The maximum potential EV credit is $7,500, not $10,000.
+
+## Key Concepts Summary
+This section covered important rules regarding tax deductions and credits. For charitable contributions, we learned about percentage limitations (50%, 30%, and 20% of AGI) based on the type of property donated and the receiving organization, as well as documentation requirements. We also examined the distinction between hobbies and businesses for tax purposes, focusing on the profit motive test. Finally, we explored both traditional and newly created tax credits, including energy efficiency credits and the electric vehicle credit, and the crucial difference between refundable and non-refundable credits in tax planning.

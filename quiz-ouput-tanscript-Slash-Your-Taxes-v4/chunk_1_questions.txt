@@ -1,0 +1,71 @@
+# Multiple-Choice Quiz Questions on Tax Deductions and Credits
+
+## Question 1 (00:01:02-00:04:45)
+How do deductions and credits differ in their effect on tax liability?
+A) Deductions reduce taxable income while credits reduce gross income
+B) Deductions reduce taxable income while credits reduce tax liability 
+C) Deductions reduce tax liability while credits reduce taxable income
+D) Both deductions and credits reduce taxable income equally
+
+Explanation:
+A: Incorrect. Deductions reduce taxable income, but credits don't reduce gross income - they reduce actual tax liability.
+B: Correct. As explained in the tax formula, deductions reduce taxable income before tax rates are applied, while credits are applied after calculating tax liability, directly reducing the amount of tax owed.
+C: Incorrect. This reverses the correct relationship - deductions reduce taxable income, not tax liability directly.
+D: Incorrect. Deductions and credits work differently - they don't both reduce taxable income equally.
+
+## Question 2 (00:04:50-00:10:05)
+What is the fundamental difference between deductions for AGI and deductions from AGI?
+A) Deductions for AGI can only be claimed by businesses
+B) Deductions from AGI are automatically given to all taxpayers
+C) Deductions for AGI can be taken in addition to the standard deduction
+D) Deductions from AGI require itemizing if they exceed the standard deduction
+
+Explanation:
+A: Incorrect. Deductions for AGI aren't limited to businesses - individuals can claim them too (like IRA contributions).
+B: Incorrect. Deductions from AGI aren't automatically given - taxpayers must qualify for them and choose to itemize.
+C: Correct. Deductions for AGI (like IRA and SEP plan contributions) can be taken even if you also take the standard deduction, making them more advantageous.
+D: Incorrect. While true about itemized deductions, this doesn't capture the key difference between deductions for AGI versus from AGI.
+
+## Question 3 (00:11:40-00:15:58)
+According to the tax law foundation for deductions, which statement is correct?
+A) Deductions are constitutionally guaranteed to all taxpayers
+B) Deductions are a matter of legislative grace allowed by Congress
+C) All expenses that increase your net worth are deductible
+D) All deductions must be claimed regardless of whether they exceed the standard deduction
+
+Explanation:
+A: Incorrect. There is no constitutional right to tax deductions - they are created by legislation.
+B: Correct. Unlike income which is broadly defined, deductions require specific authorization in the tax code. As stated, "deductions are a matter of legislative grace allowed solely by the discretion of Congress."
+C: Incorrect. Increases to net worth typically represent income, not deductions.
+D: Incorrect. Taxpayers can choose the standard deduction instead of itemizing deductions if the standard deduction is higher.
+
+## Question 4 (00:18:50-00:23:45)
+What determines whether a meal expense is deductible for business purposes?
+A) All meal expenses when meeting with business associates are 100% deductible
+B) Meal expenses are only deductible when traveling away from home
+C) Business meals are 50% deductible if there is a business purpose, with full documentation
+D) Meal expenses are never deductible under current tax law
+
+Explanation:
+A: Incorrect. Business meals are typically limited to 50% deductibility, not 100%.
+B: Incorrect. While meals when traveling for business are deductible, other business meals can also qualify.
+C: Correct. Business meals are generally 50% deductible when there is a genuine business purpose, and the taxpayer must maintain documentation of who attended, what was discussed, and the business purpose.
+D: Incorrect. Meal expenses can be deductible under current tax law when they have a legitimate business purpose.
+
+## Question 5 (00:24:50-00:27:13)
+What is meant by "ordinary" in the tax requirement that deductible business expenses must be "ordinary and necessary"?
+A) The expense must be common and accepted in your particular business
+B) The expense must be paid on a regular basis
+C) The expense must be small enough to deduct immediately rather than capitalize
+D) The expense must be approved by the IRS before claiming it
+
+Explanation:
+A: Correct. "Ordinary" means the expense is common and accepted in your trade, business, or profession. It distinguishes regular business expenses from unusual ones that might need to be capitalized.
+B: Incorrect. "Ordinary" doesn't refer to the frequency of payment but to whether the expense is common in your industry.
+C: Incorrect. While capital expenditures must be depreciated rather than immediately deducted, this isn't the primary meaning of "ordinary" in this context.
+D: Incorrect. Expenses don't require pre-approval from the IRS to be considered "ordinary."
+
+---
+
+## Key Concepts Summary
+The tax formula demonstrates how deductions reduce taxable income while credits directly reduce tax liability. Tax law distinguishes between deductions for AGI (which benefit all taxpayers) and deductions from AGI (which only benefit those who itemize). Understanding the difference between personal and business expenses is crucial, as only business expenses are generally deductible, and they must be ordinary, necessary, and well-documented.

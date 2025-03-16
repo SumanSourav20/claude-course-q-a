@@ -1,0 +1,77 @@
+Questions for pages 42 to 59:
+
+# Multiple-Choice Tax Questions
+
+## Question 1 (Page 43)
+When donating capital gain property to a qualified charity, which of the following statements is correct regarding the deduction limitation?
+
+A) The deduction is always limited to 30% of AGI regardless of the type of organization.
+B) A special 30% limitation applies only when the donor elects to reduce the fair market value by the amount of unrealized capital gain.
+C) The deduction is limited to 20% of AGI for all capital gain property donations.
+D) If the donor elects to reduce the fair market value by the potential capital gain, the 60% of AGI limitation applies.
+
+Explanation:
+A: This is incorrect. The deduction limitation for capital gain property varies based on both the type of organization receiving the donation and whether certain elections are made.
+B: This is incorrect. The special 30% limitation applies to gifts of capital gain property to 50% limit organizations when the donor does NOT elect to reduce the fair market value.
+C: This is incorrect. The 20% limitation applies only to capital gain property donated to non-50% limit organizations.
+D: This is correct. When a donor elects to reduce the fair market value of donated capital gain property by the amount that would have been long-term capital gain if sold, the standard 50% limitation (now 60% for cash contributions) applies rather than the special 30% limitation.
+
+## Question 2 (Page 47-48)
+Which of the following statements is accurate regarding personal casualty and theft losses under current tax law?
+
+A) All personal casualty losses are fully deductible as itemized deductions.
+B) Only losses exceeding $100 plus 10% of AGI are deductible for federally declared disasters.
+C) Casualty and theft losses from personal-use property are generally no longer deductible unless attributed to a federally declared disaster.
+D) Casualty losses under $100 are fully deductible without AGI limitations.
+
+Explanation:
+A: This is incorrect. Personal casualty and theft losses are significantly limited under current tax law.
+B: This is incorrect. For federally declared disaster areas, losses exceeding $100 plus 10% of AGI are deductible, but this statement doesn't capture the requirement that the loss must be from a federally declared disaster.
+C: This is correct. The Tax Cuts and Jobs Act substantially limited the deduction for personal casualty and theft losses. Now, such losses are only deductible if attributed to a federally declared disaster, and even then are subject to the $100 floor and 10% of AGI threshold.
+D: This is incorrect. There is a $100 floor per casualty or theft event, meaning the first $100 of any loss is not deductible.
+
+## Question 3 (Page 51-52)
+In determining whether an activity qualifies as a business rather than a hobby, which timeline must typically be met to create a presumption that the activity is not a hobby?
+
+A) Profits in any 2 of 7 consecutive tax years
+B) Profits in any 3 of 5 consecutive tax years
+C) Profits in any 4 of 7 consecutive tax years
+D) Profits in all of the last 3 tax years
+
+Explanation:
+A: This is incorrect for most activities, but is specifically correct for activities involving breeding, training, showing, or racing horses, which have a special 2-of-7 year profit test.
+B: This is correct. The general rule is that an activity is presumed not to be a hobby if profits result in any 3 of 5 consecutive tax years. This creates a rebuttable presumption that the activity is engaged in for profit.
+C: This is incorrect. The standard is 3 of 5 years, not 4 of 7 years.
+D: This is incorrect. The requirement is for profits in any 3 of 5 consecutive years, not necessarily the last 3 years.
+
+## Question 4 (Page 54)
+Which of the following correctly describes the difference between refundable and nonrefundable tax credits?
+
+A) Nonrefundable credits can be carried forward to future tax years, while refundable credits cannot.
+B) Refundable credits can reduce tax liability below zero resulting in a payment to the taxpayer, while nonrefundable credits cannot exceed tax liability.
+C) Nonrefundable credits apply only to business taxpayers, while refundable credits apply only to individuals.
+D) Refundable credits are limited to a percentage of AGI, while nonrefundable credits have no AGI limitations.
+
+Explanation:
+A: This is incorrect. Whether a credit can be carried forward depends on specific provisions for each credit, not whether it's refundable or nonrefundable.
+B: This is correct. The fundamental difference between refundable and nonrefundable credits is that refundable credits can exceed the taxpayer's tax liability, resulting in a refund of the excess amount. Nonrefundable credits can only reduce the tax liability to zero but not below.
+C: This is incorrect. Both types of credits can apply to individuals or businesses depending on the specific credit.
+D: This is incorrect. AGI limitations may apply to either type of credit depending on the specific provisions of each credit.
+
+## Question 5 (Page 56-57)
+Regarding the Residential Clean Energy Credit, which statement is accurate?
+
+A) The credit rate remains constant at 30% through 2035.
+B) Any unused credit is lost and cannot be carried forward to future tax years.
+C) The credit applies only to newly constructed homes, not existing residences.
+D) The credit rate drops to 26% in 2033 and 22% in 2034.
+
+Explanation:
+A: This is incorrect. While the credit is 30% for several years, it begins phasing down in 2033.
+B: This is incorrect. Unlike the Energy Efficient Home Improvement Credit, any unused Residential Clean Energy Credit can be carried forward to future tax years.
+C: This is incorrect. The Residential Clean Energy Credit applies to both existing homes and new construction.
+D: This is correct. The credit rate for the Residential Clean Energy Credit is scheduled to decrease from 30% to 26% in 2033 and further drop to 22% in 2034, before expiring after 2034.
+
+## Key Concepts Summary
+
+This section covers various tax deductions and credits, including charitable contribution rules with specific limitations based on property type and recipient organization, casualty and theft loss deductions (now limited primarily to federally declared disasters), hobby loss rules, and valuable energy-related tax credits that incentivize residential clean energy investments and electric vehicle purchases. Understanding the specific requirements, limitations, and documentation needed for each type of deduction or credit is essential for effective tax planning.

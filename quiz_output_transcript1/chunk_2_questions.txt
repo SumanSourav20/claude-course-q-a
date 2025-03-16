@@ -1,0 +1,60 @@
+# Tax Concepts Multiple Choice Questions
+
+## Question 1: IRAs and Deductibility (00:43:55 - 00:47:00)
+For 2024, an individual's IRA contribution is fully deductible up to what amount, assuming they have sufficient earned income?
+A) $2,000
+B) $6,000
+C) $7,000
+D) $8,000
+
+**Correct Answer: C) $7,000**
+
+**Explanation:** For 2024, IRA contributions are fully deductible up to $7,000 for taxpayers under age 50, provided they have at least that much in earned income. There is an additional $1,000 catch-up contribution allowed for taxpayers age 50 and over (totaling $8,000). The original IRA contribution limit when first introduced was $2,000, but this has increased significantly over time. Contribution amounts are limited to the lesser of the dollar limit ($7,000/$8,000) or 100% of includable compensation.
+
+## Question 2: Student Loan Interest Deduction (00:47:00 - 00:48:10)
+For married filing jointly taxpayers in 2024, at what Adjusted Gross Income (AGI) level does the $2,500 student loan interest deduction begin to phase out?
+A) $85,000
+B) $145,000
+C) $170,000
+D) $200,000
+
+**Correct Answer: C) $170,000**
+
+**Explanation:** For married filing jointly taxpayers, the student loan interest deduction of $2,500 begins to phase out when AGI reaches $170,000. The deduction is completely eliminated when their AGI exceeds $200,000. For single, head of household, or married filing separately taxpayers, the AGI phase-out range is $65,000 to $85,000. The student loan interest deduction is an "above the line" deduction, meaning it's available even to taxpayers who don't itemize deductions.
+
+## Question 3: Mortgage Interest Deduction (00:52:05 - 00:56:00)
+Under current tax law, qualified residence interest is deductible on combined acquisition and home equity indebtedness up to what limit?
+A) $500,000
+B) $750,000 
+C) $1,000,000
+D) $1,500,000
+
+**Correct Answer: B) $750,000**
+
+**Explanation:** Qualified residence interest is deductible on no more than $750,000 of the combined acquisition and home equity indebtedness ($375,000 for married filing separately). This limit was reduced from the previous $1 million threshold by the Tax Cuts and Jobs Act. For the interest to be deductible, the debt must be secured by a qualified residence, and importantly, home equity debt must be used to buy, build, or substantially improve the qualified residence. A qualified residence includes the taxpayer's principal residence and one other residence.
+
+## Question 4: Charitable Contribution Limitations (00:56:50 - 01:03:30)
+What is the maximum percentage of Adjusted Gross Income (AGI) that a taxpayer can deduct for cash contributions to qualified public charities?
+A) 20%
+B) 30%
+C) 50%
+D) 60%
+
+**Correct Answer: D) 60%**
+
+**Explanation:** Though the Internal Revenue Code defines the standard limit for contributions to public charities as 50% of AGI, the Tax Cuts and Jobs Act temporarily increased this limit to 60% for cash contributions. Different limitations apply based on the type of property donated and the type of organization receiving the donation. Capital gain property donated to public charities is generally limited to 30% of AGI, while contributions to certain private foundations may be limited to 20% of AGI. Any excess contributions can be carried forward for up to five years.
+
+## Question 5: Clean Vehicle Credit (01:21:44 - 01:23:10)
+What is the maximum available tax credit for a qualified new clean vehicle (EV credit) placed in service after 2022?
+A) $3,750
+B) $4,500
+C) $7,500
+D) $10,000
+
+**Correct Answer: C) $7,500**
+
+**Explanation:** The maximum clean vehicle credit (commonly known as the EV credit) is $7,500, which consists of two components: a $3,750 credit if the vehicle satisfies a domestic test for critical minerals in the battery, and another $3,750 credit if the vehicle satisfies domestic content requirements for battery components. The credit is not available to taxpayers whose modified adjusted gross income exceeds certain thresholds ($300,000 for married filing jointly). This credit is part of the recent energy incentives created to encourage adoption of clean energy vehicles.
+
+## Key Concepts from This Section:
+
+This section covered important tax deductions and credits available to individual taxpayers. It detailed specific limitation rules for IRA contributions, student loan interest deductions, mortgage interest deductions, and charitable contributions. The section also introduced newer tax credits related to energy-efficient home improvements and electric vehicles that were enacted through recent legislation including the Inflation Reduction Act. Understanding these various deductions and credits is essential for effective tax planning, as they can significantly reduce a taxpayer's overall tax liability.

@@ -1,0 +1,62 @@
+# Multiple Choice Questions on Tax Deductions and Credits
+
+## Question 1 (00:16:26 - 00:20:48)
+What is the key difference between deductions for adjusted gross income (AGI) and itemized deductions?
+A) Deductions for AGI require receipts while itemized deductions don't
+B) Deductions for AGI can be taken along with the standard deduction, while itemized deductions cannot be taken if using the standard deduction
+C) Itemized deductions are always more valuable than deductions for AGI
+D) Deductions for AGI are only available to business owners
+
+**Correct Answer: B**
+
+**Explanation:** A fundamental difference in tax treatment exists between deductions for AGI (also called "above-the-line" deductions) and itemized deductions. As explained in the content, deductions for AGI such as IRA contributions, SEP plans, and other qualified retirement contributions can be taken regardless of whether you claim the standard deduction. Itemized deductions (such as charitable contributions, mortgage interest, and medical expenses), however, are only beneficial if their total exceeds the standard deduction. If they don't exceed the standard deduction, you would take the standard deduction instead, effectively losing the benefit of those itemized deductions.
+
+## Question 2 (00:20:34 - 00:24:08)
+When are business meals deductible for tax purposes?
+A) All business meals are 100% deductible
+B) Meals are 50% deductible when not away from home and business is discussed
+C) Meals are never deductible unless traveling overnight for business
+D) Meals are only deductible if they exceed 2% of adjusted gross income
+
+**Correct Answer: B**
+
+**Explanation:** The tax treatment of business meals distinguishes between different situations. When a taxpayer is not away from home but takes a business client to lunch and discusses business, the meal is 50% deductible. The content specifically clarifies that meals when not away from home are generally only 50% deductible, and only when there is a legitimate business purpose and business is actually discussed. Additionally, proper substantiation is required, including documentation of who was present, the business purpose, and what was discussed.
+
+## Question 3 (00:27:25 - 00:32:21)
+What criterion do courts use to determine whether an expense is "ordinary" under tax law?
+A) Whether the expense is habitual or normal for that specific taxpayer
+B) Whether the expense is customarily made in the given business circumstance
+C) Whether the expense is less than a certain percentage of business income
+D) Whether the expense is required by law or regulation
+
+**Correct Answer: B**
+
+**Explanation:** According to the landmark case of Welch v. Helvering cited in the content, Justice Cardozo established that the test for "ordinary" is not whether expenses are habitual or normal for the particular taxpayer (meaning they make them often), but rather whether the payment is customarily made in the given business circumstance. This is an important distinction in tax law that focuses on the nature of the expense in the context of that type of business situation rather than the frequency with which a specific taxpayer incurs such expenses.
+
+## Question 4 (00:33:45 - 00:36:40)
+What is the maximum HSA contribution allowed in 2024 for family coverage where both spouses are age 55 or older?
+A) $3,850
+B) $7,500
+C) $8,500
+D) $9,500
+
+**Correct Answer: D**
+
+**Explanation:** For 2024, the base contribution limit for family coverage to a Health Savings Account (HSA) is $7,500. However, individuals who have reached age 55 are allowed an additional $1,000 catch-up contribution each. Therefore, when both spouses are 55 or older, they can each make the additional $1,000 catch-up contribution, bringing the total maximum allowable contribution to $9,500 ($7,500 base + $1,000 + $1,000).
+
+## Question 5 (00:41:07 - 00:42:28)
+How did the Tax Cuts and Jobs Act (TCJA) change the tax treatment of alimony payments?
+A) It increased the tax rate on alimony payments
+B) It made alimony tax-deductible only for high-income taxpayers
+C) For divorces executed after 2018, alimony is no longer deductible to the payer and not included in gross income of the recipient
+D) It eliminated alimony payments entirely as a legal concept
+
+**Correct Answer: C**
+
+**Explanation:** The Tax Cuts and Jobs Act significantly changed the tax treatment of alimony. Prior to the TCJA (before 2019), alimony was deductible by the payer and included as gross income for the recipient. However, for divorces executed or modified after 2018, alimony is no longer deductible for the payer, and the recipient does not include these payments in their gross income. This represents a fundamental shift in how divorce settlements are structured from a tax perspective, while pre-2019 divorces were grandfathered in under the old rules.
+
+---
+
+# Key Concepts Summary
+
+The federal income tax formula establishes the fundamental framework for understanding how deductions and credits affect tax liability. Deductions reduce taxable income, with their value depending on the taxpayer's marginal tax bracket, while credits directly reduce tax liability dollar-for-dollar regardless of income level. There are two main types of deductions: those for adjusted gross income (which can be claimed alongside the standard deduction) and itemized deductions (which must exceed the standard deduction to be beneficial). For business expenses to be deductible, they must be ordinary, necessary, and reasonable, with personal expenses generally not qualifying unless specifically allowed by tax law.

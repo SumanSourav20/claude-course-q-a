@@ -1,0 +1,84 @@
+# Quiz Questions on Tax Deductions and Credits
+
+## Question 1 (Timestamp 00:57:20-00:59:00)
+What rule applies to interest related to producing tax-exempt income?
+
+A: It is fully deductible as an itemized deduction
+B: It is not deductible
+C: It is 50% deductible
+D: It is deductible only to the extent of investment income
+
+**Answer: B**
+
+**Explanation:**
+A: Incorrect. Interest related to producing tax-exempt income is specifically disallowed as a deduction, not permitted as an itemized deduction.
+B: Correct. As stated in the content, interest related to producing tax-exempt income (such as from municipal bonds) is not deductible. This follows the tax principle that expenses connected to tax-exempt income cannot be used to offset taxable income.
+C: Incorrect. Unlike business meals which are 50% deductible, interest related to tax-exempt income is completely non-deductible.
+D: Incorrect. While some types of investment interest may be limited to the extent of investment income, interest related to producing tax-exempt income is specifically disallowed, not just limited.
+
+## Question 2 (Timestamp 00:59:20-01:02:30)
+Which of the following is a requirement for charitable contributions to be deductible?
+
+A: The donor must retain partial rights to the donated property
+B: All rights and interest in the donation must be transferred to the qualified organization
+C: Cash donations under $250 don't require any documentation
+D: Clothing donations can be in any condition as long as they have some value
+
+**Answer: B**
+
+**Explanation:**
+A: Incorrect. The donor cannot retain any rights to the donated property. The rules specify that you cannot make a partial donation where you keep some control or rights.
+B: Correct. For a charitable contribution to be deductible, all rights and interest in the donation must be completely transferred to the qualified organization. As explained, you cannot give $100,000 but say you might want $50,000 back - it must be a complete transfer.
+C: Incorrect. All cash donations, regardless of amount, require some form of record such as a bank record, canceled check, or written record from the charity that includes the name of the charity, date, and amount.
+D: Incorrect. Clothing and household items must be in "good or better condition" to be deductible, unless they're valued by a qualified appraisal at $500 or more.
+
+## Question 3 (Timestamp 01:00:45-01:04:30)
+What is the general overall limitation on charitable deductions for individuals?
+
+A: 20% of adjusted gross income
+B: 30% of adjusted gross income
+C: 50% of adjusted gross income (60% temporarily for cash donations)
+D: 100% of adjusted gross income
+
+**Answer: C**
+
+**Explanation:**
+A: Incorrect. 20% is a specific limitation that applies to certain types of donations like capital gain property donated to non-50% charities, not the general overall limitation.
+B: Incorrect. 30% is a specific limitation for certain types of contributions, such as capital gain property given to public charities, not the general overall limitation.
+C: Correct. The overall limitation on charitable deductions is 50% of adjusted gross income, with a temporary increase to 60% for cash donations due to the Tax Cuts and Jobs Act. This means the most anyone can deduct for charitable contributions is generally limited to 50% of their AGI.
+D: Incorrect. There is no provision allowing charitable contributions to be deducted up to 100% of AGI under normal circumstances.
+
+## Question 4 (Timestamp 01:12:45-01:15:00)
+What is the key distinction between non-refundable and refundable tax credits?
+
+A: Non-refundable credits can be carried forward, while refundable credits cannot
+B: Non-refundable credits cannot exceed the taxpayer's federal income tax liability, while refundable credits can result in a refund
+C: Non-refundable credits are only for businesses, while refundable credits are for individuals
+D: Non-refundable credits reduce AGI, while refundable credits reduce taxable income
+
+**Answer: B**
+
+**Explanation:**
+A: Incorrect. Whether a credit can be carried forward depends on the specific credit, not on whether it's refundable or non-refundable.
+B: Correct. Non-refundable credits can only reduce a taxpayer's federal income tax liability to zero, and any excess is lost (or carried forward in some cases). Refundable credits, however, are payable as a refund to the extent the credit amount exceeds the tax otherwise due.
+C: Incorrect. Both non-refundable and refundable credits can be available to individuals and businesses, depending on the specific credit.
+D: Incorrect. Both types of credits reduce tax liability, not AGI or taxable income. Credits are applied after the tax is calculated.
+
+## Question 5 (Timestamp 01:21:30-01:24:00)
+What are the two components of the EV credit (new clean vehicle credit) available after 2022?
+
+A: $3,750 for domestic manufacturing and $3,750 for fuel efficiency
+B: $3,750 for domestic critical minerals in the battery and $3,750 for domestic content for battery components
+C: $5,000 for electric vehicles and $2,500 for hybrid vehicles
+D: $4,000 for battery capacity and $3,500 for vehicle weight
+
+**Answer: B**
+
+**Explanation:**
+A: Incorrect. While domestic manufacturing is related to the credit, the specific components don't include fuel efficiency.
+B: Correct. The EV credit has two distinct components: $3,750 if the vehicle satisfies a domestic test for critical minerals in the battery, and another $3,750 if the vehicle satisfies domestic content requirements for battery components. The maximum credit is $7,500.
+C: Incorrect. The credit is not divided between electric and hybrid vehicles in this manner.
+D: Incorrect. The credit is not based on battery capacity and vehicle weight as described.
+
+## Key Concepts Summary
+This section covered important tax concepts including the non-deductibility of interest related to tax-exempt income, charitable contribution rules and limitations, casualty and theft loss deductions, and various tax credits. Particular emphasis was placed on newer energy-related credits, including home energy improvement credits, residential clean energy credits, and the electric vehicle credit, which all stem from recent legislation aimed at promoting clean energy usage.

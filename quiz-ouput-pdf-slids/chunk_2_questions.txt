@@ -1,0 +1,75 @@
+# Multiple-Choice Questions on Individual Income Tax Concepts
+
+## Question 1 (Page 22-23)
+Which of the following best describes the "ordinary" requirement for business expense deductions as established in Welch v. Helvering?
+
+A) Expenses must be habitual or normal for the specific taxpayer
+B) Expenses must be customarily made in the given circumstances by those in similar situations
+C) Expenses must be necessary for conducting the business
+D) Expenses must be reasonable in amount
+
+**Explanation:**
+A: Incorrect. Justice Cardoza specifically clarified that "ordinary" does not mean the expense must be habitual or normal in the sense that the taxpayer makes them often.
+B: Correct. In Welch v. Helvering, Justice Cardoza established that an "ordinary" expense is one that is customarily made in the given circumstances. This was reinforced in cases like Geodel, where the court denied a deduction for insurance on the President's life because other persons in the same business had never made similar expenditures when confronted with similar conditions.
+C: Incorrect. This describes the "necessary" prong of the test, not the "ordinary" requirement. "Necessary" means the expense is "appropriate and helpful" rather than indispensable.
+D: Incorrect. This describes the "reasonable" requirement, which means the expense is neither extravagant nor exorbitant, not the "ordinary" requirement.
+
+## Question 2 (Page 25)
+An elementary school teacher purchased $450 worth of classroom supplies, including $75 for personal protective equipment and $100 for supplementary materials. What is the maximum educator expense deduction they can claim?
+
+A) $225
+B) $300
+C) $375
+D) $450
+
+**Explanation:**
+A: Incorrect. This amount does not reflect the maximum allowable deduction for educator expenses.
+B: Correct. Elementary school educators may claim a deduction for unreimbursed classroom expenses up to a maximum of $300 annually. Although the teacher spent $450, the deduction is limited to $300.
+C: Incorrect. This exceeds the $300 maximum deduction allowed for educator expenses. The fact that some expenses were for PPE doesn't increase the limit.
+D: Incorrect. While the teacher spent $450 on qualifying expenses, the educator expense deduction is capped at $300 per educator annually.
+
+## Question 3 (Page 28-29)
+A self-employed taxpayer with net earnings of $100,000 (after reducing by the deductible portion of self-employment taxes) wants to contribute to a SEP retirement plan. What is the maximum contribution the taxpayer can make to this plan for 2024?
+
+A) $20,000
+B) $25,000
+C) $69,000
+D) $75,000
+
+**Explanation:**
+A: Correct. For SEP plans, the maximum contribution is the lesser of 25% of self-employment earnings or $69,000 (in 2024). However, because contributions to the plan reduce net earnings in a circular computation, a standard rate of 20% is used for convenience. 20% of $100,000 equals $20,000.
+B: Incorrect. While 25% of $100,000 would be $25,000, this doesn't account for the circular computation issue. The standard rate of 20% is used to simplify the calculation.
+C: Incorrect. $69,000 is the absolute maximum SEP contribution limit for 2024, but it only applies if 25% of the taxpayer's self-employment earnings equals or exceeds this amount, which is not the case here.
+D: Incorrect. This amount exceeds both the percentage limit based on earnings and the absolute dollar maximum for 2024.
+
+## Question 4 (Page 31)
+A taxpayer receives $2,000 monthly alimony payments based on a divorce settlement executed in December 2020. How should these payments be treated for tax purposes?
+
+A) The payments are deductible by the payor and includible in the recipient's gross income
+B) The payments are not deductible by the payor and not includible in the recipient's gross income
+C) The payments are deductible by the payor but not includible in the recipient's gross income
+D) The payments are not deductible by the payor but includible in the recipient's gross income
+
+**Explanation:**
+A: Incorrect. This treatment only applies to divorces executed before 2019.
+B: Correct. For divorces executed or modified after 2018, alimony is nondeductible to the payor and not included in the gross income of the recipient. Since this divorce was executed in December 2020, these payments are neither deductible by the payor nor taxable to the recipient.
+C: Incorrect. This combination of tax treatment has never been applicable to alimony payments.
+D: Incorrect. This would create a situation of double taxation, which is not the intended treatment for alimony under any tax regime.
+
+## Question 5 (Page 35-37)
+A married couple filing jointly owns two homes: their primary residence with a $600,000 mortgage and a vacation property with a $300,000 mortgage. Both mortgages were taken out in 2023 to purchase the properties. What is the maximum amount of mortgage debt on which they can deduct interest?
+
+A) $600,000
+B) $750,000
+C) $900,000
+D) $1,500,000
+
+**Explanation:**
+A: Incorrect. This amount only covers their primary residence mortgage, but they can deduct interest on qualified residence interest for both properties up to the combined limit.
+B: Correct. For debt incurred after December 15, 2017, qualified residence interest is deductible on no more than $750,000 of acquisition indebtedness (for married filing jointly). Although their total mortgage debt is $900,000 ($600,000 + $300,000), they are limited to deducting interest on $750,000 of this debt.
+C: Incorrect. While this is their total mortgage debt ($600,000 + $300,000), it exceeds the $750,000 cap on qualified residence interest for post-2017 debt.
+D: Incorrect. This was the limit for qualified residence interest before the Tax Cuts and Jobs Act. For debt incurred after December 15, 2017, the limit is $750,000 for married filing jointly.
+
+## Key Concepts Summary
+
+This section explores specialized deduction rules, including the "ordinary and necessary" requirements for business expenses as established through landmark court cases, and specific above-the-line deductions such as educator expenses, Health Savings Accounts, self-employment expenses, and student loan interest. Additionally, it covers itemized deductions—particularly medical expenses, taxes, and qualified residence interest—highlighting the specific requirements, limitations, and tax treatment of each category.

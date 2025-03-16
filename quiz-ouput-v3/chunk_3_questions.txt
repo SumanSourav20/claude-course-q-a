@@ -1,0 +1,77 @@
+# Quiz Questions on Tax Deductions and Credits
+
+## Question 1 (00:59:40 - 01:00:15)
+What requirements must be met for a valid charitable contribution deduction?
+
+A) Any donation requires only verbal confirmation from the charity
+B) Cash donations require bank records or written documentation from the charity regardless of amount
+C) Clothing donations in poor condition qualify if valued over $500
+D) The taxpayer can retain partial rights to donated property
+
+**explanation:**
+A: Incorrect. Verbal confirmation is not sufficient documentation for any charitable contribution.
+B: Correct. For cash or cash equivalent donations, regardless of amount, taxpayers must maintain records such as bank records, canceled checks, or written documentation from the charity that includes the charity's name, date, and amount of the contribution.
+C: Incorrect. Clothing and household items must be in "good or better condition" to qualify for a deduction, unless they have a qualified appraisal valuing them at over $500.
+D: Incorrect. All rights and interests in the donation must be transferred to the qualified organization; partial transfers are not eligible for charitable deduction treatment.
+
+## Question 2 (01:00:50 - 01:01:35)
+How is property valued for charitable contribution purposes?
+
+A) All property is valued at fair market value regardless of type
+B) Capital gain property is valued at fair market value, while ordinary income property is valued at adjusted basis
+C) The valuation method depends on both the type of property and the type of organization receiving it
+D) The taxpayer can choose whichever valuation method yields the highest deduction
+
+**explanation:**
+A: Incorrect. Not all property is valued the same way for charitable contribution purposes.
+B: Incorrect. This is an oversimplification. The valuation depends on multiple factors, not just property type.
+C: Correct. The amount of donation deduction depends on both the type of property (capital gain property vs. ordinary income property) and the type of organization receiving the donation (public charity vs. private foundation).
+D: Incorrect. Taxpayers cannot simply choose the most advantageous valuation method; they must follow specific rules based on property type and receiving organization.
+
+## Question 3 (01:02:20 - 01:03:30)
+Which statement is correct regarding the limitation on charitable contribution deductions?
+
+A) All charitable contributions are limited to 50% of AGI
+B) The 30% limitation applies only to cash donations to private foundations
+C) Contributions exceeding the applicable limitations are lost forever
+D) Excess contributions can be carried forward for 5 years
+
+**explanation:**
+A: Incorrect. While 50% of AGI is the overall limitation, some contributions are further limited to 30% or 20% of AGI depending on the type of contribution and receiving organization.
+B: Incorrect. The 30% limitation typically applies to capital gain property donated to public charities when the donor elects not to reduce the fair market value.
+C: Incorrect. Excess contributions are not lost forever.
+D: Correct. Any donations that exceed the applicable limitation can be carried forward and deducted within the next five-year period. After five years, any remaining excess is lost.
+
+## Question 4 (01:13:10 - 01:14:10)
+What is the key difference between tax credits and tax deductions?
+
+A) Credits can only be claimed by businesses, while deductions are for individuals
+B) Deductions reduce taxable income, while credits directly reduce tax liability dollar-for-dollar
+C) Credits are always refundable, while deductions are never refundable
+D) Deductions and credits both reduce tax liability by the same amount
+
+**explanation:**
+A: Incorrect. Both credits and deductions can be claimed by individuals and businesses, depending on eligibility.
+B: Correct. Deductions reduce taxable income (which then indirectly reduces tax liability based on the taxpayer's marginal tax rate), while credits directly reduce the tax liability dollar-for-dollar.
+C: Incorrect. Not all credits are refundable. There are both refundable and non-refundable credits.
+D: Incorrect. Credits and deductions have different impacts on tax liability. A $1,000 credit reduces tax liability by $1,000, while a $1,000 deduction reduces tax liability by $1,000 times the taxpayer's marginal tax rate.
+
+## Question 5 (01:20:35 - 01:22:35)
+What are the components of the new clean vehicle credit (EV credit) available after 2022?
+
+A) A single $7,500 credit for any electric vehicle purchased
+B) Two $3,750 components: one for domestic critical minerals and one for domestic battery components
+C) A credit that varies based on the vehicle's battery size only
+D) A $3,750 credit plus additional amounts based on the vehicle's purchase price
+
+**explanation:**
+A: Incorrect. The credit is not a single amount for any electric vehicle; it has specific components.
+B: Correct. The EV credit has two distinct components of $3,750 each: one component applies if the vehicle satisfies the domestic test for critical minerals in the battery, and the other applies if the vehicle satisfies the domestic content requirements for battery components. The maximum combined credit is $7,500.
+C: Incorrect. While battery specifications matter, the credit is not based solely on battery size.
+D: Incorrect. The purchase price may affect eligibility but does not determine the credit amount structure.
+
+---
+
+# Key Concepts Summary
+
+This section covered important aspects of tax deductions and credits, with a focus on charitable contributions and energy-related tax credits. It explained the detailed rules for charitable contribution deductions, including documentation requirements, valuation methods, and percentage limitations based on AGI. The section also introduced several new tax credits from recent legislation, particularly energy-related credits like the residential clean energy credit and the electric vehicle credit, highlighting how these credits differ from deductions by directly reducing tax liability dollar-for-dollar rather than simply reducing taxable income.

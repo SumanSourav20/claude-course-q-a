@@ -1,0 +1,62 @@
+Questions for pages 4 to 31:
+
+# Multiple Choice Questions on Tax Deductions and Credits
+
+## Question 1 (Page 9)
+Which of the following correctly describes the Federal Income Tax formula progression?
+A) Gross income → Standard deduction → AGI → Itemized deductions → Taxable income
+B) Gross income → Above-the-line deductions → AGI → Below-the-line deductions → Taxable income
+C) AGI → Standard deduction → Taxable income → Tax rates → Credits
+D) Gross income → Tax rates → Credits → Deductions → Tax due
+
+**Answer: B**
+
+**Explanation:** The Federal Income Tax formula follows a specific progression. It begins with gross income, from which above-the-line deductions are subtracted to arrive at Adjusted Gross Income (AGI). Then below-the-line deductions (either the standard deduction or itemized deductions, whichever is greater, plus qualified business income deduction) are subtracted from AGI to determine taxable income. Tax rates are applied to taxable income to calculate tax liability, to which other taxes may be added. Finally, credits and prepayments are subtracted to arrive at taxes due or refund amount. This sequential flow is foundational to understanding how various deductions affect different parts of the tax calculation.
+
+## Question 2 (Pages 15-16)
+What criterion must business expenses meet to be deductible under the tax code?
+A) They must be unusual and extraordinary
+B) They must be extravagant and publicly disclosed
+C) They must be ordinary, necessary, reasonable, and paid during the taxable year
+D) They must be specifically identified in the tax code by name
+
+**Answer: C**
+
+**Explanation:** For a business expense to qualify as deductible, it must satisfy multiple criteria simultaneously. The expense must be ordinary and necessary in relation to the business activity, as established in Sections 162 and 212 of the tax code. Additionally, the expense must be reasonable in amount—neither extravagant nor exorbitant—which is particularly important for transactions between related parties. Finally, timing matters: the expense must be paid or incurred during the relevant tax year under the taxpayer's accounting method. If an expense fails any of these tests, it will likely be disallowed as a deduction, even if it otherwise appears business-related.
+
+## Question 3 (Pages 19-20)
+In cases where an expense has both personal and business elements, what is the general tax treatment?
+A) The entire expense is disallowed as a deduction
+B) The expense is fully deductible if the primary purpose was business
+C) A portion of the expense can be allocated to each element
+D) The taxpayer must choose either business or personal classification but cannot split
+
+**Answer: C**
+
+**Explanation:** The tax code recognizes that many expenses have both personal and business components. When an expense encompasses both elements, the appropriate tax treatment is to allocate a portion of the expense to each element. This principle is evident in various court decisions addressing "grey areas" of deductibility. The allocation must be reasonable and defensible. For example, with partially business-related travel, a taxpayer might deduct the business portion while treating the personal component as nondeductible. This approach recognizes the dual nature of certain expenditures while preventing taxpayers from deducting purely personal costs as business expenses.
+
+## Question 4 (Pages 22-23)
+According to Justice Cardoza's definition in Welch v. Helvering, what determines whether an expense is "ordinary" for tax deduction purposes?
+A) Whether the expense is made frequently by the taxpayer
+B) Whether the payment is customarily made in the given circumstances
+C) Whether the expense is common among most businesses
+D) Whether the expense is recurring on a monthly basis
+
+**Answer: B**
+
+**Explanation:** Justice Cardoza established a critical precedent in Welch v. Helvering when he defined "ordinary" expenses. He clarified that an expense need not be "habitual or normal in the sense that the taxpayer will make them often." Instead, the test is "whether the payment is customarily made in the given circumstances." This definition has guided tax courts in distinguishing between deductible ordinary expenses and non-deductible capital expenditures. The Geodel and Greenspan cases further illustrate this principle—courts examine whether similarly situated businesses would typically incur such expenses under comparable circumstances, rather than focusing on frequency or commonality alone.
+
+## Question 5 (Pages 28-29)
+How do the tax treatment rules for alimony change based on when a divorce was executed?
+A) Alimony is always deductible regardless of when the divorce was executed
+B) For divorces executed before 2019, alimony is income to recipient and deductible by payor; after 2018, it's neither income nor deductible
+C) Alimony is never deductible regardless of when the divorce was executed
+D) The deductibility of alimony depends on the age of the recipient spouse
+
+**Answer: B**
+
+**Explanation:** The tax treatment of alimony fundamentally changed with the Tax Cuts and Jobs Act. For divorces executed before 2019, alimony follows the traditional treatment: payments are included in the gross income of the recipient and are deductible by the payor (subject to certain conditions, such as payments not extending past the death of the payee spouse). However, for divorces executed or modified after 2018, alimony receives dramatically different treatment—it is neither deductible for the payor nor includable as gross income for the recipient. This timing distinction creates two parallel systems of alimony taxation that tax professionals must navigate based precisely on when the divorce was finalized.
+
+## Key Concepts Summary
+
+The tax deduction and credit system follows a structured approach where timing, classification, and statutory authority significantly impact tax liability. Deductions reduce taxable income based on their position in the tax formula (above or below the AGI line), while credits directly reduce tax liability dollar-for-dollar. The ordinary and necessary standard serves as the foundation for business expense deductibility, with special attention given to mixed personal/business expenses. Self-employed individuals have access to unique deductions including retirement contributions, health insurance premiums, and the employer portion of self-employment taxes. Recent tax legislation has significantly altered treatments for specific deductions like alimony, requiring tax professionals to consider effective dates when advising clients.
