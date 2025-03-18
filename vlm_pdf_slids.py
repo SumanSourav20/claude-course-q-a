@@ -203,6 +203,7 @@ IMPORTANT INSTRUCTIONS:
    - Include visual elements like diagrams, tables, and charts in your analysis
 5. Explanation should be like this:
     {explanation}
+6. Provide correct page reference for each question. 
 
 critical: your questions and explanations must read as if written by a subject matter expert who genuinely understands the topic.Questions and explainations should be like they are final examination questions, do not use phrases like:
 - "According to the slides..."
@@ -268,6 +269,7 @@ IMPORTANT INSTRUCTIONS:
    - Feel connected to the broader learning journey
 5. Explanation should be like this:
     {explanation}
+6. Provide correct page reference for each question. 
 
 CRITICAL: Your questions and explanations must read as if written by a subject matter expert who genuinely understands the entire topic.Questions and explainations should be like they are final examination questions, Do NOT use phrases like:
 - "According to the slides..."
@@ -544,8 +546,8 @@ if __name__ == "__main__":
                         help='Claude model to use (must be vision-capable)')
     parser.add_argument('--target-pages', type=int, default=20, 
                        help='Target number of pages per chunk (default: 30)')
-    parser.add_argument('--skip-pages', type=int, default=3,
-                       help='Number of initial pages to skip (default: 3)')
+    parser.add_argument('--skip-pages', type=int, default=0,
+                       help='Number of initial pages to skip (default: 0)')
     parser.add_argument('--dpi', type=int, default=300,
                        help='Resolution for page rendering (default: 300)')
     parser.add_argument('--optimize-tokens', action='store_true', default=True,

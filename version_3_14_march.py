@@ -196,6 +196,7 @@ IMPORTANT INSTRUCTIONS:
    - Feel connected to the broader learning journey
 5. Explanation should be like this:
     {explanation}
+6. Provide correct timestamp reference of each question
 
 CRITICAL: Your questions and explanations must read as if written by a subject matter expert who genuinely understands the topic.Questions and explainations should be like they are final examination questions, Do NOT use phrases like:
 - "According to the transcript..."
@@ -248,6 +249,7 @@ IMPORTANT INSTRUCTIONS:
    - Feel connected to the broader learning journey
 4. Explanation should be like this:
     {explanation}
+5. Provide correct timestamp reference of each question
 
 CRITICAL: Your questions and explanations must read as if written by a subject matter expert who genuinely understands the entire topic.Questions and explainations should be like they are final examination questions, Do NOT use phrases like:
 - "According to the transcript..."
@@ -405,7 +407,7 @@ if __name__ == "__main__":
     parser.add_argument('--api-key', type=str, required=True, help='Anthropic API key')
     parser.add_argument('--output-dir', type=str, default='quiz_output', help='Output directory')
     parser.add_argument('--model', type=str, default='claude-3-7-sonnet-20250219', help='Claude model to use')
-    parser.add_argument('--target-pages', type=int, default=50, 
+    parser.add_argument('--target-pages', type=int, default=28, 
                        help='Target number of pages per chunk (default: 50)')
     parser.add_argument('--page-count', type=int, help='Override estimated page count with actual count')
     

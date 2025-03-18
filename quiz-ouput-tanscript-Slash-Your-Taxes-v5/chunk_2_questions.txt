@@ -1,0 +1,74 @@
+# Tax Deductions and Credits Quiz Questions
+
+## Question 1: (00:42:28 - 00:46:35)
+For a taxpayer to make a deductible IRA contribution for a tax year, when is the latest they can contribute?
+
+A) The extended due date of their tax return (October 15th)
+B) April 15th of the following year (the original due date of the return)
+C) December 31st of the tax year
+D) Within 60 days of filing their tax return
+
+Explanation:
+A: Incorrect. Unlike with some business retirement plans, an extension does not extend the deadline for IRA contributions.
+B: Correct. IRA contributions must be made by the original due date of the tax return (typically April 15th) without regard to extensions. If April 15th falls on a weekend or holiday, the deadline shifts to the next business day.
+C: Incorrect. This is the deadline for most tax actions, but IRA contributions can be made after December 31st until the tax filing deadline.
+D: Incorrect. There is no 60-day rule for annual IRA contributions; the deadline is fixed at the original return due date.
+
+## Question 2: (00:46:57 - 00:48:06)
+Which of the following is true regarding the student loan interest deduction for 2024?
+
+A) It has a maximum deduction of $5,000
+B) The deduction begins to phase out at $170,000 for married filing jointly taxpayers
+C) The deduction is only available for the first 5 years of loan repayment
+D) The deduction can be claimed regardless of income level
+
+Explanation:
+A: Incorrect. The maximum student loan interest deduction is $2,500, not $5,000.
+B: Correct. For married filing jointly taxpayers, the deduction begins to phase out at $170,000 of AGI and is completely eliminated when AGI exceeds $200,000.
+C: Incorrect. The student loan interest deduction is available every year that qualifying interest is paid, not limited to the first 5 years.
+D: Incorrect. The deduction is subject to income limits and phases out completely at $200,000 for married filing jointly and $100,000 for single filers.
+
+## Question 3: (00:54:56 - 01:00:00)
+When a taxpayer donates property to a qualified charitable organization, how is the value of the donation determined?
+
+A) The property's fair market value at time of donation, regardless of type
+B) The property's original cost basis, regardless of how long it was held
+C) The amount depends on whether it's capital gain property or ordinary income property
+D) Always 50% of the property's fair market value
+
+Explanation:
+A: Incorrect. The valuation method depends on the type of property and the type of organization receiving it.
+B: Incorrect. Original cost basis is not always the correct valuation method for charitable donations.
+C: Correct. The amount of the donation depends on whether the property is capital gain property (which would generate long-term capital gain if sold) or ordinary income property (which would generate ordinary income or short-term capital gain if sold). These different types of property may have different valuation rules.
+D: Incorrect. There is no universal 50% reduction in value for donated property.
+
+## Question 4: (01:16:22 - 01:21:32)
+For the residential clean energy credit available through 2032, which of the following is true?
+
+A) It's limited to a maximum of $1,200 per year
+B) It equals 30% of the cost of qualified renewable energy installations
+C) It can be claimed for property installed outside the United States
+D) The credit can only be used for new construction, not existing homes
+
+Explanation:
+A: Incorrect. The $1,200 annual limit applies to the energy efficient home improvement credit, not the residential clean energy credit.
+B: Correct. The residential clean energy credit equals 30% of the cost of qualified clean energy property such as solar electric, solar water heating, fuel cell, wind energy, and geothermal heat pump systems.
+C: Incorrect. The credit only applies to property placed in service in connection with a dwelling unit in the United States.
+D: Incorrect. The residential clean energy credit applies to both existing homes and new construction.
+
+## Question 5: (01:21:44 - 01:24:44)
+Regarding the new clean vehicle (EV) credit, which of the following statements is correct?
+
+A) The maximum credit available is $10,000 per vehicle
+B) The credit has two $3,750 components based on domestic content requirements
+C) The credit is refundable even if it exceeds tax liability
+D) The credit has no income limitations for eligibility
+
+Explanation:
+A: Incorrect. The maximum EV credit is $7,500, not $10,000.
+B: Correct. The EV credit consists of two potential $3,750 components: one for meeting the critical minerals requirement and one for meeting the battery components requirement, for a possible total of $7,500.
+C: Incorrect. The credit is non-refundable, meaning it can only reduce tax liability to zero but not below.
+D: Incorrect. The credit has income limitations - it begins to phase out when modified AGI exceeds certain thresholds ($300,000 for married filing jointly).
+
+## Key Concepts Summary
+This section explored various tax deductions and credits, including IRA contribution rules, student loan interest deductions, and charitable contribution limitations. It also covered recently introduced energy-related tax credits, such as the residential clean energy credit, energy efficient home improvement credit, and electric vehicle credit. These credits represent significant tax-saving opportunities for taxpayers making qualifying expenditures, but come with specific limitations, phase-outs, and qualification requirements. Understanding these complex rules is essential for effective tax planning that balances short-term tax benefits against potential long-term tax positions.

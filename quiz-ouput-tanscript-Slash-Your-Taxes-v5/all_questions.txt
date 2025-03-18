@@ -1,0 +1,151 @@
+=== CHUNK 1 ===
+
+# Multiple Choice Questions on Tax Deductions and Credits
+
+## Question 1 (00:20:35 - 00:21:20)
+What is the key difference between business-related meals when you're away from home versus when you're not away from home?
+A) Meals when away from home are 100% deductible, while those not away from home are 50% deductible
+B) Meals when away from home require more detailed substantiation than those not away from home
+C) Meals when away from home must be with clients, while those not away from home can be personal
+D) Meals when away from home are not deductible, while those not away from home are fully deductible
+
+Explanation:
+A: CORRECT. The lecture explains that business meals when you're away from home on business are fully deductible, while business meals when you're not away from home are generally only 50% deductible.
+B: WRONG. Both types of meals require proper substantiation, including who you dined with and the business purpose.
+C: WRONG. Both types of meals need to have a business purpose to be deductible.
+D: WRONG. This reverses the actual rule - meals away from home are deductible (fully), while meals not away from home can be partially (50%) deductible if for business.
+
+## Question 2 (00:10:30 - 00:11:40)
+In the federal income tax formula, what is the key distinction between deductions "for AGI" versus "from AGI"?
+A) Deductions "for AGI" are taken on Schedule A, while deductions "from AGI" are taken on Schedule C
+B) Deductions "for AGI" can be claimed even if you take the standard deduction
+C) Deductions "from AGI" are limited to 2% of AGI
+D) Deductions "for AGI" are only available to businesses, not individuals
+
+Explanation:
+A: WRONG. Schedule A is for itemized deductions (which are "from AGI"), not for deductions "for AGI."
+B: CORRECT. The lecture explains that deductions "for AGI" (like IRA and SEP plan contributions) can be taken regardless of whether you itemize or take the standard deduction, whereas itemized deductions "from AGI" are only beneficial if they exceed the standard deduction.
+C: WRONG. The 2% of AGI limitation applies to certain miscellaneous itemized deductions in some tax years, but this isn't the defining characteristic of deductions "from AGI."
+D: WRONG. Many deductions "for AGI" are available to individuals, including IRA contributions and certain education expenses.
+
+## Question 3 (00:29:50 - 00:31:50)
+What test did Justice Cardoza establish for determining whether an expense is "ordinary" in the WELCH v. HELVERING case?
+A) Whether the expense is habitual or normal for that specific taxpayer
+B) Whether the payment is customarily made in the given circumstances
+C) Whether the expense is common in the taxpayer's industry
+D) Whether the expense is required by law or regulation
+
+Explanation:
+A: WRONG. Justice Cardoza specifically stated that the test was NOT whether expenses were habitual or normal in the sense that the taxpayer would make them often.
+B: CORRECT. The court established that "ordinary" means whether the payment is customarily made in the given circumstances, not whether it's frequently made by the taxpayer.
+C: WRONG. While industry practices may be relevant, the specific test articulated by Justice Cardoza focused on whether the payment is customary in the given circumstances.
+D: WRONG. Legal requirements weren't part of Justice Cardoza's test for "ordinary" expenses.
+
+## Question 4 (00:39:45 - 00:42:05)
+How did the Tax Cuts and Jobs Act change the tax treatment of alimony?
+A) It made alimony non-deductible for the payer and non-taxable for the recipient for divorces after 2018
+B) It increased the deduction for alimony payments to 125% of the amount paid
+C) It limited alimony deductions to high-income taxpayers only
+D) It required all existing alimony arrangements to be modified to the new tax treatment
+
+Explanation:
+A: CORRECT. The Tax Cuts and Jobs Act eliminated the deductibility of alimony for the payer and removed it from gross income for the recipient for divorces executed or modified after 2018.
+B: WRONG. The TCJA did not increase deductions for alimony payments; it eliminated them for post-2018 divorces.
+C: WRONG. The TCJA did not create income-based limitations - it completely eliminated the deduction for new divorces.
+D: WRONG. Pre-2019 divorce agreements were grandfathered in under the old rules, where alimony remains deductible to the payer and taxable to the recipient.
+
+## Question 5 (00:37:50 - 00:39:20)
+What is the maximum annual contribution limit for a SEP plan for a self-employed individual in 2024?
+A) $22,500
+B) $35,000
+C) $69,000 or 25% of self-employment earnings, whichever is less
+D) $76,500
+
+Explanation:
+A: WRONG. This is closer to the 401(k) employee contribution limit, not the SEP plan limit.
+B: WRONG. This is below the actual limit for SEP plans in 2024.
+C: CORRECT. The lecture states that the maximum annual contribution to a SEP plan for 2024 is the lesser of 25% of self-employment earnings or $69,000.
+D: WRONG. This exceeds the limit for SEP plans in 2024.
+
+---
+
+## Key Concepts Summary
+The federal income tax formula distinguishes between deductions "for AGI" and "from AGI," with the former providing greater tax benefits as they can be claimed alongside the standard deduction. Business expenses must meet the "ordinary and necessary" test to be deductible, with numerous court cases establishing guidelines for what qualifies. The Tax Cuts and Jobs Act significantly changed many deduction rules, including eliminating the deductibility of alimony for post-2018 divorces and modifying other personal deductions.
+
+=== CHUNK 2 ===
+
+# Tax Deductions and Credits Quiz Questions
+
+## Question 1: (00:42:28 - 00:46:35)
+For a taxpayer to make a deductible IRA contribution for a tax year, when is the latest they can contribute?
+
+A) The extended due date of their tax return (October 15th)
+B) April 15th of the following year (the original due date of the return)
+C) December 31st of the tax year
+D) Within 60 days of filing their tax return
+
+Explanation:
+A: Incorrect. Unlike with some business retirement plans, an extension does not extend the deadline for IRA contributions.
+B: Correct. IRA contributions must be made by the original due date of the tax return (typically April 15th) without regard to extensions. If April 15th falls on a weekend or holiday, the deadline shifts to the next business day.
+C: Incorrect. This is the deadline for most tax actions, but IRA contributions can be made after December 31st until the tax filing deadline.
+D: Incorrect. There is no 60-day rule for annual IRA contributions; the deadline is fixed at the original return due date.
+
+## Question 2: (00:46:57 - 00:48:06)
+Which of the following is true regarding the student loan interest deduction for 2024?
+
+A) It has a maximum deduction of $5,000
+B) The deduction begins to phase out at $170,000 for married filing jointly taxpayers
+C) The deduction is only available for the first 5 years of loan repayment
+D) The deduction can be claimed regardless of income level
+
+Explanation:
+A: Incorrect. The maximum student loan interest deduction is $2,500, not $5,000.
+B: Correct. For married filing jointly taxpayers, the deduction begins to phase out at $170,000 of AGI and is completely eliminated when AGI exceeds $200,000.
+C: Incorrect. The student loan interest deduction is available every year that qualifying interest is paid, not limited to the first 5 years.
+D: Incorrect. The deduction is subject to income limits and phases out completely at $200,000 for married filing jointly and $100,000 for single filers.
+
+## Question 3: (00:54:56 - 01:00:00)
+When a taxpayer donates property to a qualified charitable organization, how is the value of the donation determined?
+
+A) The property's fair market value at time of donation, regardless of type
+B) The property's original cost basis, regardless of how long it was held
+C) The amount depends on whether it's capital gain property or ordinary income property
+D) Always 50% of the property's fair market value
+
+Explanation:
+A: Incorrect. The valuation method depends on the type of property and the type of organization receiving it.
+B: Incorrect. Original cost basis is not always the correct valuation method for charitable donations.
+C: Correct. The amount of the donation depends on whether the property is capital gain property (which would generate long-term capital gain if sold) or ordinary income property (which would generate ordinary income or short-term capital gain if sold). These different types of property may have different valuation rules.
+D: Incorrect. There is no universal 50% reduction in value for donated property.
+
+## Question 4: (01:16:22 - 01:21:32)
+For the residential clean energy credit available through 2032, which of the following is true?
+
+A) It's limited to a maximum of $1,200 per year
+B) It equals 30% of the cost of qualified renewable energy installations
+C) It can be claimed for property installed outside the United States
+D) The credit can only be used for new construction, not existing homes
+
+Explanation:
+A: Incorrect. The $1,200 annual limit applies to the energy efficient home improvement credit, not the residential clean energy credit.
+B: Correct. The residential clean energy credit equals 30% of the cost of qualified clean energy property such as solar electric, solar water heating, fuel cell, wind energy, and geothermal heat pump systems.
+C: Incorrect. The credit only applies to property placed in service in connection with a dwelling unit in the United States.
+D: Incorrect. The residential clean energy credit applies to both existing homes and new construction.
+
+## Question 5: (01:21:44 - 01:24:44)
+Regarding the new clean vehicle (EV) credit, which of the following statements is correct?
+
+A) The maximum credit available is $10,000 per vehicle
+B) The credit has two $3,750 components based on domestic content requirements
+C) The credit is refundable even if it exceeds tax liability
+D) The credit has no income limitations for eligibility
+
+Explanation:
+A: Incorrect. The maximum EV credit is $7,500, not $10,000.
+B: Correct. The EV credit consists of two potential $3,750 components: one for meeting the critical minerals requirement and one for meeting the battery components requirement, for a possible total of $7,500.
+C: Incorrect. The credit is non-refundable, meaning it can only reduce tax liability to zero but not below.
+D: Incorrect. The credit has income limitations - it begins to phase out when modified AGI exceeds certain thresholds ($300,000 for married filing jointly).
+
+## Key Concepts Summary
+This section explored various tax deductions and credits, including IRA contribution rules, student loan interest deductions, and charitable contribution limitations. It also covered recently introduced energy-related tax credits, such as the residential clean energy credit, energy efficient home improvement credit, and electric vehicle credit. These credits represent significant tax-saving opportunities for taxpayers making qualifying expenditures, but come with specific limitations, phase-outs, and qualification requirements. Understanding these complex rules is essential for effective tax planning that balances short-term tax benefits against potential long-term tax positions.
+

@@ -1,0 +1,71 @@
+# Multiple Choice Questions on Tax Deductions and Credits
+
+## Question 1 (00:20:35 - 00:21:20)
+What is the key difference between business-related meals when you're away from home versus when you're not away from home?
+A) Meals when away from home are 100% deductible, while those not away from home are 50% deductible
+B) Meals when away from home require more detailed substantiation than those not away from home
+C) Meals when away from home must be with clients, while those not away from home can be personal
+D) Meals when away from home are not deductible, while those not away from home are fully deductible
+
+Explanation:
+A: CORRECT. The lecture explains that business meals when you're away from home on business are fully deductible, while business meals when you're not away from home are generally only 50% deductible.
+B: WRONG. Both types of meals require proper substantiation, including who you dined with and the business purpose.
+C: WRONG. Both types of meals need to have a business purpose to be deductible.
+D: WRONG. This reverses the actual rule - meals away from home are deductible (fully), while meals not away from home can be partially (50%) deductible if for business.
+
+## Question 2 (00:10:30 - 00:11:40)
+In the federal income tax formula, what is the key distinction between deductions "for AGI" versus "from AGI"?
+A) Deductions "for AGI" are taken on Schedule A, while deductions "from AGI" are taken on Schedule C
+B) Deductions "for AGI" can be claimed even if you take the standard deduction
+C) Deductions "from AGI" are limited to 2% of AGI
+D) Deductions "for AGI" are only available to businesses, not individuals
+
+Explanation:
+A: WRONG. Schedule A is for itemized deductions (which are "from AGI"), not for deductions "for AGI."
+B: CORRECT. The lecture explains that deductions "for AGI" (like IRA and SEP plan contributions) can be taken regardless of whether you itemize or take the standard deduction, whereas itemized deductions "from AGI" are only beneficial if they exceed the standard deduction.
+C: WRONG. The 2% of AGI limitation applies to certain miscellaneous itemized deductions in some tax years, but this isn't the defining characteristic of deductions "from AGI."
+D: WRONG. Many deductions "for AGI" are available to individuals, including IRA contributions and certain education expenses.
+
+## Question 3 (00:29:50 - 00:31:50)
+What test did Justice Cardoza establish for determining whether an expense is "ordinary" in the WELCH v. HELVERING case?
+A) Whether the expense is habitual or normal for that specific taxpayer
+B) Whether the payment is customarily made in the given circumstances
+C) Whether the expense is common in the taxpayer's industry
+D) Whether the expense is required by law or regulation
+
+Explanation:
+A: WRONG. Justice Cardoza specifically stated that the test was NOT whether expenses were habitual or normal in the sense that the taxpayer would make them often.
+B: CORRECT. The court established that "ordinary" means whether the payment is customarily made in the given circumstances, not whether it's frequently made by the taxpayer.
+C: WRONG. While industry practices may be relevant, the specific test articulated by Justice Cardoza focused on whether the payment is customary in the given circumstances.
+D: WRONG. Legal requirements weren't part of Justice Cardoza's test for "ordinary" expenses.
+
+## Question 4 (00:39:45 - 00:42:05)
+How did the Tax Cuts and Jobs Act change the tax treatment of alimony?
+A) It made alimony non-deductible for the payer and non-taxable for the recipient for divorces after 2018
+B) It increased the deduction for alimony payments to 125% of the amount paid
+C) It limited alimony deductions to high-income taxpayers only
+D) It required all existing alimony arrangements to be modified to the new tax treatment
+
+Explanation:
+A: CORRECT. The Tax Cuts and Jobs Act eliminated the deductibility of alimony for the payer and removed it from gross income for the recipient for divorces executed or modified after 2018.
+B: WRONG. The TCJA did not increase deductions for alimony payments; it eliminated them for post-2018 divorces.
+C: WRONG. The TCJA did not create income-based limitations - it completely eliminated the deduction for new divorces.
+D: WRONG. Pre-2019 divorce agreements were grandfathered in under the old rules, where alimony remains deductible to the payer and taxable to the recipient.
+
+## Question 5 (00:37:50 - 00:39:20)
+What is the maximum annual contribution limit for a SEP plan for a self-employed individual in 2024?
+A) $22,500
+B) $35,000
+C) $69,000 or 25% of self-employment earnings, whichever is less
+D) $76,500
+
+Explanation:
+A: WRONG. This is closer to the 401(k) employee contribution limit, not the SEP plan limit.
+B: WRONG. This is below the actual limit for SEP plans in 2024.
+C: CORRECT. The lecture states that the maximum annual contribution to a SEP plan for 2024 is the lesser of 25% of self-employment earnings or $69,000.
+D: WRONG. This exceeds the limit for SEP plans in 2024.
+
+---
+
+## Key Concepts Summary
+The federal income tax formula distinguishes between deductions "for AGI" and "from AGI," with the former providing greater tax benefits as they can be claimed alongside the standard deduction. Business expenses must meet the "ordinary and necessary" test to be deductible, with numerous court cases establishing guidelines for what qualifies. The Tax Cuts and Jobs Act significantly changed many deduction rules, including eliminating the deductibility of alimony for post-2018 divorces and modifying other personal deductions.
