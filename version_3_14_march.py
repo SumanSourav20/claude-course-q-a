@@ -189,14 +189,14 @@ IMPORTANT INSTRUCTIONS:
 2. First, thoroughly read and understand the core educational concepts being taught
 3. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of important concepts
 4. Each question must:
-   - Be directly based on the educational content (include timestamp range beside each question)
+   - Be directly based on the educational content
+   - Include timestamp ranges showing exactly where the relevant concept is discussed(beside the question)
    - Have 4 answer options with exactly one correct answer
    - Question and answer should be in simple layman's language and should have keywords from the content provided to you
    - Include an explanation of wrong answers as well as right answers
    - Feel connected to the broader learning journey
 5. Explanation should be like this:
     {explanation}
-6. Provide correct timestamp reference of each question
 
 CRITICAL: Your questions and explanations must read as if written by a subject matter expert who genuinely understands the topic.Questions and explainations should be like they are final examination questions, Do NOT use phrases like:
 - "According to the transcript..."
@@ -242,14 +242,14 @@ IMPORTANT INSTRUCTIONS:
 1. First, thoroughly read and understand how this section builds on previous knowledge
 2. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of NEW concepts in this section
 3. Each question must:
-   - Be directly based on the educational content (include timestamp range beside each question)
+   - Be directly based on the educational content 
+   - Include timestamp ranges showing exactly where the relevant concept is discussed(beside the question)
    - Have 4 answer options with exactly one correct answer
    - Question and answer should be in simple layman's language and should have keywords from the content provided to you
    - Include an explanation of wrong answers as well as right answers
    - Feel connected to the broader learning journey
 4. Explanation should be like this:
     {explanation}
-5. Provide correct timestamp reference of each question
 
 CRITICAL: Your questions and explanations must read as if written by a subject matter expert who genuinely understands the entire topic.Questions and explainations should be like they are final examination questions, Do NOT use phrases like:
 - "According to the transcript..."
@@ -407,8 +407,8 @@ if __name__ == "__main__":
     parser.add_argument('--api-key', type=str, required=True, help='Anthropic API key')
     parser.add_argument('--output-dir', type=str, default='quiz_output', help='Output directory')
     parser.add_argument('--model', type=str, default='claude-3-7-sonnet-20250219', help='Claude model to use')
-    parser.add_argument('--target-pages', type=int, default=28, 
-                       help='Target number of pages per chunk (default: 50)')
+    parser.add_argument('--target-pages', type=int, default=35, 
+                       help='Target number of pages per chunk (default: 35)')
     parser.add_argument('--page-count', type=int, help='Override estimated page count with actual count')
     
     args = parser.parse_args()
