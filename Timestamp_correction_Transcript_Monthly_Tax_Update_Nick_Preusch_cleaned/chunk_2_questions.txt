@@ -1,0 +1,76 @@
+# Quiz Questions on Tax Updates and Practice Management
+
+## Question 1 (00:24:17 - 00:25:01)
+What is the current status of the Beneficial Ownership Information (BOI) reporting requirement as discussed in the content?
+
+A) BOI reporting is no longer required for any businesses
+B) BOI reporting is still mandatory with a deadline of 12/31/2024
+C) BOI is currently on hold due to a Texas case and is considered a voluntary filing until around April
+D) BOI reporting requirements have been permanently struck down by the Supreme Court
+
+Explanation:
+A: Incorrect. BOI reporting wasn't eliminated completely, just put on hold pending legal decisions.
+B: Incorrect. While 12/31/2024 was mentioned as the original deadline, BOI is currently on hold.
+C: Correct. The Supreme Court ruled on one term of law, but a separate Texas case with a nationwide injunction is still ongoing. Currently, BOI is on hold and considered voluntary until approximately April when more clarity is expected.
+D: Incorrect. The Supreme Court ruled on one legal aspect, but didn't permanently strike down BOI requirements.
+
+## Question 2 (00:25:35 - 00:26:18)
+Under what circumstances would a BOI filing need to be updated after the initial filing?
+
+A) Every year as an annual filing requirement
+B) Only if the business changes its tax structure
+C) If the address changes or if the identification document number (like passport or driver's license) changes
+D) Only if ownership percentages change among beneficial owners
+
+Explanation:
+A: Incorrect. BOI is not an annual filing requirement - it was described as "not a yearly filing" but a "onetime filing" unless certain changes occur.
+B: Incorrect. Changes in tax structure weren't mentioned as requiring a BOI update.
+C: Correct. The speaker specifically mentioned that updates are needed "if you switch your address" or if identification documents are renewed with different numbers (such as passport numbers changing upon renewal).
+D: Incorrect. While ownership changes might logically require updates, this specific trigger wasn't mentioned in the content.
+
+## Question 3 (00:26:46 - 00:28:10)
+What approach did the speaker recommend for estimated tax calculations for clients in the upcoming year?
+
+A) Calculating precise tax liability based on projected income
+B) Using safe harbor calculations for all clients to protect them from penalties
+C) Waiting until tax law changes are finalized before providing estimates
+D) Recommending clients pay the same amount as the previous year
+
+Explanation:
+A: Incorrect. The speaker specifically avoided recommending precise calculations due to potential tax law changes.
+B: Correct. The speaker stated "I'm killing it on the safe harbors. Every client is gonna get a safe harbor estimate, and that way they know what it is to avoid any penalties." This approach protects clients from penalties regardless of tax law changes.
+C: Incorrect. The speaker recommended providing safe harbor calculations now rather than waiting.
+D: Incorrect. While paying the same as the previous year might satisfy safe harbor requirements for some, this wasn't the specific recommendation made.
+
+## Question 4 (00:27:53 - 00:28:25)
+According to studies mentioned by the speaker, what service do approximately 70% of accounting clients wish they received more of?
+
+A) Bookkeeping services
+B) Tax planning
+C) Audit protection
+D) Financial statement preparation
+
+Explanation:
+A: Incorrect. Bookkeeping wasn't mentioned in the client survey results discussed.
+B: Correct. The speaker mentioned that about 70% of clients surveyed said they "wish they had more tax planning" and would even be willing to pay for additional tax planning services.
+C: Incorrect. Audit protection wasn't mentioned in the survey results.
+D: Incorrect. Financial statement preparation wasn't mentioned in the survey results.
+
+## Question 5 (00:39:40 - 00:41:00)
+What are the two key criteria for determining if a medical expense is potentially deductible on Schedule A?
+
+A) The expense must be prescribed by a doctor and covered by insurance
+B) The expense must be pre-approved by the IRS and documented with receipts
+C) The expense must be medically necessary and federally legal
+D) The expense must exceed 7.5% of AGI and be paid within the tax year
+
+Explanation:
+A: Incorrect. While some deductible expenses are prescribed by doctors, this isn't one of the two key criteria mentioned.
+B: Incorrect. Pre-approval by the IRS isn't required for medical expense deductions.
+C: Correct. The speaker specifically highlighted these two criteria: "Is the medical expense medically necessary and is it legal federally?" These are the fundamental tests for potential deductibility.
+D: Incorrect. While medical expenses must exceed 7.5% of AGI to be deductible, this is a threshold requirement rather than a criterion for what qualifies as a medical expense.
+
+---
+
+## Key Concepts Summary:
+This section covered important tax practice management topics, including the current status of Beneficial Ownership Information (BOI) reporting requirements, safe harbor strategies for estimated tax calculations during potential tax law changes, and the high client demand for tax planning services. The section also addressed security concerns for tax professionals and criteria for determining deductible medical expenses on Schedule A.

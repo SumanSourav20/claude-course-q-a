@@ -190,7 +190,7 @@ IMPORTANT INSTRUCTIONS:
 3. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of important concepts
 4. Each question must:
    - Be directly based on the educational content
-   - Include timestamp ranges showing exactly where the relevant concept is discussed(beside the question)
+   - Include timestamp range from where the question and answer is picked up(beside the question)
    - Have 4 answer options with exactly one correct answer
    - Question and answer should be in simple layman's language and should have keywords from the content provided to you
    - Include an explanation of wrong answers as well as right answers
@@ -243,7 +243,7 @@ IMPORTANT INSTRUCTIONS:
 2. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of NEW concepts in this section
 3. Each question must:
    - Be directly based on the educational content 
-   - Include timestamp ranges showing exactly where the relevant concept is discussed(beside the question)
+   - Include timestamp range from where the question and answer is picked up(beside the question)
    - Have 4 answer options with exactly one correct answer
    - Question and answer should be in simple layman's language and should have keywords from the content provided to you
    - Include an explanation of wrong answers as well as right answers
