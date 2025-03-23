@@ -1,0 +1,42 @@
+VALIDATION REPORT FOR CHUNK 1 (Pages 4-16)
+
+Found 11 issues in 10 of 10 questions:
+
+Question 1:
+- Missing page numbers
+
+Question 2:
+- Missing page numbers
+
+Question 3:
+- Missing page numbers
+
+Question 4:
+- Missing page numbers
+- Explanation for option B contains forbidden phrase: 'rather than'
+  Correction: Rewrite without comparing to other options or referencing the correct answer
+
+Question 5:
+- Missing page numbers
+
+Question 6:
+- Missing page numbers
+
+Question 7:
+- Missing page numbers
+
+Question 8:
+- Missing page numbers
+
+Question 9:
+- Missing page numbers
+
+Question 10:
+- Missing page numbers
+
+General guidelines for corrections:
+1. Ensure each explanation stands completely on its own
+2. For incorrect options, focus only on why that specific option is wrong
+3. Never hint at or reference the correct answer in explanations for incorrect options
+4. Avoid comparative language like 'rather than' or 'instead of'
+5. Never include phrases like 'this doesn't address the question'

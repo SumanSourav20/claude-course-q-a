@@ -1,0 +1,22 @@
+=== TOKEN USAGE REPORT ===
+
+Model: claude-3-7-sonnet-20250219
+PDF: Nicholas_Preusch_Handout_numbered.pdf
+Pages processed: 13
+
+Per Chunk Breakdown:
+  Chunk 1 (Pages 4-16):
+    Input tokens:  21,082
+    Output tokens: 1,923
+    Total tokens:  23,005
+    Validation:    Issues Remain
+
+Overall Usage:
+  Total input tokens:  25,214
+  Total output tokens: 5,891
+  Combined total:      31,105
+
+Estimated Cost (USD):
+  Input cost:  $0.08
+  Output cost: $0.09
+  Total cost:  $0.16

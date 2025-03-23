@@ -1,0 +1,16 @@
+{
+  "chunks": [
+    {
+      "chunk": 1,
+      "pages": "4-16",
+      "input_tokens": 13096,
+      "output_tokens": 2257,
+      "total_tokens": 15353
+    }
+  ],
+  "total": {
+    "input_tokens": 13096,
+    "output_tokens": 2257,
+    "total_tokens": 15353
+  }
+}

@@ -1,0 +1,65 @@
+Questions for pages 23 to 41:
+
+I'll create 5 challenging multiple-choice questions based on the content from pages 23-41, focusing on new concepts.
+
+Question 1 (Page 24): According to the presentation, what does "necessary" mean in the context of business expense deductibility?
+A. The expense must be indispensable or unavoidable
+B. The expense must be "appropriate and helpful"
+C. The expense must be required by law or regulation
+D. The expense must be common in the industry
+
+Explanation:
+A. Incorrect: The presentation explicitly states that necessary does not imply that expenses must be indispensable or unavoidable.
+B. Correct: The presentation defines "necessary" as implying that expenses must be "appropriate and helpful" in contrast to being indispensable or unavoidable.
+C. Incorrect: The presentation does not mention legal or regulatory requirements as the definition of "necessary" expenses.
+D. Incorrect: While industry norms may be relevant to determining reasonableness, the definition of "necessary" is specifically stated as "appropriate and helpful."
+
+Question 2 (Pages 26-27): What is the maximum contribution limit for a Health Savings Account in 2024 for a family with both spouses age 55 or older?
+A. $3,850
+B. $4,850
+C. $7,750
+D. $9,950
+
+Explanation:
+A. Incorrect: $3,850 is the base contribution limit for self-only coverage, not for family coverage with both spouses over 55.
+B. Incorrect: $4,850 is the contribution limit for self-only coverage for taxpayers who have reached age 55.
+C. Incorrect: $7,750 is the base contribution limit for family coverage without considering the age-based additional contribution.
+D. Correct: The presentation states that for family coverage, the contribution limit is $7,750 plus an additional $2,200 ($1,100 per spouse) when both spouses have reached age 55, totaling $9,950.
+
+Question 3 (Page 28): What is the maximum annual contribution limit to a SEP plan for self-employed individuals in 2024?
+A. 20% of self-employment earnings
+B. The lesser of 25% of self-employment earnings or $69,000
+C. $69,000 minus self-employment taxes
+D. $69,000 regardless of earnings
+
+Explanation:
+A. Incorrect: While 20% is mentioned as a standard rate used for convenience in calculations, it is not the actual maximum contribution limit.
+B. Correct: The presentation states that the maximum annual contribution is limited to the lesser of 25% of self-employment earnings or $69,000 in 2024.
+C. Incorrect: While self-employment earnings are reduced by the deductible part of self-employment taxes, the maximum is not simply $69,000 minus these taxes.
+D. Incorrect: The $69,000 is not an absolute limit regardless of earnings; it's contingent on being the lesser of 25% of self-employment earnings or $69,000.
+
+Question 4 (Page 31): How is alimony treated for divorces executed after 2018?
+A. Alimony is gross income to the recipient and deductible by the payor
+B. Alimony is taxable to the recipient but not deductible by the payor
+C. Alimony is nondeductible to the payor and not included in the gross income of the recipient
+D. Alimony treatment depends on the terms specified in the divorce agreement
+
+Explanation:
+A. Incorrect: This is the treatment for divorces executed before 2019, not after 2018.
+B. Incorrect: This does not accurately describe the treatment for divorces executed after 2018.
+C. Correct: The presentation clearly states that for divorces executed or modified after 2018, alimony is nondeductible to the payor and not included in the gross income of the recipient.
+D. Incorrect: The presentation indicates that the timing of the divorce execution determines the tax treatment, not specific terms in the agreement.
+
+Question 5 (Pages 39-40): What limitation applies to the deductibility of investment interest expense?
+A. It is limited to $10,000 for single filers and $30,000 for married filing jointly
+B. It may be deducted only to the extent of net investment income
+C. It is limited to 7.5% of adjusted gross income
+D. It is fully deductible as an itemized deduction without limitation
+
+Explanation:
+A. Incorrect: These limits apply to state and local tax deductions, not investment interest expense.
+B. Correct: The presentation explicitly states that "Investment interest may be deducted only to the extent of net investment income, which is any excess of income over investment expense."
+C. Incorrect: The 7.5% of AGI threshold applies to medical expense deductions, not investment interest.
+D. Incorrect: Investment interest is not fully deductible without limitation; it is subject to the net investment income limitation.
+
+Key concepts covered in this section include the principles of necessary and reasonable business expenses, specialized deductions for educators and self-employed individuals, and significant changes to tax treatment of alimony based on divorce timing. The material also provides detailed explanations of Health Savings Accounts, retirement plan contributions, and various itemized deductions including medical expenses, taxes, and investment interest.

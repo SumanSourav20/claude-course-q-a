@@ -1,0 +1,5 @@
+Chunk 1 (pages 4-16): Explanation:
+A. Incorrect: Both Forms K-2 and K-3 apply to the same types of entities. Neither is specifically designed for C Corporations.
+B. Correct: Form K-3 mirrors K-2 but specifically focuses on partner/shareholder-level reporting. It provides international tax information to individual owners for their personal tax filings.
+C. Incorrect: Form K-3 encompasses more than just foreign tax credits. It includes various international tax elements that affect partner/shareholder reporting.
+D. Incorrect: Both Forms K-2 and K-3 have specific filing requirements. Their distinction is not based on which one is filed versus kept for records.

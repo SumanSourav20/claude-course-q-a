@@ -190,8 +190,8 @@ IMPORTANT INSTRUCTIONS:
 3. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of important concepts
 4. Each question must:
    - Be directly based on the educational content
-   - Include timestamp range from where the question and answer is picked up(beside the question)
    - Have 4 answer options with exactly one correct answer
+   -    - include the timestamp ranges beside the question, where the relevant concept is discussed
    - Question and answer should be in simple layman's language and should have keywords from the content provided to you
    - Include an explanation of wrong answers as well as right answers
    - Feel connected to the broader learning journey
@@ -243,8 +243,8 @@ IMPORTANT INSTRUCTIONS:
 2. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of NEW concepts in this section
 3. Each question must:
    - Be directly based on the educational content 
-   - Include timestamp range from where the question and answer is picked up(beside the question)
    - Have 4 answer options with exactly one correct answer
+   - include the timestamp ranges beside the question, where the relevant concept is discussed
    - Question and answer should be in simple layman's language and should have keywords from the content provided to you
    - Include an explanation of wrong answers as well as right answers
    - Feel connected to the broader learning journey
@@ -407,8 +407,8 @@ if __name__ == "__main__":
     parser.add_argument('--api-key', type=str, required=True, help='Anthropic API key')
     parser.add_argument('--output-dir', type=str, default='quiz_output', help='Output directory')
     parser.add_argument('--model', type=str, default='claude-3-7-sonnet-20250219', help='Claude model to use')
-    parser.add_argument('--target-pages', type=int, default=35, 
-                       help='Target number of pages per chunk (default: 35)')
+    parser.add_argument('--target-pages', type=int, default=15, 
+                       help='Target number of pages per chunk (default: 15)')
     parser.add_argument('--page-count', type=int, help='Override estimated page count with actual count')
     
     args = parser.parse_args()

@@ -14,10 +14,10 @@ import json
 
 explanation = """
 	explanation: 
-		A: why it's right or wrong,
-		B: why it's right or wrong,
-		C: why it's right or wrong,
-		D: why it's right or wrong,	
+		A: Self-contained explanation of why A is right/wrong without hinting at other options,
+		B: Self-contained explanation of why B is right/wrong without hinting at other options,
+		C: Self-contained explanation of why C is right/wrong without hinting at other options,
+		D: Self-contained explanation of why D is right/wrong without hinting at other options,	
 """
 
 class PDFVisionProcessor:
@@ -198,18 +198,34 @@ IMPORTANT INSTRUCTIONS:
 3. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of important concepts
 4. Each question must:
    - Be directly based on the educational content
-   - Have 4 answer options with exactly one correct answer
+   - Have 4 answer options with exactly one correct answer. All correct and incorrect options should be picked up from given context only.
    - Include visual elements like diagrams, tables, and charts in your analysis
+   - If required than please add actions verb in the questions and options.
+   - Please validate the grammer of questions and options
+   - Please dont create and questions & answer where the question has word "Not"
+   - if required you can also create questions with one option as "All of Above"
    - Include the page ranges beside the question, where the relevant concept is discussed.You can find the page number in the top left as page 1 or page 2 etc in red font
-5. Explanation should be like this:
-    {explanation}
+5. CRITICAL FOR EXPLANATIONS:
+   - Before starting explanation of option write "Correct:" or "Incorrect:"
+   - For correct answers: Provide a detailed explanation of why this option is correct
+   - For incorrect answers: Explain specifically why this option is wrong WITHOUT referencing the correct answer or providing information that could indicate what the correct answer might be
+   - Each explanation must stand alone and focus only on why that specific option is right or wrong based on its own merits
+   - Never use comparative language like "unlike the correct answer" or "this confuses X with Y (the correct concept)"
+   - Never mention what would make the incorrect option correct
+    
+6. Present explanations in this format:
+{explanation}
 
-critical: your questions and explanations must read as if written by a subject matter expert who genuinely understands the topic.Questions and explainations should be like they are final examination questions, do not use phrases like:
-- "According to the slides..."
-- "In this presentation..."
-- "The slide mentions..."
-- "As stated in page X..."
-- "Based on the material provided..." etc
+7. CRITICAL:CRITICAL: Your questions and explanations must read as if written by a subject matter expert who genuinely understands the entire topic.Questions and explanations should be like final examination questions, do NOT refer or use phrases like:
+   - "According to the slides..."
+   - "In this presentation..."
+   - "The slide mentions..."
+   - "As stated in page X..."
+   - "Based on the material provided..." etc
+   - "According to the page"
+   - "As given in page number"
+   - "The material"
+8. Dont give reference of page number in the explanation.
 
 Instead, explain concepts authoritatively as established knowledge in the field. The questions should feel like they were hand-crafted by someone with expert understanding of the subject.
 
@@ -261,19 +277,35 @@ IMPORTANT INSTRUCTIONS:
 2. Pay special attention to tables, graphs, diagrams, and other visual elements
 3. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of NEW concepts in this section
 4. Each question must:
-   - Be directly based on the educational content from THIS section
-   - Have 4 answer options with exactly one correct answer
+   - Be directly based on the educational content
+   - Have 4 answer options with exactly one correct answer. All correct and incorrect options should be picked up from given context only.
    - Include visual elements like diagrams, tables, and charts in your analysis
+   - If required than please add actions verb in the questions and options.
+   - Please validate the grammer of questions and options
+   - Please dont create and questions & answer where the question has word "Not"
+   - if required you can also create questions with one option as "All of Above"
    - Include the page ranges beside the question, where the relevant concept is discussed.You can find the page number in the top left as page 1 or page 2 etc in red font
-5. Explanation should be like this:
-    {explanation}
+5. CRITICAL FOR EXPLANATIONS:
+   - Before starting explanation of option write "Correct:" or "Incorrect:"
+   - For correct answers: Provide a detailed explanation of why this option is correct
+   - For incorrect answers: Explain specifically why this option is wrong WITHOUT referencing the correct answer or providing information that could indicate what the correct answer might be
+   - Each explanation must stand alone and focus only on why that specific option is right or wrong based on its own merits
+   - Never use comparative language like "unlike the correct answer" or "this confuses X with Y (the correct concept)"
+   - Never mention what would make the incorrect option correct
+    
+6. Present explanations in this format:
+{explanation}
 
-CRITICAL: Your questions and explanations must read as if written by a subject matter expert who genuinely understands the entire topic.Questions and explainations should be like they are final examination questions, Do NOT use phrases like:
-- "According to the slides..."
-- "In this presentation..."
-- "The slide mentions..."
-- "As stated in page X..."
-- "Based on the material provided..." etc
+7. CRITICAL:CRITICAL: Your questions and explanations must read as if written by a subject matter expert who genuinely understands the entire topic.Questions and explanations should be like final examination questions, do NOT refer or use phrases like:
+   - "According to the slides..."
+   - "In this presentation..."
+   - "The slide mentions..."
+   - "As stated in page X..."
+   - "Based on the material provided..." etc
+   - "According to the page"
+   - "As given in page number"
+   - "The material"
+8. Dont give reference of page number in the explanation.
 
 Instead, explain concepts authoritatively as established knowledge in the field. The questions should feel like they were hand-crafted by someone with expert understanding of the subject who is carefully building upon previously established concepts.
 
@@ -542,7 +574,7 @@ if __name__ == "__main__":
     parser.add_argument('--model', type=str, default='claude-3-7-sonnet-20250219', 
                         help='Claude model to use (must be vision-capable)')
     parser.add_argument('--target-pages', type=int, default=15, 
-                       help='Target number of pages per chunk (default: 30)')
+                       help='Target number of pages per chunk (default: 15)')
     parser.add_argument('--skip-pages', type=int, default=3,
                        help='Number of initial pages to skip (default: 0)')
     parser.add_argument('--dpi', type=int, default=300,

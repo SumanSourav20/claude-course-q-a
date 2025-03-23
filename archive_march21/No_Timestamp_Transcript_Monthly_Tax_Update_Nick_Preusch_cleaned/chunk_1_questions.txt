@@ -1,0 +1,75 @@
+# Quiz Questions on Tax Legislative Updates and Planning
+
+## Question 1
+What is the current Republican majority in the House of Representatives after the recent departures mentioned in the content?
+
+A) 217-215
+B) 222-213
+C) 218-215 
+D) 220-215
+
+explanation:
+A: This is incorrect. 217-215 would be the majority after both Matt Gaetz, Walts, and Nik leave the House, but Nick (Nik) has not yet stepped down to take a cabinet position.
+B: This is incorrect. 222-213 was the original Republican majority before the recent departures.
+C: This is correct. After Matt Gaetz and Walts left the Republican side of the House, the majority became 218-215, as specifically mentioned in the content. When Nik steps down to take the cabinet position, it will be reduced further to 217-215.
+D: This is incorrect. 220-215 does not reflect the current numbers after the recent departures.
+
+## Question 2
+According to the House Ways and Means document discussed, which of the following proposals regarding the SALT (State and Local Tax) deduction is LEAST likely to pass?
+
+A) Setting a $15,000/$30,000 cap for the SALT deduction
+B) Making the $10,000 cap permanent but expanding it to $20,000 for married couples
+C) Completely repealing the SALT deduction
+D) Maintaining the current $10,000 cap indefinitely
+
+explanation:
+A: This could possibly pass as it provides a higher cap than the current limit, which would please representatives from high-tax states.
+B: This could possibly pass as it addresses the marriage penalty in the current SALT cap.
+C: This is correct. Completely repealing the SALT deduction is least likely to pass because, as explained, there are at least 13 Republicans from California alone, plus others from high-tax states like Illinois and New York who would oppose it. These members form a "SALT caucus" and with the slim Republican majority, their opposition would likely kill the bill.
+D: This is a possible outcome as it maintains the status quo, which might be more palatable than more controversial changes.
+
+## Question 3
+Which of the following did the content identify as a proposal that representatives from both sides would likely oppose?
+
+A) Eliminating the home mortgage interest deduction
+B) Canceling amortization of R&D expenses
+C) Eliminating the child and dependent care credit
+D) Applying a 14% endowment tax on universities
+
+explanation:
+A: This is incorrect. While this was mentioned as a proposal that faced pushback from housing lobbyists during TCJA, it wasn't specifically identified as having bipartisan opposition.
+B: This is incorrect. The cancellation of R&D expense amortization was actually described as something "everyone on every side of the aisle has been asking for."
+C: This is correct. The speaker specifically noted that the elimination of the child and dependent care credit wouldn't see "much buy-in from either side" due to the high costs of childcare, making it "almost a no go."
+D: This is incorrect. While the endowment tax was discussed, it wasn't identified as having strong bipartisan opposition.
+
+## Question 4
+Based on the content, what is a significant concern for tax practitioners regarding the IRS workforce?
+
+A) The requirement for IRS employees to return to in-person work
+B) The freeze on federal workers and potential resignations affecting service levels
+C) The implementation of new AI technologies at the IRS
+D) Changes to the audit selection process
+
+explanation:
+A: While there was mention of work-from-home requirement changes, this wasn't presented as the main concern for practitioners.
+B: This is correct. The content specifically mentioned the freeze on federal workers and the resignation email offering people to resign (with pay until September) as issues that would impact practitioners by making it harder to contact the IRS. The speaker noted that "anytime the IRS loses people... less people working, it makes it harder for us just being able to contact them."
+C: While AI was discussed in the context of practitioners using it themselves, it wasn't mentioned as an IRS implementation concern.
+D: Changes to the audit selection process weren't discussed in the content.
+
+## Question 5
+What advice did the speaker recommend giving to clients regarding potential tax legislation changes?
+
+A) Clients should pre-pay more taxes now to prepare for higher tax bills
+B) Clients should avoid watching news about potential tax changes and wait for practitioner updates
+C) Clients should consider moving to lower-tax states immediately
+D) Clients should accelerate income into the current tax year
+
+explanation:
+A: While preparing for potential higher taxes was mentioned, this wasn't the specific advice given to clients about how to handle news and updates.
+B: This is correct. The speaker specifically advised telling clients to "stop watching the news" about potential tax changes because news reports are often inaccurate about what will be included in final legislation. Instead, practitioners should tell clients "we will give you updates when we think it's worth updating you on it."
+C: Moving to lower-tax states wasn't discussed as a recommendation.
+D: Accelerating income wasn't mentioned as a general recommendation for clients.
+
+---
+
+**Key Concepts Summary**: The content covered the current legislative landscape for potential tax changes, highlighting how the slim Republican majority in the House (218-215) affects what proposals can realistically pass. Various tax proposals from the House Ways and Means Committee were analyzed, including potential changes to SALT deductions, employee retention credits, and various tax credits. The presentation emphasized the importance of practical client management during periods of potential tax law changes, rather than reacting to every news report about proposed legislation.

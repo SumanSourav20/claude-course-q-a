@@ -1,0 +1,30 @@
+{
+  "chunks": [
+    {
+      "chunk": 1,
+      "pages": "4-22",
+      "input_tokens": 15132,
+      "output_tokens": 1184,
+      "total_tokens": 16316
+    },
+    {
+      "chunk": 2,
+      "pages": "23-41",
+      "input_tokens": 15239,
+      "output_tokens": 1236,
+      "total_tokens": 16475
+    },
+    {
+      "chunk": 3,
+      "pages": "42-59",
+      "input_tokens": 14569,
+      "output_tokens": 1376,
+      "total_tokens": 15945
+    }
+  ],
+  "total": {
+    "input_tokens": 44940,
+    "output_tokens": 3796,
+    "total_tokens": 48736
+  }
+}

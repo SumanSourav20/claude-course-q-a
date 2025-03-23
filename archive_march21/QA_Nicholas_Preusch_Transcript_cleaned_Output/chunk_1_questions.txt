@@ -1,0 +1,76 @@
+# Multiple Choice Questions on K-2 and K-3 Forms
+
+## Question 1 (00:03:50 - 00:04:43)
+When were K-2 and K-3 forms first introduced, and what was the initial practitioner reaction?
+
+A) 2020, and practitioners willingly embraced them
+B) 2021, and practitioners nearly revolted due to the complexity and compliance burden
+C) 2022, and practitioners were indifferent
+D) 2019, and practitioners requested more detailed guidance
+
+**Explanation:**
+A: Incorrect. The forms were introduced in 2021, not 2020, and practitioners did not embrace them willingly.
+B: Correct. As stated at timestamp 00:03:50, the forms were introduced in 2021, and practitioners "almost revolted" due to the compliance burden, leading the IRS to backtrack somewhat on requirements.
+C: Incorrect. The forms were introduced in 2021, not 2022, and practitioners had a strong negative reaction.
+D: Incorrect. The forms were introduced in 2021, not 2019, and practitioners resisted rather than requesting more guidance.
+
+## Question 2 (00:05:34 - 00:06:02)
+What is the relationship between K-2 and K-3 forms?
+
+A) K-2 provides detailed breakdown for individual partners, while K-3 is for the entity
+B) K-2 provides detailed breakdown for the entity, while K-3 gives partner/shareholder information with the K-1
+C) K-2 replaces the K-1, while K-3 is supplementary information
+D) K-3 is filed only if there are foreign partners, while K-2 is always required
+
+**Explanation:**
+A: Incorrect. This reverses the actual relationship between the forms.
+B: Correct. As explained at timestamp 00:05:34, K-2 provides detailed breakdown for the entity (similar to Schedule K on the main filing), and K-3 gives the partners/shareholders their information with the K-1.
+C: Incorrect. K-2 does not replace K-1; rather, it's additional information for the entity.
+D: Incorrect. The requirement to file depends on foreign activities or partner requests, not specifically on having foreign partners.
+
+## Question 3 (00:06:02 - 00:06:58)
+Which entities are generally required to file K-2 and K-3 forms?
+
+A) All partnerships and S corporations regardless of their activities
+B) Only C corporations with foreign shareholders
+C) Partnerships and S corporations with foreign income, deductions, foreign partners, or US partners claiming foreign tax credits
+D) Only entities with more than $500,000 in foreign income
+
+**Explanation:**
+A: Incorrect. Not all partnerships and S corporations need to file; only those with specific foreign activity or partners requesting the information.
+B: Incorrect. C corporations do not file K-2/K-3 forms; these are for pass-through entities.
+C: Correct. As explained at timestamp 00:06:03, pass-through entities with foreign income or deductions, foreign partners, or US partners claiming foreign tax credits must file these forms.
+D: Incorrect. There is no $500,000 threshold mentioned; even smaller amounts of foreign activity may trigger filing requirements.
+
+## Question 4 (00:07:41 - 00:09:12)
+Under what conditions might a domestic partnership qualify for an exception from filing K-2 and K-3 forms?
+
+A) If the partnership has foreign income but less than $10,000 in total foreign taxes paid
+B) If the partnership has foreign owners but no foreign-source income
+C) If the partnership has limited foreign activity (not more than $300 of foreign taxes), only US citizen/resident partners, and no K-3 requests from partners
+D) If the partnership uses a paid tax preparer with international tax expertise
+
+**Explanation:**
+A: Incorrect. The threshold for limited foreign activity is $300 of foreign taxes, not $10,000.
+B: Incorrect. Having foreign owners (non-resident alien partners) would disqualify a partnership from the exception.
+C: Correct. As explained at timestamp 00:07:41, a domestic partnership may qualify for an exception if it has very limited foreign activity (not more than $300 of foreign taxes), only US citizen/resident partners, and no requests for K-3 forms from partners.
+D: Incorrect. Using a tax preparer with expertise does not create an exception from filing requirements.
+
+## Question 5 (00:09:40 - 00:10:16)
+What is the penalty for failing to file required K-2 and K-3 forms?
+
+A) A one-time penalty of $250 per entity
+B) $245 (in 2025) per month per owner for incomplete returns
+C) 5% of the total foreign income reported
+D) Automatic IRS audit of the entity's returns for the past three years
+
+**Explanation:**
+A: Incorrect. The penalty is not a one-time fee and depends on the number of owners.
+B: Correct. As explained at timestamp 00:09:40, the penalty for non-compliance is $245 (in 2025) per month per owner, which can add up significantly, especially for entities with multiple owners.
+C: Incorrect. The penalty is not calculated as a percentage of foreign income.
+D: Incorrect. While non-compliance might increase audit risk, there is no automatic audit triggered by failure to file these forms.
+
+---
+
+## Key Concepts Summary
+The K-2 and K-3 forms represent a significant change in international tax reporting for pass-through entities, standardizing how foreign income, deductions, and credits are reported. The K-2 provides entity-level information (similar to Schedule K), while the K-3 breaks down this information for individual partners/shareholders (similar to K-1). These forms are primarily required for entities with foreign activities or owners, with limited exceptions for domestic entities meeting specific criteria.

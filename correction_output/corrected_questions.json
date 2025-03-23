@@ -1,0 +1,1106 @@
+{
+  "chunks": [
+    {
+      "chunk_idx": 1,
+      "start_page": 4,
+      "end_page": 22,
+      "questions": [
+        {
+          "question_num": 1,
+          "page_ref": "Pages 9-10",
+          "question_text": "What is the foundation for allowing tax deductions according to the presentation?",
+          "options": {
+            "A": "Constitutional right",
+            "B": "Legislative grace",
+            "C": "Court precedent",
+            "D": "Taxpayer election"
+          },
+          "explanations": {
+            "A": "Incorrect: The presentation explicitly states on page 10 that \"There is no constitutional right to a deduction.\"",
+            "B": "Correct: The presentation states on page 10 that \"Deductions are said to be a matter of legislative grace and are allowed solely at the discretion of Congress.\"",
+            "C": "Incorrect: The presentation does not indicate that court precedent is the foundation for allowing deductions. Instead, it emphasizes that deductions exist at the discretion of Congress.",
+            "D": "Incorrect: The presentation does not support the idea that taxpayers can elect or choose their deductions at will. Deductions are established by Congress through legislation, not by taxpayer preference."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": false,
+              "before": "What is the foundation for allowing tax deductions according to the presentation?",
+              "after": "What is the foundation for allowing tax deductions according to the presentation?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "Constitutional right",
+                "after": "Constitutional right"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "Legislative grace",
+                "after": "Legislative grace"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "Court precedent",
+                "after": "Court precedent"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "Taxpayer election",
+                "after": "Taxpayer election"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "Incorrect: The presentation explicitly states on page 10 that \"There is no constitutional right to a deduction.\"",
+                "after": "Incorrect: The presentation explicitly states on page 10 that \"There is no constitutional right to a deduction.\""
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: On page 10, the presentation specifically states that \"Deductions are said to be a matter of legislative grace and are allowed solely at the discretion of Congress.\"",
+                "after": "Correct: The presentation states on page 10 that \"Deductions are said to be a matter of legislative grace and are allowed solely at the discretion of Congress.\""
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: While courts interpret tax law, the presentation indicates that deductions are fundamentally a matter of legislative grace, not court precedent.",
+                "after": "Incorrect: The presentation does not indicate that court precedent is the foundation for allowing deductions. Instead, it emphasizes that deductions exist at the discretion of Congress."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: The taxpayer does not have the authority to elect deductions; they are permitted only as allowed by Congress as a matter of legislative grace.",
+                "after": "Incorrect: The presentation does not support the idea that taxpayers can elect or choose their deductions at will. Deductions are established by Congress through legislation, not by taxpayer preference."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 2,
+          "page_ref": "Page 11",
+          "question_text": "According to the presentation, which of the following statements about tax deductions is true?",
+          "options": {
+            "A": "All deductions must be specifically identified in the tax code",
+            "B": "The cost of living expenses are generally deductible",
+            "C": "Costs of earning a living are ordinarily deductible in full",
+            "D": "Deductions always require explicit statutory provisions"
+          },
+          "explanations": {
+            "A": "Incorrect: Page 11 of the presentation explicitly states that \"Deductions do not necessarily need to be identified specifically in the Code before a deduction is allowed.\"",
+            "B": "Incorrect: Page 11 clearly states that \"The cost of living are generally not deductible,\" which directly contradicts this option.",
+            "C": "Correct: The presentation states on page 11 that \"the costs of earning a living are ordinarily deductible in full.\"",
+            "D": "Incorrect: The presentation contradicts this statement by noting on page 11 that deductions do not necessarily need to be identified specifically in the Code to be allowed."
+          },
+          "correct_options": [
+            "C"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": false,
+              "before": "According to the presentation, which of the following statements about tax deductions is true?",
+              "after": "According to the presentation, which of the following statements about tax deductions is true?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "All deductions must be specifically identified in the tax code",
+                "after": "All deductions must be specifically identified in the tax code"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "The cost of living expenses are generally deductible",
+                "after": "The cost of living expenses are generally deductible"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "Costs of earning a living are ordinarily deductible in full",
+                "after": "Costs of earning a living are ordinarily deductible in full"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "Deductions always require explicit statutory provisions",
+                "after": "Deductions always require explicit statutory provisions"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: The presentation states that \"Deductions do not necessarily need to be identified specifically in the Code before a deduction is allowed.\"",
+                "after": "Incorrect: Page 11 of the presentation explicitly states that \"Deductions do not necessarily need to be identified specifically in the Code before a deduction is allowed.\""
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Incorrect: The presentation clearly states that \"The cost of living are generally not deductible.\"",
+                "after": "Incorrect: Page 11 clearly states that \"The cost of living are generally not deductible,\" which directly contradicts this option."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Correct: The presentation states that \"the costs of earning a living are ordinarily deductible in full.\"",
+                "after": "Correct: The presentation states on page 11 that \"the costs of earning a living are ordinarily deductible in full.\""
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: The presentation indicates that deductions don't necessarily need explicit identification in the Code, contradicting this statement.",
+                "after": "Incorrect: The presentation contradicts this statement by noting on page 11 that deductions do not necessarily need to be identified specifically in the Code to be allowed."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 3,
+          "page_ref": "Pages 15-16",
+          "question_text": "What criteria must expenses meet to be allowable business deductions?",
+          "options": {
+            "A": "They must be personal, related to profit, and paid during the taxable year",
+            "B": "They must be ordinary, necessary, reasonable, and paid or incurred during the taxable year",
+            "C": "They must be specifically identified in the tax code and incurred for personal purposes",
+            "D": "They must be unusual, reasonable, and approved by the Internal Revenue Service (IRS)"
+          },
+          "explanations": {
+            "A": "Incorrect: Personal expenses are generally not deductible for business purposes. Page 16 specifically prohibits personal expenses from being deductible except those specifically allowed.",
+            "B": "Correct: Page 15 outlines that allowable business deductions must meet several requirements: they must be ordinary and necessary, must be reasonable, and must be paid or incurred during the taxable year.",
+            "C": "Incorrect: Personal expenses are generally not deductible for business purposes, and the presentation indicates that deductions don't necessarily need to be specifically identified in the tax code.",
+            "D": "Incorrect: Business expenses should be \"ordinary\" rather than unusual to qualify for deduction. The presentation does not indicate that IRS pre-approval is a standard requirement for deductions."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": true,
+              "before": "What criteria must expenses meet to be allowable deductions?",
+              "after": "What criteria must expenses meet to be allowable business deductions?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "They must be personal, related to profit, and paid during the taxable year",
+                "after": "They must be personal, related to profit, and paid during the taxable year"
+              },
+              "B": {
+                "was_changed": true,
+                "before": "They must be reasonable, ordinary, necessary, and incurred for business",
+                "after": "They must be ordinary, necessary, reasonable, and paid or incurred during the taxable year"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "They must be specifically identified in the tax code and incurred for personal purposes",
+                "after": "They must be specifically identified in the tax code and incurred for personal purposes"
+              },
+              "D": {
+                "was_changed": true,
+                "before": "They must be unusual, reasonable, and approved by the IRS",
+                "after": "They must be unusual, reasonable, and approved by the Internal Revenue Service (IRS)"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: According to page 16, \u00a7262 specifically prohibits personal expenses from being deductible, except those specifically allowed.",
+                "after": "Incorrect: Personal expenses are generally not deductible for business purposes. Page 16 specifically prohibits personal expenses from being deductible except those specifically allowed."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: Page 15 lists the requirements for allowable deductions: expenses must be sufficiently related to carrying on a trade or business, must be ordinary and necessary, must be reasonable, and must be paid or incurred during the taxable year.",
+                "after": "Correct: Page 15 outlines that allowable business deductions must meet several requirements: they must be ordinary and necessary, must be reasonable, and must be paid or incurred during the taxable year."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: The presentation states that deductions do not necessarily need to be identified specifically in the Code, and personal expenses are generally not deductible.",
+                "after": "Incorrect: Personal expenses are generally not deductible for business purposes, and the presentation indicates that deductions don't necessarily need to be specifically identified in the tax code."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: The presentation indicates expenses should be ordinary (not unusual) and there is no mention of IRS approval as a criterion.",
+                "after": "Incorrect: Business expenses should be \"ordinary\" rather than unusual to qualify for deduction. The presentation does not indicate that IRS pre-approval is a standard requirement for deductions."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 4,
+          "page_ref": "Pages 17-18",
+          "question_text": "What was the court's ruling in Conway Twitty's tax case regarding his reimbursements to Twitty Burger investors?",
+          "options": {
+            "A": "The reimbursements were personal expenses and therefore not deductible",
+            "B": "The reimbursements were solely based on moral obligation and thus not deductible",
+            "C": "The reimbursements were deductible business expenses to protect his reputation",
+            "D": "The reimbursements were not deductible because restaurant investments are unrelated to the music industry"
+          },
+          "explanations": {
+            "A": "Incorrect: The court did not classify the reimbursements as personal expenses. The case focused on whether the payments were business-related rather than personal.",
+            "B": "Incorrect: While the Internal Revenue Service (IRS) initially argued the payments were made out of moral obligation, this was not the court's final ruling on the matter.",
+            "C": "Correct: The court ultimately ruled that Conway Twitty's payments to investors were deductible business expenses because they were made to protect his business reputation as a musician and entertainer.",
+            "D": "Incorrect: The court did not base its decision on whether restaurants were related to music. The decision focused on the business purpose of protecting Twitty's professional reputation."
+          },
+          "correct_options": [
+            "C"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": true,
+              "before": "What was the outcome of Conway Twitty's tax case regarding his failed Twitty Burger business?",
+              "after": "What was the court's ruling in Conway Twitty's tax case regarding his reimbursements to Twitty Burger investors?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "The IRS denied his deduction because it was a personal expense",
+                "after": "The reimbursements were personal expenses and therefore not deductible"
+              },
+              "B": {
+                "was_changed": true,
+                "before": "The court ruled the reimbursements were not deductible as they were moral obligations",
+                "after": "The reimbursements were solely based on moral obligation and thus not deductible"
+              },
+              "C": {
+                "was_changed": true,
+                "before": "The court held the payments were deductible business expenses",
+                "after": "The reimbursements were deductible business expenses to protect his reputation"
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Twitty was denied the deduction because restaurants are not related to singing",
+                "after": "The reimbursements were not deductible because restaurant investments are unrelated to the music industry"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: The IRS did deny the deduction, but their reasoning was based on viewing it as a moral obligation, not simply as a personal expense.",
+                "after": "Incorrect: The court did not classify the reimbursements as personal expenses. The case focused on whether the payments were business-related rather than personal."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Incorrect: While the IRS initially denied the deduction claiming it was done out of moral obligation, this was not the final outcome of the case.",
+                "after": "Incorrect: While the Internal Revenue Service (IRS) initially argued the payments were made out of moral obligation, this was not the court's final ruling on the matter."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Correct: According to page 18, \"Business the court held. It's deductible they feel\" indicates that the court ultimately ruled that Conway Twitty's payments to investors were deductible business expenses.",
+                "after": "Correct: The court ultimately ruled that Conway Twitty's payments to investors were deductible business expenses because they were made to protect his business reputation as a musician and entertainer."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: The case didn't hinge on whether restaurants were related to singing careers; rather it focused on whether the reimbursements were business or personal in nature.",
+                "after": "Incorrect: The court did not base its decision on whether restaurants were related to music. The decision focused on the business purpose of protecting Twitty's professional reputation."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 5,
+          "page_ref": "Pages 19-20",
+          "question_text": "How should expenses with both personal and business elements be treated for tax purposes?",
+          "options": {
+            "A": "They are never deductible under any circumstances",
+            "B": "Only the business portion is deductible",
+            "C": "A portion of the expense should be allocated to each purpose",
+            "D": "They are fully deductible if the primary purpose was business"
+          },
+          "explanations": {
+            "A": "Incorrect: The presentation does not state that mixed-purpose expenses are categorically non-deductible. In fact, it provides guidance on how such expenses should be treated.",
+            "B": "Incorrect: While this statement contains partial truth, it doesn't fully capture the presentation's guidance on mixed-purpose expenses, which includes multiple approaches.",
+            "C": "Correct: Page 19 of the presentation explicitly states, \"If the expense has both personal and business elements, allocate a portion of the expense to each.\"",
+            "D": "Incorrect: While the presentation does mention that expenses may be fully deductible if the primary purpose was business, this represents only one approach to mixed-purpose expenses rather than the general rule for all such expenses."
+          },
+          "correct_options": [
+            "C"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": false,
+              "before": "How should expenses with both personal and business elements be treated for tax purposes?",
+              "after": "How should expenses with both personal and business elements be treated for tax purposes?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "They are never deductible under any circumstances",
+                "after": "They are never deductible under any circumstances"
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Only the personal portion is deductible",
+                "after": "Only the business portion is deductible"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "A portion of the expense should be allocated to each purpose",
+                "after": "A portion of the expense should be allocated to each purpose"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "They are fully deductible if the primary purpose was business",
+                "after": "They are fully deductible if the primary purpose was business"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: The presentation does not state that mixed-purpose expenses are never deductible.",
+                "after": "Incorrect: The presentation does not state that mixed-purpose expenses are categorically non-deductible. In fact, it provides guidance on how such expenses should be treated."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Incorrect: The personal portion of expenses is generally not deductible, contradicting this statement.",
+                "after": "Incorrect: While this statement contains partial truth, it doesn't fully capture the presentation's guidance on mixed-purpose expenses, which includes multiple approaches."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Correct: Page 19 explicitly states, \"If the expense has both personal and business elements, allocate a portion of the expense to each.\"",
+                "after": "Correct: Page 19 of the presentation explicitly states, \"If the expense has both personal and business elements, allocate a portion of the expense to each.\""
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: While page 19 does state \"If the primary purpose of the expense was business, the entire cost is deductible,\" this is only one rule. The presentation also specifies that mixed expenses should be allocated between personal and business.\n\nKey concepts covered in this presentation include the fundamental principles of tax deductions and credits, focusing on the legislative basis for deductions and their proper classification. The material emphasizes the distinction between business and personal expenses, explaining the criteria for deductibility and the importance of proper substantiation and timing of deductions to maximize tax benefits.",
+                "after": "Incorrect: While the presentation does mention that expenses may be fully deductible if the primary purpose was business, this represents only one approach to mixed-purpose expenses rather than the general rule for all such expenses."
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chunk_idx": 2,
+      "start_page": 23,
+      "end_page": 41,
+      "questions": [
+        {
+          "question_num": 1,
+          "page_ref": "Page 24",
+          "question_text": "According to the tax guidelines, what does \"necessary\" mean in the context of business expense deductibility?",
+          "options": {
+            "A": "The expense must be indispensable or unavoidable",
+            "B": "The expense must be \"appropriate and helpful\"",
+            "C": "The expense must be required by law or regulation",
+            "D": "The expense must be common in the industry"
+          },
+          "explanations": {
+            "A": "Incorrect: Tax guidelines clarify that \"necessary\" does not require expenses to be indispensable or unavoidable for them to qualify for deduction.",
+            "B": "Correct: For tax purposes, \"necessary\" means the expense must be \"appropriate and helpful\" to the business, which is a broader standard than requiring expenses to be absolutely essential.",
+            "C": "Incorrect: The definition of \"necessary\" for business expense deductibility does not require that expenses be mandated by law or regulation.",
+            "D": "Incorrect: While industry norms may influence what is considered reasonable, the definition of \"necessary\" specifically refers to expenses being \"appropriate and helpful\" rather than simply common in the industry."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": true,
+              "before": "According to the presentation, what does \"necessary\" mean in the context of business expense deductibility?",
+              "after": "According to the tax guidelines, what does \"necessary\" mean in the context of business expense deductibility?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "The expense must be indispensable or unavoidable",
+                "after": "The expense must be indispensable or unavoidable"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "The expense must be \"appropriate and helpful\"",
+                "after": "The expense must be \"appropriate and helpful\""
+              },
+              "C": {
+                "was_changed": false,
+                "before": "The expense must be required by law or regulation",
+                "after": "The expense must be required by law or regulation"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "The expense must be common in the industry",
+                "after": "The expense must be common in the industry"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: The presentation explicitly states that necessary does not imply that expenses must be indispensable or unavoidable.",
+                "after": "Incorrect: Tax guidelines clarify that \"necessary\" does not require expenses to be indispensable or unavoidable for them to qualify for deduction."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: The presentation defines \"necessary\" as implying that expenses must be \"appropriate and helpful\" in contrast to being indispensable or unavoidable.",
+                "after": "Correct: For tax purposes, \"necessary\" means the expense must be \"appropriate and helpful\" to the business, which is a broader standard than requiring expenses to be absolutely essential."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: The presentation does not mention legal or regulatory requirements as the definition of \"necessary\" expenses.",
+                "after": "Incorrect: The definition of \"necessary\" for business expense deductibility does not require that expenses be mandated by law or regulation."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: While industry norms may be relevant to determining reasonableness, the definition of \"necessary\" is specifically stated as \"appropriate and helpful.\"",
+                "after": "Incorrect: While industry norms may influence what is considered reasonable, the definition of \"necessary\" specifically refers to expenses being \"appropriate and helpful\" rather than simply common in the industry."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 2,
+          "page_ref": "Pages 26-27",
+          "question_text": "What is the maximum contribution limit for a Health Savings Account (HSA) in 2024 for a family with both spouses age 55 or older?",
+          "options": {
+            "A": "$3,850",
+            "B": "$4,850",
+            "C": "$7,750",
+            "D": "$9,950"
+          },
+          "explanations": {
+            "A": "Incorrect: $3,850 is the base contribution limit for HSA self-only coverage in 2024, not the limit for family coverage with older spouses.",
+            "B": "Incorrect: $4,850 represents the self-only coverage limit for individuals age 55 or older ($3,850 base + $1,000 catch-up contribution), not the family coverage amount.",
+            "C": "Incorrect: $7,750 is the base contribution limit for family coverage in 2024, but does not include the additional catch-up contributions allowed for individuals age 55 or older.",
+            "D": "Correct: For family coverage when both spouses are 55 or older, the contribution limit is the family base amount of $7,750 plus $1,100 catch-up contribution for each spouse ($1,100 \u00d7 2 = $2,200), totaling $9,950."
+          },
+          "correct_options": [
+            "D"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": true,
+              "before": "What is the maximum contribution limit for a Health Savings Account in 2024 for a family with both spouses age 55 or older?",
+              "after": "What is the maximum contribution limit for a Health Savings Account (HSA) in 2024 for a family with both spouses age 55 or older?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "$3,850",
+                "after": "$3,850"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "$4,850",
+                "after": "$4,850"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "$7,750",
+                "after": "$7,750"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "$9,950",
+                "after": "$9,950"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: $3,850 is the base contribution limit for self-only coverage, not for family coverage with both spouses over 55.",
+                "after": "Incorrect: $3,850 is the base contribution limit for HSA self-only coverage in 2024, not the limit for family coverage with older spouses."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Incorrect: $4,850 is the contribution limit for self-only coverage for taxpayers who have reached age 55.",
+                "after": "Incorrect: $4,850 represents the self-only coverage limit for individuals age 55 or older ($3,850 base + $1,000 catch-up contribution), not the family coverage amount."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: $7,750 is the base contribution limit for family coverage without considering the age-based additional contribution.",
+                "after": "Incorrect: $7,750 is the base contribution limit for family coverage in 2024, but does not include the additional catch-up contributions allowed for individuals age 55 or older."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Correct: The presentation states that for family coverage, the contribution limit is $7,750 plus an additional $2,200 ($1,100 per spouse) when both spouses have reached age 55, totaling $9,950.",
+                "after": "Correct: For family coverage when both spouses are 55 or older, the contribution limit is the family base amount of $7,750 plus $1,100 catch-up contribution for each spouse ($1,100 \u00d7 2 = $2,200), totaling $9,950."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 3,
+          "page_ref": "Page 28",
+          "question_text": "What is the maximum annual contribution limit to a Simplified Employee Pension (SEP) plan for self-employed individuals in 2024?",
+          "options": {
+            "A": "20% of self-employment earnings",
+            "B": "The lesser of 25% of self-employment earnings or $69,000",
+            "C": "$69,000 minus self-employment taxes",
+            "D": "$69,000 regardless of earnings"
+          },
+          "explanations": {
+            "A": "Incorrect: 20% is used as a standard rate for calculation convenience, but this is not the actual maximum contribution limit defined in tax regulations for SEP plans.",
+            "B": "Correct: The maximum annual contribution to a SEP plan is limited to the lesser of 25% of self-employment earnings or $69,000 for 2024. Both factors must be considered when determining the actual limit.",
+            "C": "Incorrect: While self-employment taxes affect the calculation of self-employment earnings, the maximum contribution is not simply $69,000 minus these taxes. The formula involves 25% of self-employment earnings (after certain adjustments) or $69,000, whichever is less.",
+            "D": "Incorrect: $69,000 is not an absolute contribution limit regardless of earnings. The contribution is capped at 25% of self-employment earnings or $69,000, whichever is less, meaning those with lower earnings cannot contribute the full $69,000."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": true,
+              "before": "What is the maximum annual contribution limit to a SEP plan for self-employed individuals in 2024?",
+              "after": "What is the maximum annual contribution limit to a Simplified Employee Pension (SEP) plan for self-employed individuals in 2024?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "20% of self-employment earnings",
+                "after": "20% of self-employment earnings"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "The lesser of 25% of self-employment earnings or $69,000",
+                "after": "The lesser of 25% of self-employment earnings or $69,000"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "$69,000 minus self-employment taxes",
+                "after": "$69,000 minus self-employment taxes"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "$69,000 regardless of earnings",
+                "after": "$69,000 regardless of earnings"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: While 20% is mentioned as a standard rate used for convenience in calculations, it is not the actual maximum contribution limit.",
+                "after": "Incorrect: 20% is used as a standard rate for calculation convenience, but this is not the actual maximum contribution limit defined in tax regulations for SEP plans."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: The presentation states that the maximum annual contribution is limited to the lesser of 25% of self-employment earnings or $69,000 in 2024.",
+                "after": "Correct: The maximum annual contribution to a SEP plan is limited to the lesser of 25% of self-employment earnings or $69,000 for 2024. Both factors must be considered when determining the actual limit."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: While self-employment earnings are reduced by the deductible part of self-employment taxes, the maximum is not simply $69,000 minus these taxes.",
+                "after": "Incorrect: While self-employment taxes affect the calculation of self-employment earnings, the maximum contribution is not simply $69,000 minus these taxes. The formula involves 25% of self-employment earnings (after certain adjustments) or $69,000, whichever is less."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: The $69,000 is not an absolute limit regardless of earnings; it's contingent on being the lesser of 25% of self-employment earnings or $69,000.",
+                "after": "Incorrect: $69,000 is not an absolute contribution limit regardless of earnings. The contribution is capped at 25% of self-employment earnings or $69,000, whichever is less, meaning those with lower earnings cannot contribute the full $69,000."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 4,
+          "page_ref": "Page 31",
+          "question_text": "How is alimony treated for tax purposes in divorces executed after 2018?",
+          "options": {
+            "A": "Alimony is included in gross income of the recipient and deductible by the payor",
+            "B": "Alimony is taxable to the recipient but not deductible by the payor",
+            "C": "Alimony is nondeductible to the payor and not included in the gross income of the recipient",
+            "D": "Alimony treatment depends on the specific terms in the divorce agreement"
+          },
+          "explanations": {
+            "A": "Incorrect: This tax treatment applies only to divorces executed before 2019, not to those executed after 2018. The Tax Cuts and Jobs Act changed the tax treatment of alimony.",
+            "B": "Incorrect: This does not reflect the current tax treatment for divorces executed after 2018. Tax law specifies a different treatment for these newer divorces.",
+            "C": "Correct: For divorces executed or modified after 2018, alimony payments are nondeductible for the payor and are not included in the gross income of the recipient. This represents a significant change from the treatment of alimony in divorces executed before 2019.",
+            "D": "Incorrect: The tax treatment of alimony is determined by when the divorce was executed or modified, not by specific terms within the divorce agreement. All divorces executed after 2018 follow the same tax treatment regardless of agreement terms."
+          },
+          "correct_options": [
+            "C"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": true,
+              "before": "How is alimony treated for divorces executed after 2018?",
+              "after": "How is alimony treated for tax purposes in divorces executed after 2018?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Alimony is gross income to the recipient and deductible by the payor",
+                "after": "Alimony is included in gross income of the recipient and deductible by the payor"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "Alimony is taxable to the recipient but not deductible by the payor",
+                "after": "Alimony is taxable to the recipient but not deductible by the payor"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "Alimony is nondeductible to the payor and not included in the gross income of the recipient",
+                "after": "Alimony is nondeductible to the payor and not included in the gross income of the recipient"
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Alimony treatment depends on the terms specified in the divorce agreement",
+                "after": "Alimony treatment depends on the specific terms in the divorce agreement"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: This is the treatment for divorces executed before 2019, not after 2018.",
+                "after": "Incorrect: This tax treatment applies only to divorces executed before 2019, not to those executed after 2018. The Tax Cuts and Jobs Act changed the tax treatment of alimony."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Incorrect: This does not accurately describe the treatment for divorces executed after 2018.",
+                "after": "Incorrect: This does not reflect the current tax treatment for divorces executed after 2018. Tax law specifies a different treatment for these newer divorces."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Correct: The presentation clearly states that for divorces executed or modified after 2018, alimony is nondeductible to the payor and not included in the gross income of the recipient.",
+                "after": "Correct: For divorces executed or modified after 2018, alimony payments are nondeductible for the payor and are not included in the gross income of the recipient. This represents a significant change from the treatment of alimony in divorces executed before 2019."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: The presentation indicates that the timing of the divorce execution determines the tax treatment, not specific terms in the agreement.",
+                "after": "Incorrect: The tax treatment of alimony is determined by when the divorce was executed or modified, not by specific terms within the divorce agreement. All divorces executed after 2018 follow the same tax treatment regardless of agreement terms."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 5,
+          "page_ref": "Pages 39-40",
+          "question_text": "What limitation applies to the deductibility of investment interest expense?",
+          "options": {
+            "A": "It is limited to $10,000 for single filers and $20,000 for married filing jointly",
+            "B": "It may be deducted only to the extent of net investment income",
+            "C": "It is limited to 7.5% of adjusted gross income",
+            "D": "It is fully deductible as an itemized deduction without limitation"
+          },
+          "explanations": {
+            "A": "Incorrect: The $10,000/$20,000 limitations apply to state and local tax deductions, not to investment interest expense. Investment interest has different deduction rules.",
+            "B": "Correct: Investment interest expense may be deducted only to the extent of net investment income. Net investment income is calculated as the excess of investment income over investment expenses.",
+            "C": "Incorrect: The 7.5% of adjusted gross income threshold applies specifically to medical expense deductions. This percentage limitation does not apply to investment interest expense.",
+            "D": "Incorrect: Investment interest expense is not fully deductible without limitations. It is subject to the net investment income limitation, which restricts the deduction to the amount of net investment income reported by the taxpayer."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": false,
+              "before": "What limitation applies to the deductibility of investment interest expense?",
+              "after": "What limitation applies to the deductibility of investment interest expense?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "It is limited to $10,000 for single filers and $30,000 for married filing jointly",
+                "after": "It is limited to $10,000 for single filers and $20,000 for married filing jointly"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "It may be deducted only to the extent of net investment income",
+                "after": "It may be deducted only to the extent of net investment income"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "It is limited to 7.5% of adjusted gross income",
+                "after": "It is limited to 7.5% of adjusted gross income"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "It is fully deductible as an itemized deduction without limitation",
+                "after": "It is fully deductible as an itemized deduction without limitation"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: These limits apply to state and local tax deductions, not investment interest expense.",
+                "after": "Incorrect: The $10,000/$20,000 limitations apply to state and local tax deductions, not to investment interest expense. Investment interest has different deduction rules."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: The presentation explicitly states that \"Investment interest may be deducted only to the extent of net investment income, which is any excess of income over investment expense.\"",
+                "after": "Correct: Investment interest expense may be deducted only to the extent of net investment income. Net investment income is calculated as the excess of investment income over investment expenses."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: The 7.5% of AGI threshold applies to medical expense deductions, not investment interest.",
+                "after": "Incorrect: The 7.5% of adjusted gross income threshold applies specifically to medical expense deductions. This percentage limitation does not apply to investment interest expense."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: Investment interest is not fully deductible without limitation; it is subject to the net investment income limitation.\n\nKey concepts covered in this section include the principles of necessary and reasonable business expenses, specialized deductions for educators and self-employed individuals, and significant changes to tax treatment of alimony based on divorce timing. The material also provides detailed explanations of Health Savings Accounts, retirement plan contributions, and various itemized deductions including medical expenses, taxes, and investment interest.",
+                "after": "Incorrect: Investment interest expense is not fully deductible without limitations. It is subject to the net investment income limitation, which restricts the deduction to the amount of net investment income reported by the taxpayer."
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "chunk_idx": 3,
+      "start_page": 42,
+      "end_page": 59,
+      "questions": [
+        {
+          "question_num": 1,
+          "page_ref": "Pages 45-46",
+          "question_text": "What special limitation applies to capital gain property donated to 50% limit organizations when the donor elects not to reduce the fair market value of the donated property?",
+          "options": {
+            "A": "20% of Adjusted Gross Income (AGI) limitation",
+            "B": "30% of Adjusted Gross Income (AGI) limitation",
+            "C": "50% of Adjusted Gross Income (AGI) limitation",
+            "D": "60% of Adjusted Gross Income (AGI) limitation"
+          },
+          "explanations": {
+            "A": "Incorrect: The 20% of AGI limitation applies to capital gain property donated to non-50% limit organizations. This limitation does not apply to donations made to 50% limit organizations.",
+            "B": "Correct: When a donor contributes capital gain property to a 50% limit organization and elects not to reduce the fair market value by the amount that would have been long-term capital gain if the property had been sold, a special 30% of AGI limitation applies to that donation.",
+            "C": "Incorrect: The 50% of AGI limitation is the general limitation for charitable contributions to 50% limit organizations, but this specific limitation does not apply to capital gain property when the donor elects not to reduce the fair market value.",
+            "D": "Incorrect: The 60% of AGI limitation applies specifically to cash contributions to qualifying charitable organizations, not to donations of capital gain property."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": true,
+              "before": "What special limitation applies to capital gain property donated to 50% limit organizations if the donor elects not to reduce the fair market value of the donated property?",
+              "after": "What special limitation applies to capital gain property donated to 50% limit organizations when the donor elects not to reduce the fair market value of the donated property?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "20% of AGI limitation",
+                "after": "20% of Adjusted Gross Income (AGI) limitation"
+              },
+              "B": {
+                "was_changed": true,
+                "before": "30% of AGI limitation",
+                "after": "30% of Adjusted Gross Income (AGI) limitation"
+              },
+              "C": {
+                "was_changed": true,
+                "before": "50% of AGI limitation",
+                "after": "50% of Adjusted Gross Income (AGI) limitation"
+              },
+              "D": {
+                "was_changed": true,
+                "before": "60% of AGI limitation",
+                "after": "60% of Adjusted Gross Income (AGI) limitation"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: The 20% limitation applies to capital gain property donated to non-50% limit charities, not to 50% limit organizations when the donor elects not to reduce fair market value.",
+                "after": "Incorrect: The 20% of AGI limitation applies to capital gain property donated to non-50% limit organizations. This limitation does not apply to donations made to 50% limit organizations."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: A special 30% limitation applies to gifts of capital gain property given to 50% limit organizations when the donor elects not to reduce the fair market value by the amount that would have been long-term capital gain if the property had been sold.",
+                "after": "Correct: When a donor contributes capital gain property to a 50% limit organization and elects not to reduce the fair market value by the amount that would have been long-term capital gain if the property had been sold, a special 30% of AGI limitation applies to that donation."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: The 50% limitation applies to charitable contributions generally, but not specifically to capital gain property donated to 50% limit organizations when the donor elects not to reduce fair market value.",
+                "after": "Incorrect: The 50% of AGI limitation is the general limitation for charitable contributions to 50% limit organizations, but this specific limitation does not apply to capital gain property when the donor elects not to reduce the fair market value."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: The 60% limitation applies specifically to cash contributions, not to capital gain property donations.",
+                "after": "Incorrect: The 60% of AGI limitation applies specifically to cash contributions to qualifying charitable organizations, not to donations of capital gain property."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 2,
+          "page_ref": "Pages 50-51",
+          "question_text": "How are disaster losses that qualify for tax deduction different from regular personal casualty losses?",
+          "options": {
+            "A": "Disaster losses are not subject to the $100 floor",
+            "B": "Disaster losses exceeding $100 plus 10% of AGI are deductible",
+            "C": "Disaster losses must be claimed in the year they occurred",
+            "D": "Disaster losses are not considered itemized deductions"
+          },
+          "explanations": {
+            "A": "Incorrect: Disaster losses are subject to a $100 floor, just like regular casualty losses. The tax law requires that the first $100 of any disaster loss be excluded from the deduction calculation.",
+            "B": "Correct: Disaster losses exceeding $100 plus 10% of AGI are deductible, while regular personal casualty losses are limited to offsetting casualty gains, with only the amount exceeding 10% of AGI being deductible beyond any casualty gains.",
+            "C": "Incorrect: Taxpayers with disaster losses have flexibility in when they claim the deduction. They can choose to deduct the loss either on the tax return for the year in which the loss occurred or on the preceding year's return by filing an amended return.",
+            "D": "Incorrect: Disaster losses are claimed on Schedule A as itemized deductions. They are treated as itemized deductions in the same manner as other personal casualty losses."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": true,
+              "before": "How are disaster losses that qualify for tax deduction different from regular casualty losses?",
+              "after": "How are disaster losses that qualify for tax deduction different from regular personal casualty losses?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "Disaster losses are not subject to the $100 floor",
+                "after": "Disaster losses are not subject to the $100 floor"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "Disaster losses exceeding $100 plus 10% of AGI are deductible",
+                "after": "Disaster losses exceeding $100 plus 10% of AGI are deductible"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "Disaster losses must be claimed in the year they occurred",
+                "after": "Disaster losses must be claimed in the year they occurred"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "Disaster losses are not considered itemized deductions",
+                "after": "Disaster losses are not considered itemized deductions"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: Disaster losses are still subject to a $100 floor, similar to other casualty losses.",
+                "after": "Incorrect: Disaster losses are subject to a $100 floor, just like regular casualty losses. The tax law requires that the first $100 of any disaster loss be excluded from the deduction calculation."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: Disaster losses exceeding $100 plus 10% of AGI are deductible, while regular personal casualty and theft losses are limited to offsetting casualty gains and only the aggregate amount more than 10% of AGI is deductible.",
+                "after": "Correct: Disaster losses exceeding $100 plus 10% of AGI are deductible, while regular personal casualty losses are limited to offsetting casualty gains, with only the amount exceeding 10% of AGI being deductible beyond any casualty gains."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: Taxpayers have the option of deducting the loss on the return for the year in which the loss occurred or the preceding year's return by filing an amended return.",
+                "after": "Incorrect: Taxpayers with disaster losses have flexibility in when they claim the deduction. They can choose to deduct the loss either on the tax return for the year in which the loss occurred or on the preceding year's return by filing an amended return."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: Disaster losses are claimed on Schedule A as an itemized deduction, similar to other personal casualty losses.",
+                "after": "Incorrect: Disaster losses are claimed on Schedule A as itemized deductions. They are treated as itemized deductions in the same manner as other personal casualty losses."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 3,
+          "page_ref": "Page 51",
+          "question_text": "According to Internal Revenue Service (IRS) criteria, when is an activity presumed not to be a hobby if it involves breeding, training, showing, or racing horses?",
+          "options": {
+            "A": "If profits result in any 3 of 5 consecutive tax years",
+            "B": "If profits result in any 2 of 7 consecutive tax years",
+            "C": "If profits result in any 4 of 7 consecutive tax years",
+            "D": "If profits result in any 2 of 5 consecutive tax years"
+          },
+          "explanations": {
+            "A": "Incorrect: The 3 of 5 consecutive tax years profit test applies to most activities, but horse-related activities have a different standard under IRS regulations.",
+            "B": "Correct: For activities specifically involving breeding, training, showing, or racing horses, the IRS presumes the activity is not a hobby if profits result in any 2 of 7 consecutive tax years.",
+            "C": "Incorrect: The IRS does not use a 4 of 7 consecutive tax years profit test for determining whether any activity, including horse-related activities, is a hobby.",
+            "D": "Incorrect: The 2 of 5 consecutive tax years profit test is not a standard established by the IRS for determining whether an activity is a hobby or a business."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": true,
+              "before": "According to IRS criteria, when is an activity presumed not to be a hobby if it involves breeding, training, showing, or racing horses?",
+              "after": "According to Internal Revenue Service (IRS) criteria, when is an activity presumed not to be a hobby if it involves breeding, training, showing, or racing horses?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "If profits result in any 3 of 5 consecutive tax years",
+                "after": "If profits result in any 3 of 5 consecutive tax years"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "If profits result in any 2 of 7 consecutive tax years",
+                "after": "If profits result in any 2 of 7 consecutive tax years"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "If profits result in any 4 of 7 consecutive tax years",
+                "after": "If profits result in any 4 of 7 consecutive tax years"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "If profits result in any 2 of 5 consecutive tax years",
+                "after": "If profits result in any 2 of 5 consecutive tax years"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: This profit test applies to most activities, but not specifically to horse-related activities.",
+                "after": "Incorrect: The 3 of 5 consecutive tax years profit test applies to most activities, but horse-related activities have a different standard under IRS regulations."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: For breeding, training, showing, or racing horses specifically, an activity is presumed not to be a hobby if profits result in any 2 of 7 consecutive tax years.",
+                "after": "Correct: For activities specifically involving breeding, training, showing, or racing horses, the IRS presumes the activity is not a hobby if profits result in any 2 of 7 consecutive tax years."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: This is not the profit test period for horse-related activities.",
+                "after": "Incorrect: The IRS does not use a 4 of 7 consecutive tax years profit test for determining whether any activity, including horse-related activities, is a hobby."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: The standard for most activities is 3 of 5 consecutive tax years, not 2 of 5 years.",
+                "after": "Incorrect: The 2 of 5 consecutive tax years profit test is not a standard established by the IRS for determining whether an activity is a hobby or a business."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 4,
+          "page_ref": "Pages 53-54",
+          "question_text": "What is the maximum annual credit amount for the Energy Efficient Home Improvement Credit for qualified energy property?",
+          "options": {
+            "A": "$600",
+            "B": "$1,200",
+            "C": "$2,000",
+            "D": "$3,000"
+          },
+          "explanations": {
+            "A": "Incorrect: While $600 is the annual limit for any single item of qualified energy property or for exterior windows and skylights, it is not the maximum total credit amount available under the Energy Efficient Home Improvement Credit.",
+            "B": "Correct: The Energy Efficient Home Improvement Credit has a maximum annual credit limit of $1,200 for most qualified improvements, though there are specific subcategories with their own individual limits.",
+            "C": "Incorrect: The $2,000 amount refers to an additional credit specifically for electric or natural gas heat pump water heaters and biomass stoves and boilers, but is not the general maximum credit amount for the Energy Efficient Home Improvement Credit.",
+            "D": "Incorrect: The Energy Efficient Home Improvement Credit does not have a $3,000 maximum annual limit. The general maximum is $1,200 with potential additional credits for specific energy-efficient equipment."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": false,
+              "before": "What is the maximum annual credit amount for the Energy Efficient Home Improvement Credit for qualified energy property?",
+              "after": "What is the maximum annual credit amount for the Energy Efficient Home Improvement Credit for qualified energy property?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "$600",
+                "after": "$600"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "$1,200",
+                "after": "$1,200"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "$2,000",
+                "after": "$2,000"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "$3,000",
+                "after": "$3,000"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: While $600 is the annual limit for any item of qualified energy property or for exterior windows and skylights, it is not the maximum total credit amount.",
+                "after": "Incorrect: While $600 is the annual limit for any single item of qualified energy property or for exterior windows and skylights, it is not the maximum total credit amount available under the Energy Efficient Home Improvement Credit."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: The annual credit is generally limited to a maximum total credit of $1,200, with additional specific limits on various types of improvements.",
+                "after": "Correct: The Energy Efficient Home Improvement Credit has a maximum annual credit limit of $1,200 for most qualified improvements, though there are specific subcategories with their own individual limits."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: While a taxpayer may claim an additional $2,000 annual credit for electric or natural gas heat pump water heaters and biomass stoves and boilers, this is not the general maximum credit amount.",
+                "after": "Incorrect: The $2,000 amount refers to an additional credit specifically for electric or natural gas heat pump water heaters and biomass stoves and boilers, but is not the general maximum credit amount for the Energy Efficient Home Improvement Credit."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: There is no $3,000 maximum limit mentioned for the Energy Efficient Home Improvement Credit.",
+                "after": "Incorrect: The Energy Efficient Home Improvement Credit does not have a $3,000 maximum annual limit. The general maximum is $1,200 with potential additional credits for specific energy-efficient equipment."
+              }
+            }
+          }
+        },
+        {
+          "question_num": 5,
+          "page_ref": "Page 57",
+          "question_text": "What are the two components of the New Clean Vehicle Credit (EV credit) that can be claimed for qualified vehicles placed in service after 2022 and before 2033?",
+          "options": {
+            "A": "A $3,750 credit for domestic manufacturing and a $3,750 credit for energy efficiency",
+            "B": "A $3,750 credit for domestic mineral content and a $3,750 credit for domestic battery components",
+            "C": "A $5,000 credit for electric vehicles and a $2,500 credit for hybrid vehicles",
+            "D": "A $5,000 credit for American-made vehicles and a $2,500 credit for foreign vehicles with domestic components"
+          },
+          "explanations": {
+            "A": "Incorrect: The New Clean Vehicle Credit components are not specifically divided between domestic manufacturing and energy efficiency categories as described in this option.",
+            "B": "Correct: The New Clean Vehicle Credit consists of two equal components: a $3,750 credit if the vehicle meets requirements for critical minerals in the battery sourced domestically or from free trade agreement countries, and another $3,750 credit if the vehicle meets requirements for battery components manufactured or assembled in North America.",
+            "C": "Incorrect: The New Clean Vehicle Credit does not distinguish between electric and hybrid vehicles with different credit amounts of $5,000 and $2,500 respectively.",
+            "D": "Incorrect: The New Clean Vehicle Credit does not provide $5,000 for American-made vehicles and $2,500 for foreign vehicles with domestic components. The credit structure is based on battery minerals and components rather than the overall manufacturing location."
+          },
+          "correct_options": [
+            "B"
+          ],
+          "was_corrected": true,
+          "changes": {
+            "question_text": {
+              "was_changed": false,
+              "before": "What are the two components of the New Clean Vehicle Credit (EV credit) that can be claimed for qualified vehicles placed in service after 2022 and before 2033?",
+              "after": "What are the two components of the New Clean Vehicle Credit (EV credit) that can be claimed for qualified vehicles placed in service after 2022 and before 2033?"
+            },
+            "options_changed": {
+              "A": {
+                "was_changed": false,
+                "before": "A $3,750 credit for domestic manufacturing and a $3,750 credit for energy efficiency",
+                "after": "A $3,750 credit for domestic manufacturing and a $3,750 credit for energy efficiency"
+              },
+              "B": {
+                "was_changed": false,
+                "before": "A $3,750 credit for domestic mineral content and a $3,750 credit for domestic battery components",
+                "after": "A $3,750 credit for domestic mineral content and a $3,750 credit for domestic battery components"
+              },
+              "C": {
+                "was_changed": false,
+                "before": "A $5,000 credit for electric vehicles and a $2,500 credit for hybrid vehicles",
+                "after": "A $5,000 credit for electric vehicles and a $2,500 credit for hybrid vehicles"
+              },
+              "D": {
+                "was_changed": false,
+                "before": "A $5,000 credit for American-made vehicles and a $2,500 credit for foreign vehicles with domestic components",
+                "after": "A $5,000 credit for American-made vehicles and a $2,500 credit for foreign vehicles with domestic components"
+              }
+            },
+            "explanations_changed": {
+              "A": {
+                "was_changed": true,
+                "before": "Incorrect: The credit components are not based on domestic manufacturing and energy efficiency specifically.",
+                "after": "Incorrect: The New Clean Vehicle Credit components are not specifically divided between domestic manufacturing and energy efficiency categories as described in this option."
+              },
+              "B": {
+                "was_changed": true,
+                "before": "Correct: The credit has two components: a $3,750 credit if the vehicle satisfies a domestic test for critical minerals in the battery, and another $3,750 credit if the vehicle satisfies a domestic content test for battery components, for a maximum possible credit of $7,500.",
+                "after": "Correct: The New Clean Vehicle Credit consists of two equal components: a $3,750 credit if the vehicle meets requirements for critical minerals in the battery sourced domestically or from free trade agreement countries, and another $3,750 credit if the vehicle meets requirements for battery components manufactured or assembled in North America."
+              },
+              "C": {
+                "was_changed": true,
+                "before": "Incorrect: The credit is not divided between electric and hybrid vehicles in this manner.",
+                "after": "Incorrect: The New Clean Vehicle Credit does not distinguish between electric and hybrid vehicles with different credit amounts of $5,000 and $2,500 respectively."
+              },
+              "D": {
+                "was_changed": true,
+                "before": "Incorrect: The credit is not structured with a $5,000 credit for American-made vehicles and a $2,500 credit for foreign vehicles with domestic components.\n\nKey concepts covered in this section include charitable contribution requirements and limitations, casualty and disaster loss deduction rules, hobby loss determination criteria, and various tax credits, with particular focus on energy-related tax incentives such as the Energy Efficient Home Improvement Credit, Residential Clean Energy Credit, and New Clean Vehicle Credit. The material emphasizes the specific qualifications, limitations, and calculations necessary for properly claiming these deductions and credits.",
+                "after": "Incorrect: The New Clean Vehicle Credit does not provide $5,000 for American-made vehicles and $2,500 for foreign vehicles with domestic components. The credit structure is based on battery minerals and components rather than the overall manufacturing location."
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "total_questions": 15
+}

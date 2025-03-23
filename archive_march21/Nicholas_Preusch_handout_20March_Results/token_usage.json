@@ -1,0 +1,17 @@
+{
+  "chunks": [
+    {
+      "chunk": 1,
+      "pages": "4-16",
+      "input_tokens": 21082,
+      "output_tokens": 1923,
+      "total_tokens": 23005,
+      "validation_status": "Issues Remain"
+    }
+  ],
+  "total": {
+    "input_tokens": 25214,
+    "output_tokens": 5891,
+    "total_tokens": 31105
+  }
+}

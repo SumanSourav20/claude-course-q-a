@@ -2,12 +2,13 @@ import os
 import re
 import anthropic
 import argparse
-from typing import List, Dict, Tuple, Optional
+import docx
+from typing import List, Dict, Tuple, Optional, Any
 
-class TimestampCorrector:
+class TimestampAdder:
     def __init__(self, api_key: str, model: str = "claude-3-7-sonnet-20250219"):
         """
-        Initialize the timestamp corrector with API key and model.
+        Initialize the timestamp adder with API key and model.
         
         Args:
             api_key: Anthropic API key
@@ -16,339 +17,413 @@ class TimestampCorrector:
         self.client = anthropic.Anthropic(api_key=api_key)
         self.model = model
 
-    def get_original_chunks(self, output_dir: str) -> List[Tuple[int, str]]:
+    def extract_text_from_docx(self, file_path: str) -> str:
         """
-        Find all question files in the output directory to determine how many chunks were used.
+        Extract text from a docx file.
+        
+        Args:
+            file_path: Path to the docx file
+            
+        Returns:
+            Full transcript text
+        """
+        doc = docx.Document(file_path)
+        full_text = []
+        
+        for para in doc.paragraphs:
+            full_text.append(para.text)
+        
+        return "\n".join(full_text)
+
+    def get_question_files(self, output_dir: str) -> List[str]:
+        """
+        Find all question files in the output directory.
         
         Args:
             output_dir: Directory containing generated question files
             
         Returns:
-            List of tuples with (chunk_number, file_path)
+            List of file paths
         """
-        chunk_files = []
+        question_files = []
         
         # Find all chunk_*_questions.txt files
         for file in os.listdir(output_dir):
-            match = re.match(r'chunk_(\d+)_questions\.txt', file)
-            if match:
-                chunk_num = int(match.group(1))
+            if file.endswith('_questions.txt') or file == 'all_questions.txt':
                 file_path = os.path.join(output_dir, file)
-                chunk_files.append((chunk_num, file_path))
-                
-        # Sort by chunk number
-        chunk_files.sort(key=lambda x: x[0])
+                question_files.append(file_path)
         
-        return chunk_files
-        
-    def read_chunk_file(self, transcript_file: str, chunk_num: int, target_pages_per_chunk: int = 30) -> str:
-        """
-        Read the original content from the transcript for the specified chunk.
-        
-        Args:
-            transcript_file: Path to the transcript docx file
-            chunk_num: The chunk number to extract
-            target_pages_per_chunk: Target number of pages per chunk (to match original chunking)
-            
-        Returns:
-            Content of the specified chunk
-        """
-        # Use the same chunking logic as TranscriptProcessor
-        # Import here to avoid circular imports
-        import sys
-        import os
-        
-        # Extract directory from the script file path
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        
-        # Add the script directory to the system path if it's not already there
-        if script_dir not in sys.path:
-            sys.path.append(script_dir)
-            
-        # Now import the TranscriptProcessor
-        from version_3_14_march import TranscriptProcessor
-        
-        # Create dummy processor (API key not needed for chunking)
-        processor = TranscriptProcessor(api_key="dummy")
-        
-        # Extract and chunk the transcript using the same method as the original
-        transcript, total_pages = processor.extract_text_from_docx(transcript_file)
-        chunks = processor.chunk_transcript(transcript, total_pages, target_pages_per_chunk)
-        
-        # Check if chunk_num is valid
-        if chunk_num <= 0 or chunk_num > len(chunks):
-            raise ValueError(f"Invalid chunk number: {chunk_num}. Total chunks: {len(chunks)}")
-            
-        return chunks[chunk_num - 1]  # Chunk numbers are 1-based
+        return question_files
 
-    def read_question_file(self, file_path: str) -> str:
+    def read_content(self, file_path: str) -> str:
         """
-        Read the generated questions file.
+        Read content from a file.
         
         Args:
-            file_path: Path to the question file
+            file_path: Path to the file
             
         Returns:
-            Content of the question file
+            Content of the file
         """
         with open(file_path, "r", encoding="utf-8") as f:
             return f.read()
 
-    def extract_questions_with_timestamps(self, content: str) -> List[Dict]:
+    def extract_questions(self, content: str) -> List[Dict]:
         """
-        Extract questions and their timestamps from the generated content.
+        Extract questions and answers from the content.
         
         Args:
             content: Content of the question file
             
         Returns:
-            List of dictionaries containing questions and their timestamps
+            List of dictionaries containing questions and their content
         """
-        # First try the pattern with explicit timestamps in parentheses
-        question_pattern = r'(Question\s+\d+)(?:\s+\(([^)]+)\))?([\s\S]+?)(?=Question\s+\d+|$)'
-        matches = re.findall(question_pattern, content, re.IGNORECASE)
-        
-        # If no matches with parenthesized timestamps, try more flexible pattern
-        if not matches or all(not match[1] for match in matches):
-            # Look for timestamps in other formats - e.g., timestamp might be on a line after question number
-            # This pattern looks for question numbers followed by timestamp-like patterns
-            alt_pattern = r'(Question\s+\d+)[\s\S]*?(\d{1,2}:\d{2}(?::\d{2})?(?:\s*-\s*\d{1,2}:\d{2}(?::\d{2})?)?)([\s\S]+?)(?=Question\s+\d+|$)'
-            matches = re.findall(alt_pattern, content, re.IGNORECASE)
+        # Looking for patterns like "Question 1" or "## Question 1"
+        question_pattern = r'(?:^|\n)(?:#+\s*)?(?:Question|Q)\s+(\d+)[\s\S]*?(?=(?:^|\n)(?:#+\s*)?(?:Question|Q)\s+\d+|$)'
         
         questions = []
-        for match in matches:
-            question_num = match[0].strip()
-            timestamp = match[1].strip() if match[1] else "No timestamp found"
-            question_content = match[2].strip()
-            
-            # If still no timestamp found, look for it within the question content
-            if timestamp == "No timestamp found":
-                # Look for timestamp pattern within the question content
-                time_pattern = r'(\d{1,2}:\d{2}(?::\d{2})?(?:\s*-\s*\d{1,2}:\d{2}(?::\d{2})?)?)'
-                time_matches = re.search(time_pattern, question_content)
-                
-                if time_matches:
-                    timestamp = time_matches.group(1)
-            
-            questions.append({
-                "question_num": question_num,
-                "timestamp": timestamp,
-                "content": question_content
-            })
+        matches = re.findall(question_pattern, content, re.MULTILINE)
         
-        print(f"Extracted {len(questions)} questions with timestamps")
+        # If no matches found, try an alternative pattern
+        if not matches:
+            alternative_pattern = r'(?:^|\n)(?:#+\s*)?(?:Question|Q)\s+(\d+)[\s\S]*?(?=(?:^|\n)(?:#+\s*)?(?:Question|Q)\s+\d+|$)'
+            content_blocks = re.split(r'=== CHUNK \d+ ===', content)
+            for block in content_blocks:
+                if block.strip():
+                    matches = re.findall(alternative_pattern, block, re.MULTILINE)
+                    if matches:
+                        for match in matches:
+                            # Find the full question content
+                            question_text_match = re.search(f'(?:^|\n)(?:#+\\s*)?(?:Question|Q)\\s+{match}([\\s\\S]*?)(?=(?:^|\n)(?:#+\\s*)?(?:Question|Q)\\s+\\d+|$)', block, re.MULTILINE)
+                            if question_text_match:
+                                question_content = question_text_match.group(1).strip()
+                                questions.append({
+                                    "question_num": match,
+                                    "content": question_content,
+                                    "full_text": f"Question {match}\n{question_content}"
+                                })
+        else:
+            # Process the matches when using the first pattern
+            for match in matches:
+                question_text_match = re.search(f'(?:^|\n)(?:#+\\s*)?(?:Question|Q)\\s+{match}([\\s\\S]*?)(?=(?:^|\n)(?:#+\\s*)?(?:Question|Q)\\s+\\d+|$)', content, re.MULTILINE)
+                if question_text_match:
+                    question_content = question_text_match.group(1).strip()
+                    questions.append({
+                        "question_num": match,
+                        "content": question_content,
+                        "full_text": f"Question {match}\n{question_content}"
+                    })
+        
+        # If still no matches, try a more aggressive approach by splitting on headers
+        if not questions:
+            # Split the content on lines that look like question headers
+            parts = re.split(r'(?:^|\n)((?:#+\s*)?(?:Question|Q)\s+\d+)', content, flags=re.MULTILINE)
+            
+            if len(parts) > 1:
+                for i in range(1, len(parts), 2):
+                    if i+1 < len(parts):
+                        question_header = parts[i].strip()
+                        question_content = parts[i+1].strip()
+                        
+                        # Extract just the question number
+                        number_match = re.search(r'(?:Question|Q)\s+(\d+)', question_header)
+                        if number_match:
+                            question_num = number_match.group(1)
+                            questions.append({
+                                "question_num": question_num,
+                                "content": question_content,
+                                "full_text": f"{question_header}\n{question_content}"
+                            })
+        
+        print(f"Extracted {len(questions)} questions")
         return questions
 
-    def validate_timestamp(self, chunk: str, timestamp: str) -> bool:
+    def extract_chunks_from_file(self, file_path: str) -> List[Dict]:
         """
-        Check if the timestamp is actually present in the chunk.
+        Extract chunks from a file that contains multiple chunks.
         
         Args:
-            chunk: Transcript chunk
-            timestamp: Timestamp to validate
+            file_path: Path to the file
             
         Returns:
-            True if valid, False otherwise
+            List of dictionaries containing chunk number and content
         """
-        # Extract time ranges from timestamp (e.g., "10:15 - 12:30")
-        time_ranges = re.findall(r'(\d{1,2}:\d{2}(?::\d{2})?)', timestamp)
+        content = self.read_content(file_path)
         
-        if not time_ranges:
-            return False
+        # Split the content into chunks
+        chunk_pattern = r'=== CHUNK (\d+) ===\s*([\s\S]*?)(?===== CHUNK \d+ ===|$)'
         
-        # Check if at least one time in the range appears in the chunk
-        for time in time_ranges:
-            if time in chunk:
-                return True
+        chunks = []
+        matches = re.findall(chunk_pattern, content)
+        
+        if not matches:
+            # If no chunks found, treat the whole file as one chunk
+            chunks.append({
+                "chunk_num": "1",
+                "content": content
+            })
+        else:
+            for match in matches:
+                chunk_num = match[0]
+                chunk_content = match[1].strip()
                 
-        return False
+                chunks.append({
+                    "chunk_num": chunk_num,
+                    "content": chunk_content
+                })
+        
+        print(f"Extracted {len(chunks)} chunks")
+        return chunks
 
-    def correct_timestamps(self, chunk: str, questions: List[Dict]) -> List[Dict]:
+    def find_timestamp_for_question(self, transcript: str, question_dict: Dict) -> str:
         """
-        Generate corrected timestamps for questions using Claude.
+        Find the timestamp in the transcript where the topic of the question is discussed.
         
         Args:
-            chunk: Transcript chunk
-            questions: List of questions with potentially incorrect timestamps
+            transcript: Full transcript text
+            question_dict: Question dictionary
             
         Returns:
-            List of questions with corrected timestamps
+            Timestamp or timestamp range
         """
-        corrected_questions = []
+        # Extract just the question text (before the options)
+        question_text = question_dict["content"]
         
-        for question in questions:
-            # Skip if timestamp is already valid
-            if self.validate_timestamp(chunk, question["timestamp"]):
-                corrected_questions.append(question)
-                continue
-                
-            # Prepare prompt for Claude to find correct timestamp
-            prompt = f"""You are tasked with finding the precise timestamp in a transcript where a specific concept is discussed. 
+        # Remove any existing timestamps from the question text
+        question_text = re.sub(r'\d{1,2}:\d{2}(?::\d{2})?(?:\s*-\s*\d{1,2}:\d{2}(?::\d{2})?)?', '', question_text)
+        
+        # Extract just the question (without options and explanation)
+        clean_question = question_text
+        
+        # Try to extract the actual question part (before options)
+        options_match = re.search(r'(A\)|A\.|A\s*\.)[\s\S]*', question_text)
+        if options_match:
+            clean_question = question_text[:options_match.start()].strip()
+        
+        # Prepare prompt for Claude to find the timestamp
+        prompt = f"""You are an expert at finding exact timestamps in educational transcripts.
 
-The following is a question from an educational quiz:
+I need you to find where in this transcript the topic of the following question is discussed:
 
-{question["question_num"]}
-{question["content"]}
+Question {question_dict["question_num"]}: {clean_question}
 
-The current timestamp provided ({question["timestamp"]}) may be incorrect. 
+The full question with options and explanation is:
 
-Please carefully examine the transcript below and identify the EXACT timestamps (in format HH:MM or HH:MM:SS) where the information needed to answer this question is discussed. 
+{question_dict["full_text"]}
 
-Return ONLY the correct timestamp range in this format: "HH:MM - HH:MM" or a single timestamp if it's a brief mention.
+Instructions:
+1. Search the transcript carefully for the section that discusses this specific topic
+2. Return ONLY the timestamp or timestamp range in format "HH:MM" or "HH:MM - HH:MM"
+3. If multiple sections discuss this, focus on the most relevant one
+4. If you can't find an exact timestamp, indicate that with "Timestamp not found"
 
-DO NOT include any explanations or other text in your response - just return the timestamp range.
+DO NOT include any explanations in your response - just the timestamp.
 
-Transcript:
-{chunk}
+Here is the transcript:
+{transcript}
 """
-            
-            # Get corrected timestamp from Claude
-            response = self.client.messages.create(
-                model=self.model,
-                max_tokens=100,
-                messages=[
-                    {"role": "user", "content": prompt}
-                ]
-            )
-            
-            # Extract timestamp from Claude's response
-            corrected_timestamp = response.content[0].text.strip()
-            
-            # Check if Claude returned a valid timestamp format
-            timestamp_pattern = r'(\d{1,2}:\d{2}(?::\d{2})?)\s*-\s*(\d{1,2}:\d{2}(?::\d{2})?)'
-            single_timestamp_pattern = r'^(\d{1,2}:\d{2}(?::\d{2})?)$'
-            
-            timestamp_match = re.search(timestamp_pattern, corrected_timestamp)
-            single_match = re.search(single_timestamp_pattern, corrected_timestamp)
-            
-            if timestamp_match or single_match:
-                # Timestamp format valid
-                question["original_timestamp"] = question["timestamp"]
-                question["timestamp"] = corrected_timestamp
+        
+        # Get timestamp from Claude
+        response = self.client.messages.create(
+            model=self.model,
+            max_tokens=100,
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
+        
+        # Extract timestamp from Claude's response
+        timestamp = response.content[0].text.strip()
+        
+        # Validate the timestamp format
+        timestamp_pattern = r'(\d{1,2}:\d{2}(?::\d{2})?)\s*-\s*(\d{1,2}:\d{2}(?::\d{2})?)'
+        single_timestamp_pattern = r'^(\d{1,2}:\d{2}(?::\d{2})?)$'
+        
+        timestamp_match = re.search(timestamp_pattern, timestamp)
+        single_match = re.search(single_timestamp_pattern, timestamp)
+        
+        if timestamp_match or single_match:
+            return timestamp
+        elif "not found" in timestamp.lower() or "couldn't find" in timestamp.lower():
+            return "Timestamp not found"
+        else:
+            # Try to extract any timestamp-like pattern from the response
+            timestamp_extraction = re.search(r'(\d{1,2}:\d{2}(?::\d{2})?(?:\s*-\s*\d{1,2}:\d{2}(?::\d{2})?)?)', timestamp)
+            if timestamp_extraction:
+                return timestamp_extraction.group(1)
             else:
-                # If Claude didn't return a valid timestamp, keep original but mark it
-                question["timestamp"] = f"{question['timestamp']} (unable to validate)"
-                
-            corrected_questions.append(question)
-            
-        return corrected_questions
+                return "Timestamp not found"
 
-    def update_question_file(self, file_path: str, original_content: str, corrected_questions: List[Dict]) -> None:
+    def add_timestamps_to_questions(self, content: str, questions: List[Dict], timestamps: List[str]) -> str:
         """
-        Update the question file with corrected timestamps.
+        Add timestamps to the questions in the content.
         
         Args:
-            file_path: Path to the question file
-            original_content: Original content of the file
-            corrected_questions: List of questions with corrected timestamps
+            content: Original content
+            questions: List of question dictionaries
+            timestamps: List of timestamps for each question
+            
+        Returns:
+            Updated content with timestamps added
         """
-        updated_content = original_content
+        updated_content = content
         
-        for question in corrected_questions:
-            if "original_timestamp" in question:
-                # Try different patterns for replacement
+        for i, question in enumerate(questions):
+            if i < len(timestamps) and timestamps[i] != "Timestamp not found":
+                # Try to find the question header and add the timestamp
+                question_pattern = f'((?:^|\\n)(?:#+\\s*)?(?:Question|Q)\\s+{question["question_num"]})(?!\\s*\\()'
+                replacement = f'\\1 ({timestamps[i]})'
                 
-                # Pattern 1: Question number followed directly by timestamp in parentheses
-                pattern1 = f'{question["question_num"]} \\({re.escape(question["original_timestamp"])}\\)'
-                replacement1 = f'{question["question_num"]} ({question["timestamp"]})'
+                # Attempt the replacement
+                new_content = re.sub(question_pattern, replacement, updated_content, flags=re.MULTILINE)
                 
-                # Pattern 2: Timestamp appears on its own line
-                pattern2 = f'{question["original_timestamp"]}'
-                replacement2 = f'{question["timestamp"]}'
-                
-                # Try pattern 1 first
-                new_content = re.sub(pattern1, replacement1, updated_content)
-                
-                # If content wasn't changed, try pattern 2
-                if new_content == updated_content:
-                    updated_content = re.sub(pattern2, replacement2, updated_content)
-                else:
+                # Only update if the replacement actually changed something
+                if new_content != updated_content:
                     updated_content = new_content
         
-        # Write the updated content to a corrected version
-        corrected_path = file_path.replace('.txt', '_corrected.txt')
-        with open(corrected_path, "w", encoding="utf-8") as f:
-            f.write(updated_content)
-            
-        print(f"Corrected timestamps saved to {corrected_path}")
-        
-        # Don't modify the original file to preserve the original output
-        # If you want to modify the original too, uncomment these lines:
-        # with open(file_path, "w", encoding="utf-8") as f:
-        #     f.write(updated_content)
+        return updated_content
 
-    def process_all_chunks(self, transcript_file: str, output_dir: str, target_pages_per_chunk: int = 30):
+    def process_file(self, transcript: str, question_file: str, output_dir: str):
         """
-        Process all chunks and their corresponding question files.
+        Process a single question file.
         
         Args:
-            transcript_file: Path to the original transcript docx file
-            output_dir: Directory containing generated question files
-            target_pages_per_chunk: Target number of pages per chunk (to match original chunking)
+            transcript: Full transcript text
+            question_file: Path to the question file
+            output_dir: Directory to save the updated file
         """
-        # Find all question files to determine how many chunks were created
-        chunk_files = self.get_original_chunks(output_dir)
+        print(f"Processing {os.path.basename(question_file)}...")
         
-        print(f"Found {len(chunk_files)} chunk files in {output_dir}")
+        # Check if this is the all_questions.txt file
+        is_all_questions = os.path.basename(question_file) == 'all_questions.txt'
         
-        # Create validation report file
-        report_path = os.path.join(output_dir, "timestamp_validation_report.txt")
-        with open(report_path, "w", encoding="utf-8") as report:
-            report.write("# Timestamp Validation and Correction Report\n\n")
+        if is_all_questions:
+            # Process each chunk separately
+            chunks = self.extract_chunks_from_file(question_file)
             
-            # Process each chunk file
-            for chunk_num, question_file in chunk_files:
-                print(f"Processing chunk {chunk_num}...")
+            updated_content = ""
+            
+            for chunk in chunks:
+                print(f"Processing Chunk {chunk['chunk_num']}...")
                 
-                # Get the original chunk content using the same chunking logic
-                try:
-                    chunk = self.read_chunk_file(transcript_file, chunk_num, target_pages_per_chunk)
-                except Exception as e:
-                    report.write(f"## Chunk {chunk_num}: Error reading original chunk: {str(e)}\n\n")
-                    print(f"Error reading chunk {chunk_num}: {str(e)}")
-                    continue
-                
-                report.write(f"## Chunk {chunk_num}:\n\n")
-                
-                # Read questions file
-                content = self.read_question_file(question_file)
-                
-                # Extract questions with timestamps
-                questions = self.extract_questions_with_timestamps(content)
+                # Extract questions from this chunk
+                questions = self.extract_questions(chunk["content"])
                 
                 if not questions:
-                    report.write("No questions with timestamps found in this chunk.\n\n")
+                    print(f"No questions found in Chunk {chunk['chunk_num']}")
+                    updated_content += f"=== CHUNK {chunk['chunk_num']} ===\n\n{chunk['content']}\n\n"
                     continue
                 
-                # Validate and correct timestamps
-                corrected_questions = self.correct_timestamps(chunk, questions)
+                # Find timestamps for each question
+                timestamps = []
+                for question in questions:
+                    print(f"Finding timestamp for Chunk {chunk['chunk_num']} Question {question['question_num']}...")
+                    timestamp = self.find_timestamp_for_question(transcript, question)
+                    timestamps.append(timestamp)
+                    print(f"  Chunk {chunk['chunk_num']} Question {question['question_num']}: {timestamp}")
                 
-                # Update report with validation results
-                for question in corrected_questions:
-                    if "original_timestamp" in question:
-                        report.write(f"{question['question_num']}:\n")
-                        report.write(f"  Original timestamp: {question['original_timestamp']}\n")
-                        report.write(f"  Corrected timestamp: {question['timestamp']}\n\n")
-                    else:
-                        report.write(f"{question['question_num']}: {question['timestamp']} (validated)\n\n")
+                # Add timestamps to the chunk content
+                chunk_updated = self.add_timestamps_to_questions(chunk["content"], questions, timestamps)
                 
-                # Update question file with corrected timestamps
-                self.update_question_file(question_file, content, corrected_questions)
+                # Add to the overall updated content
+                updated_content += f"=== CHUNK {chunk['chunk_num']} ===\n\n{chunk_updated}\n\n"
                 
-                report.write("-" * 60 + "\n\n")
+                # Create a report for this chunk
+                report_file = os.path.join(output_dir, f"chunk_{chunk['chunk_num']}_timestamp_report.txt")
                 
-        print(f"Timestamp validation and correction complete. Report saved to {report_path}")
+                with open(report_file, "w", encoding="utf-8") as f:
+                    f.write(f"# Timestamp Report for Chunk {chunk['chunk_num']}\n\n")
+                    
+                    for j, question in enumerate(questions):
+                        if j < len(timestamps):
+                            f.write(f"Question {question['question_num']}: {timestamps[j]}\n")
+                            # Extract just the question without options
+                            clean_question = question["content"]
+                            options_match = re.search(r'(A\)|A\.|A\s*\.)[\s\S]*', clean_question)
+                            if options_match:
+                                clean_question = clean_question[:options_match.start()].strip()
+                            f.write(f"Question text: {clean_question[:100]}...\n\n")
+                
+                print(f"Saved timestamp report for Chunk {chunk['chunk_num']} to {report_file}")
+        else:
+            # Process the file as a single chunk
+            content = self.read_content(question_file)
+            
+            # Extract questions
+            questions = self.extract_questions(content)
+            
+            if not questions:
+                print(f"No questions found in {question_file}")
+                return
+            
+            # Find timestamps for each question
+            timestamps = []
+            for question in questions:
+                print(f"Finding timestamp for Question {question['question_num']}...")
+                timestamp = self.find_timestamp_for_question(transcript, question)
+                timestamps.append(timestamp)
+                print(f"  Question {question['question_num']}: {timestamp}")
+            
+            # Add timestamps to the questions
+            updated_content = self.add_timestamps_to_questions(content, questions, timestamps)
+            
+            # Create a report for this file
+            base_name = os.path.basename(question_file)
+            report_file = os.path.join(output_dir, base_name.replace('.txt', '_timestamp_report.txt'))
+            
+            with open(report_file, "w", encoding="utf-8") as f:
+                f.write(f"# Timestamp Report for {base_name}\n\n")
+                
+                for i, question in enumerate(questions):
+                    if i < len(timestamps):
+                        f.write(f"Question {question['question_num']}: {timestamps[i]}\n")
+                        # Extract just the question without options
+                        clean_question = question["content"]
+                        options_match = re.search(r'(A\)|A\.|A\s*\.)[\s\S]*', clean_question)
+                        if options_match:
+                            clean_question = clean_question[:options_match.start()].strip()
+                        f.write(f"Question text: {clean_question[:100]}...\n\n")
+            
+            print(f"Saved timestamp report to {report_file}")
+        
+        # Save the updated content
+        timestamped_file = question_file.replace('.txt', '_timestamped.txt')
+        
+        with open(timestamped_file, "w", encoding="utf-8") as f:
+            f.write(updated_content)
+            
+        print(f"Saved timestamped version to {timestamped_file}")
+
+    def process_all_files(self, transcript_file: str, output_dir: str):
+        """
+        Process all question files.
+        
+        Args:
+            transcript_file: Path to the transcript file
+            output_dir: Directory containing question files
+        """
+        # Extract transcript text
+        print(f"Reading transcript from {transcript_file}...")
+        transcript = self.extract_text_from_docx(transcript_file)
+        
+        # Get all question files
+        question_files = self.get_question_files(output_dir)
+        print(f"Found {len(question_files)} question files")
+        
+        # Process each file
+        for file in question_files:
+            self.process_file(transcript, file, output_dir)
+            
+        print(f"Processing complete.")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Validate and correct timestamps in generated quiz questions')
-    parser.add_argument('--file', type=str, required=True, help='Path to original transcript docx file')
+    parser = argparse.ArgumentParser(description='Add timestamps to questions based on transcript content')
+    parser.add_argument('--file', type=str, required=True, help='Path to transcript docx file')
     parser.add_argument('--api-key', type=str, required=True, help='Anthropic API key')
-    parser.add_argument('--output-dir', type=str, default='quiz_output', help='Directory containing generated question files')
+    parser.add_argument('--output-dir', type=str, default='quiz_output', help='Directory containing question files')
     parser.add_argument('--model', type=str, default='claude-3-7-sonnet-20250219', help='Claude model to use')
-    parser.add_argument('--target-pages', type=int, default=35, 
-                        help='Target number of pages per chunk (should match original processing)')
     
     args = parser.parse_args()
     
-    corrector = TimestampCorrector(api_key=args.api_key, model=args.model)
-    corrector.process_all_chunks(args.file, args.output_dir, args.target_pages)
+    adder = TimestampAdder(api_key=args.api_key, model=args.model)
+    adder.process_all_files(args.file, args.output_dir)

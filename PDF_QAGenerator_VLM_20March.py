@@ -14,10 +14,10 @@ import json
 
 explanation = """
 	explanation: 
-		A: why it's right or wrong,
-		B: why it's right or wrong,
-		C: why it's right or wrong,
-		D: why it's right or wrong,	
+		A: Self-contained explanation of why A is right/wrong without hinting at other options,
+		B: Self-contained explanation of why B is right/wrong without hinting at other options,
+		C: Self-contained explanation of why C is right/wrong without hinting at other options,
+		D: Self-contained explanation of why D is right/wrong without hinting at other options,	
 """
 
 class PDFVisionProcessor:
@@ -188,32 +188,67 @@ class PDFVisionProcessor:
         # If only one chunk exists, generate 10 questions, otherwise 5
         num_questions = 10 if total_chunks == 1 else 5
         
-        prompt = f"""You are a subject matter expert who deeply understands this educational topic. You need to create thoughtful quiz questions that test key concepts from this material.
+        prompt = f"""You are a subject matter expert creating MCQs from pages {first_page} to {last_page}. Generate {num_questions} challenging multiple-choice questions.
 
-I'm providing pages {first_page} to {last_page} from a course slide deck as images.
+## CONTENT REQUIREMENTS
+- Focus ONLY on educational content (ignore title slides, agenda slides, etc.)
+- Pay special attention to tables, graphs, diagrams, and visual elements
+- Each question MUST have 4 options (A,B,C,D) with exactly ONE correct answer
+- All questions and options MUST come DIRECTLY from the PDF content
+- Include page numbers beside questions (e.g., "Question 1 (Page 4)")
+- If content spans multiple pages, include range (e.g., "Question 1 (Pages 4-6)")
+- Use action verbs in questions when appropriate
+- Ensure proper grammar in all questions and options
+- AVOID using "NOT" in questions or answer options
+- "All of the above" can be used as an option when appropriate
 
-IMPORTANT INSTRUCTIONS:
-1. IGNORE any title slides, agenda slides, or introduction content that doesn't contain actual educational material
-2. Pay special attention to tables, graphs, diagrams, and other visual elements
-3. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of important concepts
-4. Each question must:
-   - Be directly based on the educational content
-   - Have 4 answer options with exactly one correct answer
-   - Include visual elements like diagrams, tables, and charts in your analysis
-   - Include the page ranges beside the question, where the relevant concept is discussed.You can find the page number in the top left as page 1 or page 2 etc in red font
-5. Explanation should be like this:
-    {explanation}
+## CRITICAL EXPLANATION RULES
+- Begin EVERY option explanation with "Correct:" or "Incorrect:"
+- For INCORRECT options:
+  * Focus ONLY on factual content of that specific option
+  * Explain why it's wrong using ONLY content from the PDF & keep it short
+  * Pretend you don't know which option is correct
+  * NEVER mention, reference, or hint at the correct answer
+  * NEVER use comparative language ("rather than", "instead of")
+  * NEVER use phrases like "this doesn't address the question" or "would be correct if..."
+- Each explanation MUST stand completely on its own
+- NEVER invent or introduce information not present in the PDF
+- NEVER use phrases like "according to the slides," "in the presentation," "in the material," etc.
+- NEVER reference page numbers in any explanation (e.g., "as shown on page X," "on page 5," etc.)
+- Present information as established knowledge in the field
 
-critical: your questions and explanations must read as if written by a subject matter expert who genuinely understands the topic.Questions and explainations should be like they are final examination questions, do not use phrases like:
-- "According to the slides..."
-- "In this presentation..."
-- "The slide mentions..."
-- "As stated in page X..."
-- "Based on the material provided..." etc
+## FORBIDDEN PHRASES IN INCORRECT EXPLANATIONS
+- "unlike the correct answer"
+- "the correct answer is"
+- "this confuses X with Y"
+- "provided by the correct answer"
+- "this is not what the question is asking for"
+- "this does not address the question"
+- "this would be correct if..."
+- "unlike other options"
+- "compared to"
+- "rather than"
+- "instead of"
 
-Instead, explain concepts authoritatively as established knowledge in the field. The questions should feel like they were hand-crafted by someone with expert understanding of the subject.
+## OUTPUT FORMAT
+```
+Question 1 (Page X): [Question text]
+A. [Option A]
+B. [Option B]
+C. [Option C]
+D. [Option D]
 
-After the questions, provide a brief 2-3 sentence summary of the key concepts covered in this section.
+Explanation:
+A. [Correct/Incorrect]: [Self-contained explanation about only this option]
+B. [Correct/Incorrect]: [Self-contained explanation about only this option]
+C. [Correct/Incorrect]: [Self-contained explanation about only this option]
+D. [Correct/Incorrect]: [Self-contained explanation about only this option]
+
+Question 2 (Page X): [Question text]
+...
+```
+
+After all questions, provide a brief 2-3 sentence summary of key concepts covered.
 """
         
         # Construct message content with both text and images
@@ -249,35 +284,70 @@ After the questions, provide a brief 2-3 sentence summary of the key concepts co
         
         num_questions = 5  # Default for subsequent chunks
         
-        prompt = f"""You are a subject matter expert who deeply understands this educational topic. You need to create thoughtful quiz questions that test key concepts from this material.
+        prompt = f"""You are a subject matter expert creating MCQs from pages {first_page} to {last_page}. Generate {num_questions} challenging multiple-choice questions focused on NEW concepts in this section.
 
-I'm providing pages {first_page} to {last_page} from a course slide deck as images.
-
-Context from previous sections:
+## CONTEXT FROM PREVIOUS SECTIONS
 {previous_summaries}
 
-IMPORTANT INSTRUCTIONS:
-1. First, thoroughly read and understand how this section builds on previous knowledge
-2. Pay special attention to tables, graphs, diagrams, and other visual elements
-3. Generate {num_questions} challenging but fair multiple-choice questions that test understanding of NEW concepts in this section
-4. Each question must:
-   - Be directly based on the educational content from THIS section
-   - Have 4 answer options with exactly one correct answer
-   - Include visual elements like diagrams, tables, and charts in your analysis
-   - Include the page ranges beside the question, where the relevant concept is discussed.You can find the page number in the top left as page 1 or page 2 etc in red font
-5. Explanation should be like this:
-    {explanation}
+## CONTENT REQUIREMENTS
+- Focus ONLY on educational content (ignore title slides, agenda slides, etc.)
+- Pay special attention to tables, graphs, diagrams, and visual elements
+- Each question MUST have 4 options (A,B,C,D) with exactly ONE correct answer
+- All questions and options MUST come DIRECTLY from the PDF content
+- Include page numbers beside questions (e.g., "Question 1 (Page 4)")
+- If content spans multiple pages, include range (e.g., "Question 1 (Pages 4-6)")
+- Use action verbs in questions when appropriate
+- Ensure proper grammar in all questions and options
+- AVOID using "NOT" in questions or answer options
+- "All of the above" can be used as an option when appropriate
 
-CRITICAL: Your questions and explanations must read as if written by a subject matter expert who genuinely understands the entire topic.Questions and explainations should be like they are final examination questions, Do NOT use phrases like:
-- "According to the slides..."
-- "In this presentation..."
-- "The slide mentions..."
-- "As stated in page X..."
-- "Based on the material provided..." etc
+## CRITICAL EXPLANATION RULES
+- Begin EVERY option explanation with "Correct:" or "Incorrect:"
+- For INCORRECT options:
+  * Focus ONLY on factual content of that specific option
+  * Explain why it's wrong using ONLY content from the PDF & keep it short
+  * Pretend you don't know which option is correct
+  * NEVER mention, reference, or hint at the correct answer
+  * NEVER use comparative language ("rather than", "instead of")
+  * NEVER use phrases like "this doesn't address the question" or "would be correct if..."
+- Each explanation MUST stand completely on its own
+- NEVER invent or introduce information not present in the PDF
+- NEVER use phrases like "according to the slides," "in the presentation," "in the material," "As stated in presentation," "The presentation," etc.
+- NEVER reference page numbers in any explanation (e.g., "as shown on page X," "on page 5," etc.)
+- Present information as established knowledge in the field
 
-Instead, explain concepts authoritatively as established knowledge in the field. The questions should feel like they were hand-crafted by someone with expert understanding of the subject who is carefully building upon previously established concepts.
+## FORBIDDEN PHRASES IN INCORRECT EXPLANATIONS
+- "unlike the correct answer"
+- "the correct answer is"
+- "this confuses X with Y"
+- "provided by the correct answer"
+- "this is not what the question is asking for"
+- "this does not address the question"
+- "this would be correct if..."
+- "unlike other options"
+- "compared to"
+- "rather than"
+- "instead of"
 
-After the questions, provide a brief 2-3 sentence summary of the key concepts covered in this section.
+## OUTPUT FORMAT
+```
+Question 1 (Page X): [Question text]
+A. [Option A]
+B. [Option B]
+C. [Option C]
+D. [Option D]
+
+Explanation:
+A. [Correct/Incorrect]: [Self-contained explanation about only this option]
+B. [Correct/Incorrect]: [Self-contained explanation about only this option]
+C. [Correct/Incorrect]: [Self-contained explanation about only this option]
+D. [Correct/Incorrect]: [Self-contained explanation about only this option]
+
+Question 2 (Page X): [Question text]
+...
+```
+
+After all questions, provide a brief 2-3 sentence summary of key concepts covered.
 """
         
         # Construct message content with both text and images
@@ -542,7 +612,7 @@ if __name__ == "__main__":
     parser.add_argument('--model', type=str, default='claude-3-7-sonnet-20250219', 
                         help='Claude model to use (must be vision-capable)')
     parser.add_argument('--target-pages', type=int, default=15, 
-                       help='Target number of pages per chunk (default: 30)')
+                       help='Target number of pages per chunk (default: 15)')
     parser.add_argument('--skip-pages', type=int, default=3,
                        help='Number of initial pages to skip (default: 0)')
     parser.add_argument('--dpi', type=int, default=300,

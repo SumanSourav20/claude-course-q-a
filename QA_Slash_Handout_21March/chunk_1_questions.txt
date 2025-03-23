@@ -1,0 +1,65 @@
+Questions for pages 4 to 22:
+
+```
+Question 1 (Pages 9-10): What is the foundation for allowing tax deductions according to the presentation?
+A. Constitutional right
+B. Legislative grace
+C. Court precedent
+D. Taxpayer election
+
+Explanation:
+A. Incorrect: The presentation explicitly states on page 10 that "There is no constitutional right to a deduction."
+B. Correct: On page 10, the presentation specifically states that "Deductions are said to be a matter of legislative grace and are allowed solely at the discretion of Congress."
+C. Incorrect: While courts interpret tax law, the presentation indicates that deductions are fundamentally a matter of legislative grace, not court precedent.
+D. Incorrect: The taxpayer does not have the authority to elect deductions; they are permitted only as allowed by Congress as a matter of legislative grace.
+
+Question 2 (Page 11): According to the presentation, which of the following statements about tax deductions is true?
+A. All deductions must be specifically identified in the tax code
+B. The cost of living expenses are generally deductible
+C. Costs of earning a living are ordinarily deductible in full
+D. Deductions always require explicit statutory provisions
+
+Explanation:
+A. Incorrect: The presentation states that "Deductions do not necessarily need to be identified specifically in the Code before a deduction is allowed."
+B. Incorrect: The presentation clearly states that "The cost of living are generally not deductible."
+C. Correct: The presentation states that "the costs of earning a living are ordinarily deductible in full."
+D. Incorrect: The presentation indicates that deductions don't necessarily need explicit identification in the Code, contradicting this statement.
+
+Question 3 (Pages 15-16): What criteria must expenses meet to be allowable deductions?
+A. They must be personal, related to profit, and paid during the taxable year
+B. They must be reasonable, ordinary, necessary, and incurred for business
+C. They must be specifically identified in the tax code and incurred for personal purposes
+D. They must be unusual, reasonable, and approved by the IRS
+
+Explanation:
+A. Incorrect: According to page 16, §262 specifically prohibits personal expenses from being deductible, except those specifically allowed.
+B. Correct: Page 15 lists the requirements for allowable deductions: expenses must be sufficiently related to carrying on a trade or business, must be ordinary and necessary, must be reasonable, and must be paid or incurred during the taxable year.
+C. Incorrect: The presentation states that deductions do not necessarily need to be identified specifically in the Code, and personal expenses are generally not deductible.
+D. Incorrect: The presentation indicates expenses should be ordinary (not unusual) and there is no mention of IRS approval as a criterion.
+
+Question 4 (Pages 17-18): What was the outcome of Conway Twitty's tax case regarding his failed Twitty Burger business?
+A. The IRS denied his deduction because it was a personal expense
+B. The court ruled the reimbursements were not deductible as they were moral obligations
+C. The court held the payments were deductible business expenses
+D. Twitty was denied the deduction because restaurants are not related to singing
+
+Explanation:
+A. Incorrect: The IRS did deny the deduction, but their reasoning was based on viewing it as a moral obligation, not simply as a personal expense.
+B. Incorrect: While the IRS initially denied the deduction claiming it was done out of moral obligation, this was not the final outcome of the case.
+C. Correct: According to page 18, "Business the court held. It's deductible they feel" indicates that the court ultimately ruled that Conway Twitty's payments to investors were deductible business expenses.
+D. Incorrect: The case didn't hinge on whether restaurants were related to singing careers; rather it focused on whether the reimbursements were business or personal in nature.
+
+Question 5 (Pages 19-20): How should expenses with both personal and business elements be treated for tax purposes?
+A. They are never deductible under any circumstances
+B. Only the personal portion is deductible
+C. A portion of the expense should be allocated to each purpose
+D. They are fully deductible if the primary purpose was business
+
+Explanation:
+A. Incorrect: The presentation does not state that mixed-purpose expenses are never deductible.
+B. Incorrect: The personal portion of expenses is generally not deductible, contradicting this statement.
+C. Correct: Page 19 explicitly states, "If the expense has both personal and business elements, allocate a portion of the expense to each."
+D. Incorrect: While page 19 does state "If the primary purpose of the expense was business, the entire cost is deductible," this is only one rule. The presentation also specifies that mixed expenses should be allocated between personal and business.
+
+Key concepts covered in this presentation include the fundamental principles of tax deductions and credits, focusing on the legislative basis for deductions and their proper classification. The material emphasizes the distinction between business and personal expenses, explaining the criteria for deductibility and the importance of proper substantiation and timing of deductions to maximize tax benefits.
+```

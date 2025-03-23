@@ -1,0 +1,67 @@
+Questions for pages 23 to 41:
+
+## Multiple Choice Tax Questions
+
+### Question 1: What key criterion did the court apply in the Geodel case when disallowing a business expense deduction? (Pages 23-24)
+A. The expense was not considered ordinary in the taxpayer's business
+B. The expense was not reasonable in amount
+C. The expense was not paid during the current tax year
+D. The expense was not necessary for business operations
+
+Explanation:
+A: Correct: The court specifically stated that "the expenditure is so unusual as never to have been made, so far as the record reveals, by the other persons in the same business when confronted with similar conditions." This emphasizes that the expense failed the "ordinary" requirement because it was not common practice in the industry.
+B: Incorrect: The court's reasoning did not focus on whether the amount was reasonable or excessive. Instead, it centered on whether such an expense was commonly incurred by others in the same line of business.
+C: Incorrect: The timing of when the expense was paid was not mentioned as a factor in the court's decision to disallow the deduction. The case focused on the nature of the expense, not its timing.
+D: Incorrect: The court did not determine that the expense was unnecessary for business operations. Rather, it focused on the unusual nature of the expense compared to industry norms.
+
+### Question 2: Under what circumstances can educators claim a deduction for classroom expenses? (Page 25)
+A. Only if they are college professors who teach for at least 900 hours per year
+B. For any educational expense, with no annual limit, if they are K-12 teachers
+C. For unreimbursed classroom supplies up to $300 annually if they work at least 900 hours as K-12 educators
+D. Only if their expenses exceed 2% of their adjusted gross income
+
+Explanation:
+A: Incorrect: College professors are not included in the eligible educator definition. The deduction applies specifically to kindergarten through grade 12 educators, not higher education faculty.
+B: Incorrect: The deduction is not unlimited. There is a specific annual cap of $300 per educator, and only certain types of expenses qualify.
+C: Correct: Elementary and secondary school educators may claim a deduction for unreimbursed expenses paid for books and supplies used in the classroom up to $300 annually if they work at least 900 hours during the school year as a teacher, instructor, counselor, principal, or aide.
+D: Incorrect: The educator expense deduction does not have a percentage of AGI threshold. It is an above-the-line deduction with a specific dollar limit ($300), not subject to the 2% AGI floor that applied to certain miscellaneous itemized deductions in the past.
+
+### Question 3: How has the tax treatment of alimony changed in recent years? (Page 31)
+A. Alimony is now always deductible by the payor regardless of when the divorce was executed
+B. Alimony is always included in the recipient's gross income
+C. For divorces executed after 2018, alimony is nondeductible to the payor and not included in the recipient's gross income
+D. Alimony payments may extend past the death of the payee spouse for divorces executed after 2018
+
+Explanation:
+A: Incorrect: The deductibility of alimony depends on when the divorce was executed. For divorces executed after 2018, alimony is no longer deductible by the payor.
+B: Incorrect: For divorces executed after 2018, alimony is not included in the recipient's gross income. This represents a significant change in tax treatment.
+C: Correct: The tax treatment of alimony changed substantially for divorces executed or modified after 2018. For these divorces, alimony is nondeductible to the payor and not included in the gross income of the recipient, unlike the previous treatment.
+D: Incorrect: Alimony payments may not extend past the death of the payee spouse. This is a fundamental characteristic of alimony that has not changed with the new tax rules.
+
+### Question 4: What is the maximum contribution allowed to a SEP plan for self-employed individuals in 2024? (Page 28)
+A. $7,000 or 25% of self-employment earnings, whichever is less
+B. $61,000 regardless of self-employment earnings
+C. The lesser of 25% of self-employment earnings or $69,000
+D. 20% of net earnings with no dollar limit
+
+Explanation:
+A: Incorrect: $7,000 refers to the basic IRA contribution limit for 2024, not the SEP plan contribution limit. SEP plans have a much higher contribution limit.
+B: Incorrect: While the SEP contribution limit is subject to a dollar cap, it is not a flat $61,000 regardless of earnings. The contribution is also limited by a percentage of self-employment earnings.
+C: Correct: The maximum annual contribution to a SEP plan is limited to the lesser of 25% of the self-employment earnings or $69,000 in 2024. Self-employed earnings are reduced by the deductible part of self-employment taxes.
+D: Incorrect: While a standard rate of 20% is often used for convenience in calculations due to the circular computation issue, there is a specific dollar limit ($69,000 for 2024) on SEP contributions.
+
+### Question 5: What is the limitation on the deduction of investment interest expense? (Pages 39-40)
+A. It can be deducted without limitation if it relates to investment property
+B. It is only deductible to the extent of net investment income
+C. It is subject to a $750,000 cap ($375,000 if married filing separately)
+D. It is deductible only if it exceeds 7.5% of AGI
+
+Explanation:
+A: Incorrect: Investment interest expense is not deductible without limitation. There are specific restrictions on how much can be deducted in a given tax year.
+B: Correct: Investment interest may be deducted only to the extent of net investment income, which is any excess of income over investment expense. Any disallowed investment interest is carried forward indefinitely to subsequent tax years.
+C: Incorrect: The $750,000 cap ($375,000 if married filing separately) applies to qualified residence interest, not investment interest. These are distinct categories with different rules.
+D: Incorrect: The 7.5% of AGI threshold applies to medical expense deductions, not investment interest. Investment interest has its own specific limitation based on net investment income.
+
+## Key Concepts Summary
+
+This section covers specialized tax deductions and their specific requirements, including educator expenses, Health Savings Accounts, self-employment deductions, alimony treatment, and investment interest limitations. It explores how "necessary and reasonable" standards are applied to business expenses, as illustrated in landmark court cases. The material also details important changes in tax treatment for alimony based on divorce timing and explains the complex rules governing qualified residence interest versus investment interest deductions.

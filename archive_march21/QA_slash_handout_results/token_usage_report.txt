@@ -1,0 +1,31 @@
+=== TOKEN USAGE REPORT ===
+
+Model: claude-3-7-sonnet-20250219
+PDF: Handout_numbered.pdf
+Pages processed: 56
+
+Per Chunk Breakdown:
+  Chunk 1 (Pages 4-22):
+    Input tokens:  15,161
+    Output tokens: 1,549
+    Total tokens:  16,710
+
+  Chunk 2 (Pages 23-41):
+    Input tokens:  15,284
+    Output tokens: 1,592
+    Total tokens:  16,876
+
+  Chunk 3 (Pages 42-59):
+    Input tokens:  14,630
+    Output tokens: 1,438
+    Total tokens:  16,068
+
+Overall Usage:
+  Total input tokens:  45,075
+  Total output tokens: 4,579
+  Combined total:      49,654
+
+Estimated Cost (USD):
+  Input cost:  $0.14
+  Output cost: $0.07
+  Total cost:  $0.20

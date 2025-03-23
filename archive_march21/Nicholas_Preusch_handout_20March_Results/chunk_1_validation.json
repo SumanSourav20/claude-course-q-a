@@ -1,0 +1,189 @@
+{
+  "total_questions": 10,
+  "questions_with_issues": 10,
+  "issues": [
+    "Question 1: Missing page numbers",
+    "Question 2: Missing page numbers",
+    "Question 3: Missing page numbers",
+    "Question 4: Missing page numbers",
+    "Question 4: Explanation for option B contains forbidden phrase: 'rather than'",
+    "Question 5: Missing page numbers",
+    "Question 6: Missing page numbers",
+    "Question 7: Missing page numbers",
+    "Question 8: Missing page numbers",
+    "Question 9: Missing page numbers",
+    "Question 10: Missing page numbers"
+  ],
+  "parsed_questions": [
+    {
+      "question_num": 1,
+      "page_numbers": "Unknown",
+      "question_text": "When were Forms K-2 and K-3 introduced by the IRS?",
+      "options": {
+        "A": "Incorrect: Forms K-2 and K-3 were not introduced for Tax Year 2020. These forms were implemented in a different tax year.",
+        "B": "Correct: Forms K-2 and K-3 were introduced for Tax Year 2021 to address gaps in international tax reporting and provide more comprehensive information for entities with international tax elements.",
+        "C": "Incorrect: Forms K-2 and K-3 were introduced before Tax Year 2022. This timing is important as entities needed to adjust their reporting processes earlier.",
+        "D": "Incorrect: Forms K-2 and K-3 were not available in Tax Year 2019. They represent a more recent development in international tax reporting requirements."
+      },
+      "explanations": {
+        "A": "Incorrect: Forms K-2 and K-3 were not introduced for Tax Year 2020",
+        "B": "Correct: Forms K-2 and K-3 were introduced for Tax Year 2021 to address gaps in international tax reporting and provide more comprehensive information for entities with international tax elements",
+        "C": "Incorrect: Forms K-2 and K-3 were introduced before Tax Year 2022",
+        "D": "Incorrect: Forms K-2 and K-3 were not available in Tax Year 2019"
+      }
+    },
+    {
+      "question_num": 2,
+      "page_numbers": "Unknown",
+      "question_text": "Which entities must file Forms K-2 and K-3?",
+      "options": {
+        "A": "Incorrect: C Corporations are not among the entities specifically required to file Forms K-2 and K-3. These forms are designed for different entity types.",
+        "B": "Correct: Partnerships and S Corporations with foreign income or deductions are required to file Forms K-2 and K-3. These entities use these forms to report international tax information to their partners and shareholders.",
+        "C": "Incorrect: Not all business entities with international operations must file Forms K-2 and K-3. The filing requirement applies to specific entity types with particular characteristics.",
+        "D": "Incorrect: There is no specific foreign income threshold that determines whether Forms K-2 and K-3 must be filed. The requirement is based on entity type and the existence of foreign elements."
+      },
+      "explanations": {
+        "A": "Incorrect:",
+        "B": "Correct: Partnerships and S",
+        "C": "Incorrect: Not all business entities with international operations must file Forms K-2 and K-3",
+        "D": "Incorrect: There is no specific foreign income threshold that determines whether Forms K-2 and K-3 must be filed"
+      }
+    },
+    {
+      "question_num": 3,
+      "page_numbers": "Unknown",
+      "question_text": "What is the primary purpose of Form K-2?",
+      "options": {
+        "A": "Incorrect: Form K-2 is not designed primarily to provide information to foreign investors. Its purpose is related to tax reporting for domestic entities.",
+        "B": "Incorrect: While Form K-2 involves international elements, documenting business transactions is not its primary function. It serves a more specific tax reporting purpose.",
+        "C": "Correct: Form K-2 provides a detailed breakdown for the entity regarding its international tax elements. It organizes international tax information in a structured format for proper reporting.",
+        "D": "Incorrect: Form K-2 covers much more than just foreign tax credits. It encompasses various international tax reporting elements."
+      },
+      "explanations": {
+        "A": "Incorrect: Form K-2 is not designed primarily to provide information to foreign investors",
+        "B": "Incorrect: While Form K-2 involves international elements, documenting business transactions is not its primary function",
+        "C": "Correct: Form K-2 provides a detailed breakdown for the entity regarding its international tax elements",
+        "D": "Incorrect: Form K-2 covers much more than just foreign tax credits"
+      }
+    },
+    {
+      "question_num": 4,
+      "page_numbers": "Unknown",
+      "question_text": "Which part of Form K-2 deals with GILTI?",
+      "options": {
+        "A": "Incorrect: Part I of Form K-2 addresses Foreign Tax Credit limitation information, not GILTI. This section focuses on different international tax elements.",
+        "B": "Incorrect: Part II of Form K-2 covers Foreign Income Sourcing information rather than GILTI. This part helps with proper allocation of foreign income.",
+        "C": "Correct: Part III of Form K-2 specifically covers GILTI (Global Intangible Low-Taxed Income) and Subpart F inclusions. This section helps entities properly report these specific types of foreign income.",
+        "D": "Incorrect: This answer is incorrect as Form K-2 does not contain a Part IV that addresses GILTI. The form's structure allocates GILTI reporting to a different section."
+      },
+      "explanations": {
+        "A": "Incorrect: Part I of Form K-2 addresses Foreign Tax",
+        "B": "Incorrect: Part II of Form K-2 covers Foreign Income Sourcing information rather than GILTI",
+        "C": "Correct: Part III of Form K-2 specifically covers GILTI (Global Intangible Low-Taxed Income) and Subpart F inclusions",
+        "D": "Incorrect: This answer is incorrect as Form K-2 does not contain a Part IV that addresses GILTI"
+      }
+    },
+    {
+      "question_num": 5,
+      "page_numbers": "Unknown",
+      "question_text": "How does Form K-3 differ from Form K-2?",
+      "options": {
+        "A": "Incorrect: Both Forms K-2 and K-3 apply to the same types of entities. Neither is specifically designed for C Corporations.",
+        "B": "Correct: Form K-3 mirrors K-2 but specifically focuses on partner/shareholder-level reporting. It provides international tax information to individual owners for their personal tax filings.",
+        "C": "Incorrect: Form K-3 encompasses more than just foreign tax credits. It includes various international tax elements that affect partner/shareholder reporting.",
+        "D": "Incorrect: Both Forms K-2 and K-3 have specific filing requirements. Their distinction is not based on which one is filed versus kept for records."
+      },
+      "explanations": {
+        "A": "Incorrect:",
+        "B": "Correct: Form K-3 mirrors K-2 but specifically focuses on partner/shareholder-level reporting",
+        "C": "Incorrect: Form K-3 encompasses more than just foreign tax credits",
+        "D": "Incorrect:"
+      }
+    },
+    {
+      "question_num": 6,
+      "page_numbers": "Unknown",
+      "question_text": "With which tax forms must Forms K-2 and K-3 be filed?",
+      "options": {
+        "A": "Incorrect: Forms 1040 and 1120 are not the appropriate tax forms for filing K-2 and K-3. These forms serve different tax reporting purposes.",
+        "B": "Incorrect: Forms 1099 and W-2 are information returns for different purposes and are not used with Forms K-2 and K-3.",
+        "C": "Correct: Forms K-2 and K-3 must be filed with Form 1065 (partnership) or 1120-S (S corporation) tax returns. These forms complement the primary entity tax returns for international reporting.",
+        "D": "Incorrect: Forms 990 and 1041, which are used for tax-exempt organizations and trusts respectively, are not the appropriate forms for filing K-2 and K-3."
+      },
+      "explanations": {
+        "A": "Incorrect: Forms 1040 and 1120 are not the appropriate tax forms for filing K-2 and K-3",
+        "B": "Incorrect: Forms 1099 and W-2 are information returns for different purposes and are not used with Forms K-2 and K-3",
+        "C": "Correct: Forms K-2 and K-3 must be filed with Form 1065 (partnership) or 1120-S (S corporation) tax returns",
+        "D": "Incorrect: Forms 990 and 1041, which are used for tax-exempt organizations and trusts respectively, are not the appropriate forms for filing K-2 and K-3"
+      }
+    },
+    {
+      "question_num": 7,
+      "page_numbers": "Unknown",
+      "question_text": "Which scenario requires Form K-2/K-3 filing even if the entity has no direct foreign activities?",
+      "options": {
+        "A": "Incorrect: Entities with only domestic investments typically don't need to file Forms K-2/K-3 unless other factors are present.",
+        "B": "Correct: Entities without foreign activities may still need to file if partners/shareholders require Foreign Tax Credit (FTC) details. This recognizes that indirect foreign tax exposures can necessitate filing.",
+        "C": "Incorrect: The number of partners in an entity does not determine whether Forms K-2/K-3 must be filed. Filing requirements are based on other factors.",
+        "D": "Incorrect: Operating in tax-exempt activities does not trigger the requirement to file Forms K-2/K-3. The filing requirements are related to international tax elements."
+      },
+      "explanations": {
+        "A": "Incorrect: Entities with only domestic investments typically don't need to file Forms K-2/K-3 unless other factors are present",
+        "B": "Correct: Entities without foreign activities may still need to file if partners/shareholders require Foreign Tax",
+        "C": "Incorrect: The number of partners in an entity does not determine whether Forms K-2/K-3 must be filed",
+        "D": "Incorrect: Operating in tax-exempt activities does not trigger the requirement to file Forms K-2/K-3"
+      }
+    },
+    {
+      "question_num": 8,
+      "page_numbers": "Unknown",
+      "question_text": "What is the penalty for failure to file Forms K-2/K-3?",
+      "options": {
+        "A": "Incorrect: The penalty for failure to file Forms K-2/K-3 is not $100 per form. The penalty structure is based on different parameters.",
+        "B": "Correct: The failure to file penalty is $230 per month per partner/shareholder with a maximum of $2,760 annually. This significant penalty reflects the importance of these international information returns.",
+        "C": "Incorrect: The $290 amount relates to a different penalty within the K-2/K-3 framework, not the failure to file penalty.",
+        "D": "Incorrect: The penalty for failure to file Forms K-2/K-3 is not calculated as a percentage of foreign income. It follows a specific fixed amount structure."
+      },
+      "explanations": {
+        "A": "Incorrect: The penalty for failure to file Forms K-2/K-3 is not $100 per form",
+        "B": "Correct: The failure to file penalty is $230 per month per partner/shareholder with a maximum of $2,760 annually",
+        "C": "Incorrect: The $290 amount relates to a different penalty within the K-2/K-3 framework, not the failure to file penalty",
+        "D": "Incorrect: The penalty for failure to file Forms K-2/K-3 is not calculated as a percentage of foreign income"
+      }
+    },
+    {
+      "question_num": 9,
+      "page_numbers": "Unknown",
+      "question_text": "What is the maximum annual penalty for missing K-3 distributions?",
+      "options": {
+        "A": "Incorrect: The amount of $2,760 relates to a different penalty within the K-2/K-3 framework, not the maximum annual penalty for missing K-3 distributions.",
+        "B": "Correct: The maximum annual penalty for missing K-3 distributions is $3,426,000 ($290 per form). This substantial maximum penalty underscores the importance of proper K-3 distribution.",
+        "C": "Incorrect: $10,000 is not the maximum annual penalty for missing K-3 distributions. The actual maximum is significantly higher.",
+        "D": "Incorrect: The penalty for missing K-3 distributions is not calculated as $5,000 per partner. It follows a different structure with a specific maximum."
+      },
+      "explanations": {
+        "A": "Incorrect: The amount of $2,760 relates to a different penalty within the K-2/K-3 framework, not the maximum annual penalty for missing K-3 distributions",
+        "B": "Correct: The maximum annual penalty for missing K-3 distributions is $3,426,000 ($290 per form)",
+        "C": "Incorrect: $10,000 is not the maximum annual penalty for missing K-3 distributions",
+        "D": "Incorrect: The penalty for missing K-3 distributions is not calculated as $5,000 per partner"
+      }
+    },
+    {
+      "question_num": 10,
+      "page_numbers": "Unknown",
+      "question_text": "Which of the following is a best practice for compliance with K-2/K-3 filing requirements?",
+      "options": {
+        "A": "Incorrect: Waiting until the tax deadline to gather information creates unnecessary time pressure and risks incomplete reporting or missed filings.",
+        "B": "Incorrect: Assuming prior year information remains valid without verification can lead to reporting errors, as international tax situations often change year to year.",
+        "C": "Correct: Early identification of filing requirements is a best practice for compliance with K-2/K-3 requirements. This proactive approach allows sufficient time to gather necessary information and ensure accurate reporting.",
+        "D": "Incorrect: The entity itself bears responsibility for proper filing of Forms K-2/K-3. Delegating this entirely to partners/shareholders would not satisfy the entity's filing obligations."
+      },
+      "explanations": {
+        "A": "Incorrect: Waiting until the tax deadline to gather information creates unnecessary time pressure and risks incomplete reporting or missed filings",
+        "B": "Incorrect:",
+        "C": "Correct: Early identification of filing requirements is a best practice for compliance with K-2/K-3 requirements",
+        "D": "Incorrect: The entity itself bears responsibility for proper filing of Forms K-2/K-3"
+      }
+    }
+  ]
+}

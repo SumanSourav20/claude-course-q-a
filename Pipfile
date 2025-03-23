@@ -13,6 +13,8 @@ argparse = "*"
 fitz = "*"
 pymupdf = "*"
 pillow = "*"
+pypdf = "*"
+reportlab = "*"
 
 [dev-packages]
 
